@@ -1,0 +1,902 @@
+﻿[2015.10.08-20.59.58:644][  0]Log file open, 10/08/15 15:59:58
+[2015.10.08-20.59.58:644][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.10.08-20.59.58:644][  0]LogInit:Display: RandInit(169229507) SRandInit(169229508).
+[2015.10.08-20.59.58:644][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.08-20.59.58:644][  0]LogStats: Stats thread started at 0.304813
+[2015.10.08-20.59.58:644][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.08-20.59.58:644][  0]LogInit: API Version: 2672455
+[2015.10.08-20.59.58:644][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.08-20.59.58:644][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.08-20.59.58:644][  0]LogInit: Build Configuration: Development
+[2015.10.08-20.59.58:644][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.08-20.59.58:644][  0]LogInit: Command line:  
+[2015.10.08-20.59.58:644][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.08-20.59.58:644][  0]LogInit: Rocket: 1
+[2015.10.08-20.59.58:756][  0]LogInit: Using libcurl 7.41.0
+[2015.10.08-20.59.58:756][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.08-20.59.58:756][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.08-20.59.58:756][  0]LogInit:  - other features:
+[2015.10.08-20.59.58:756][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.08-20.59.58:756][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.08-20.59.58:756][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.08-20.59.58:756][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.08-20.59.58:756][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.08-20.59.58:756][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.08-20.59.58:756][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.08-20.59.58:756][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.08-20.59.58:756][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.08-20.59.58:756][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.08-20.59.58:776][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.08-20.59.58:801][  0]LogInit: Object subsystem initialized
+[2015.10.08-20.59.58:805][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.08-20.59.58:805][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.08-20.59.58:823][  0]LogInit: Computer: BRANDON-PC
+[2015.10.08-20.59.58:823][  0]LogInit: User: Brandon
+[2015.10.08-20.59.58:823][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.08-20.59.58:823][  0]LogInit: High frequency timer resolution =2.338505 MHz
+[2015.10.08-20.59.58:823][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2015.10.08-20.59.58:824][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.08-20.59.58:824][  0]LogMemory: Process Physical Memory: 54.10 MB used, 54.10 MB peak
+[2015.10.08-20.59.58:824][  0]LogMemory: Process Virtual Memory: 56.29 MB used, 56.29 MB peak
+[2015.10.08-20.59.58:824][  0]LogMemory: Physical Memory: 3192.18 MB used, 6029.32 MB total
+[2015.10.08-20.59.58:824][  0]LogMemory: Virtual Memory: 333.66 MB used, 8388608.00 MB total
+[2015.10.08-20.59.59:333][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.08-21.00.01:635][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.10.08-21.00.01:635][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.10.08-21.00.01:635][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.08-21.00.01:678][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.08-21.00.01:687][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.10.08-21.00.01:693][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.08-21.00.02:849][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Intermediate/Shaders/WorkingDirectory/71980/).
+[2015.10.08-21.00.02:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Intermediate/Shaders/tmp/C49F4C46492F00D0F1138B87F2347720/'.
+[2015.10.08-21.00.02:866][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.08-21.00.10:446][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.08-21.00.10:474][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.08-21.00.10:485][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.08-21.00.10:503][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.08-21.00.10:531][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.08-21.00.10:538][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.08-21.00.10:547][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.08-21.00.10:555][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.08-21.00.10:564][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.08-21.00.10:571][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.08-21.00.10:580][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.08-21.00.10:589][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.08-21.00.10:592][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.08-21.00.10:680][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.08-21.00.10:695][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.08-21.00.10:702][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.08-21.00.10:710][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.08-21.00.10:711][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.08-21.00.12:033][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache: Loaded boot cache 0.49s 37MB C:/Users/Brandon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brandon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.08-21.00.12:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.08-21.00.13:830][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.08-21.00.13:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brandon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.08-21.00.24:550][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.08-21.00.24:607][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.08-21.00.25:183][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.08-21.00.25:183][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.08-21.00.32:113][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.08-21.00.46:069][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.08-21.00.47:322][  0]LogAssetRegistry: FAssetRegistry took 0.0124 seconds to start up
+[2015.10.08-21.00.50:434][  0]SourceControl: Info Source control is disabled
+[2015.10.08-21.00.50:435][  0]SourceControl: Info Source control is disabled
+[2015.10.08-21.00.50:630][  0]SourceControl: Info Source control is disabled
+[2015.10.08-21.00.50:795][  0]SourceControl: Info Source control is disabled
+[2015.10.08-21.00.53:222][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.08-21.00.54:577][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.08-21.00.54:577][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.08-21.00.55:800][  0]LogEngine: Initializing Engine...
+[2015.10.08-21.00.55:868][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.08-21.00.56:270][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.10.08-21.00.58:040][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.08-21.00.58:391][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.08-21.00.58:524][  0]LogInit: FAudioDevice initialized.
+[2015.10.08-21.00.58:589][  0]LogDerivedDataCache: Saved boot cache 0.07s 37MB C:/Users/Brandon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.08-21.00.58:601][  0]LogInit: Texture streaming: Enabled
+[2015.10.08-21.00.58:775][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.08-21.00.58:776][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.08-21.00.58:776][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 35bf1df24b6291fab054d4a032ebe350|4cc6989648b04f0180853fecfbe4390e|336a448c-d673-4e73-82fd-ec02ab6902dd
+[2015.10.08-21.00.58:776][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.08-21.00.59:606][  0]LogInit: Transaction tracking system initialized
+[2015.10.08-21.01.01:072][  0]BlueprintLog: New page: Editor Load
+[2015.10.08-21.01.07:106][  0]LocalizationService: Info Localization service is disabled
+[2015.10.08-21.01.10:347][  0]LogConsoleResponse:Display: 
+[2015.10.08-21.01.13:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/' took 0.05s
+[2015.10.08-21.01.13:575][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.08-21.01.16:649][  0]SourceControl: Info Source control is disabled
+[2015.10.08-21.01.16:836][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.08-21.01.16:958][  0]LightingResults: New page: Lighting Build
+[2015.10.08-21.01.17:266][  0]MapCheck: New page: Map Check
+[2015.10.08-21.01.17:266][  0]LightingResults: New page: Lighting Build
+[2015.10.08-21.01.17:711][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000221F3420
+[2015.10.08-21.01.38:350][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.10.08-21.01.39:135][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.08-21.01.39:314][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.08-21.01.39:419][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.956ms to complete.
+[2015.10.08-21.01.39:445][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 22.629
+[2015.10.08-21.01.42:398][  0]LogCollectionManager: Loaded 0 collections in 0.004768 seconds
+[2015.10.08-21.01.42:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Collections/' took 0.01s
+[2015.10.08-21.01.42:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Developers/Brandon/Collections/' took 0.00s
+[2015.10.08-21.01.42:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Collections/' took 0.00s
+[2015.10.08-21.01.42:820][  0]LogContentBrowser: Native class hierarchy populated in 0.2342 seconds. Added 1867 classes and 333 folders.
+[2015.10.08-21.01.43:112][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.10.08-21.01.43:353][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.08-21.01.45:062][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.10.08-21.01.45:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.10.08-21.01.48:254][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.08-21.01.49:319][  0]LogLoad: Full Startup: 113.22 seconds (BP compile: 1.71 seconds)
+[2015.10.08-21.01.49:771][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.08-21.01.50:689][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.08-21.01.55:390][ 10]LogAssetRegistry: Asset discovery search completed in 68.0766 seconds
+[2015.10.08-21.01.55:390][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.08-21.01.55:390][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2015.10.08-21.08.40:309][276]Cmd: MAP LOAD FILE="../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.10.08-21.08.40:359][276]LightingResults: New page: Lighting Build
+[2015.10.08-21.08.40:404][276]LoadErrors: New page: Loading map: Street.umap
+[2015.10.08-21.08.40:433][276]MapCheck: New page: Map Check
+[2015.10.08-21.08.40:433][276]LightingResults: New page: Lighting Build
+[2015.10.08-21.08.40:499][276]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022E7B420
+[2015.10.08-21.08.42:323][276]LogMaterial: Missing cached shader map for material Brick04, compiling. 
+[2015.10.08-21.08.42:524][276]LogAIModule: Creating AISystem for world Street
+[2015.10.08-21.08.42:748][276]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.08-21.08.42:852][276]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.08-21.08.42:984][276]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.624ms to complete.
+[2015.10.08-21.08.42:984][276]LogFileHelpers: Loading map 'Street' took 2.677
+[2015.10.08-21.10.35:112][705]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.10.09-00.13.49:955][484]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.13.50:409][484]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.13.50:414][484]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.13.50:456][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2015.10.09-00.13.50:464][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling. 
+[2015.10.09-00.13.54:249][538]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.13.54:249][538]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.13.54:249][538]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.14.22:039][487]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.22:044][487]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.14.23:162][525]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.14.24:626][525]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.24:639][525]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.14.24:730][525]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.24:761][525]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.24:771][525]LogMaterial: 0.001906 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.14.26:858][568]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.14.26:858][568]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.14.26:858][568]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.14.47:748][212]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.47:752][212]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.14.49:141][256]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.14.50:577][256]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.50:587][256]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.14.50:677][256]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.50:698][256]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.14.50:710][256]LogMaterial: 0.001743 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.14.53:037][294]MaterialEditorStats: Info Base pass shader without light map: 98 instructions
+[2015.10.09-00.14.53:037][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.14.53:037][294]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.15.11:438][720]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.15.11:445][720]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.15.13:822][797]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.15.13:822][797]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.15.13:822][797]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.15.17:716][923]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.15.17:721][923]LogMaterial: 0.000186 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.15.18:689][955]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.15.18:689][955]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.15.18:689][955]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.15.32:219][316]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.15.33:537][316]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.15.33:548][316]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.15.33:700][316]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.15.33:714][316]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.15.33:723][316]LogMaterial: 0.001558 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.15.35:791][352]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.15.35:791][352]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.15.35:791][352]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.16.16:990][976]LogSavePackage: Save=157.678513ms
+[2015.10.09-00.16.16:990][976]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/StreetF32F537A4D2F6F4F7F78DFA4029E3B6C.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap'
+[2015.10.09-00.16.16:992][976]LogSavePackage: Total save time: 751.951784ms
+[2015.10.09-00.16.16:992][976]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap
+[2015.10.09-00.16.17:051][976]LogFileHelpers: Saving map 'Street' took 1.007
+[2015.10.09-00.16.17:168][976]LogSavePackage: Save=20.088476ms
+[2015.10.09-00.16.17:168][976]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/OutlineA103BC0441DFD55EC0911EB2172F6A29.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset'
+[2015.10.09-00.16.17:170][976]LogSavePackage: Total save time: 36.514781ms
+[2015.10.09-00.16.17:170][976]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset
+[2015.10.09-00.16.24:634][ 70]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:158015).
+[2015.10.09-00.16.43:894][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Material/Brick/Brick" FILE="../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset" SILENT=true
+[2015.10.09-00.16.43:935][ 19]LogSavePackage: Save=19.936241ms
+[2015.10.09-00.16.43:935][ 19]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Brick28B9D14447EB3663E9417A837826143B.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset'
+[2015.10.09-00.16.43:937][ 19]LogSavePackage: Total save time: 41.948594ms
+[2015.10.09-00.16.43:937][ 19]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset
+[2015.10.09-00.18.44:142][484]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:158538).
+[2015.10.09-00.18.45:062][485]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.09-00.19.04:033][673]LogContentStreaming: Texture pool size now 200 MB
+[2015.10.09-00.19.04:053][674]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:158650).
+[2015.10.09-00.19.10:741][823]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:158711).
+[2015.10.09-00.19.23:193][999]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:158772).
+[2015.10.09-00.19.34:335][286]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.19.34:340][286]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.19.35:423][317]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.19.36:974][317]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.19.36:991][317]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.19.37:049][317]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.19.37:067][317]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.19.37:099][317]LogMaterial: 0.020982 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.19.39:919][326]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.19.39:919][326]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.19.39:919][326]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.22.12:207][394]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.22.12:212][394]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.22.14:022][451]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.22.14:022][451]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.22.14:022][451]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.22.14:364][465]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.22.15:559][465]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.22.15:569][465]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.22.15:681][465]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.22.15:695][465]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.22.15:731][465]LogMaterial: 0.027994 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.22.17:528][524]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.22.17:528][524]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.22.17:528][524]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.22.29:469][689]LogSavePackage: Save=23.986265ms
+[2015.10.09-00.22.29:469][689]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Outline5DE5CA8441E5EBECA99CF6974D6F81FC.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset'
+[2015.10.09-00.22.29:471][689]LogSavePackage: Total save time: 47.362737ms
+[2015.10.09-00.22.29:471][689]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset
+[2015.10.09-00.22.32:624][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-00.22.32:644][733]PIE: New page: PIE session: Street (Oct 8, 2015, 2:22:32 PM)
+[2015.10.09-00.22.32:644][733]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Street
+[2015.10.09-00.22.32:654][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010300s)
+[2015.10.09-00.22.32:656][733]LogAIModule: Creating AISystem for world Street
+[2015.10.09-00.22.32:657][733]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2015.10.09-00.22.32:657][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Street.Street to /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street (0.012890s)
+[2015.10.09-00.22.32:708][733]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.09-00.22.32:743][733]LogInit: FAudioDevice initialized.
+[2015.10.09-00.22.32:954][733]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-00.22.33:046][733]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street up for play (max tick rate 0) at 2015.10.08-19.22.33
+[2015.10.09-00.22.33:047][733]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.33:056][733]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.33:058][733]LogWorld: Bringing up level for play took: 0.058594
+[2015.10.09-00.22.33:249][733]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Street 0.654
+[2015.10.09-00.22.36:278][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BA16C00
+[2015.10.09-00.22.43:725][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.09-00.22.43:726][887]PIE: New page: PIE session: Street (Oct 8, 2015, 2:22:43 PM)
+[2015.10.09-00.22.43:726][887]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Street
+[2015.10.09-00.22.43:740][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014712s)
+[2015.10.09-00.22.43:742][887]LogAIModule: Creating AISystem for world Street
+[2015.10.09-00.22.43:742][887]LogPlayLevel: PIE: World Init took: (0.001564s)
+[2015.10.09-00.22.43:742][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Street.Street to /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street (0.016644s)
+[2015.10.09-00.22.43:821][887]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.09-00.22.43:883][887]LogInit: FAudioDevice initialized.
+[2015.10.09-00.22.43:935][887]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.10.09-00.22.43:957][887]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street up for play (max tick rate 0) at 2015.10.08-19.22.43
+[2015.10.09-00.22.43:957][887]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.43:957][887]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_Street.Street:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.09-00.22.43:958][887]LogWorld: Bringing up level for play took: 0.019499
+[2015.10.09-00.22.43:965][887]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Street -0.629
+[2015.10.09-00.23.14:566][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001071E160
+[2015.10.09-00.23.18:647][407]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:160201).
+[2015.10.09-00.23.21:041][432]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.10.09-00.23.44:777][706]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:160508).
+[2015.10.09-00.23.49:766][740]LogSavePackage: Save=188.150543ms
+[2015.10.09-00.23.49:766][740]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/StreetF1AFD95D408C5054604B11A0B7EF21F0.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap'
+[2015.10.09-00.23.49:770][740]LogSavePackage: Total save time: 208.679479ms
+[2015.10.09-00.23.49:770][740]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap
+[2015.10.09-00.23.49:852][740]LogFileHelpers: Saving map 'Street' took 0.454
+[2015.10.09-00.24.10:440][917]MapCheck: New page: Map Check
+[2015.10.09-00.24.10:527][917]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-00.24.10:527][917]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-00.24.10:847][917]LightingResults: New page: Lighting Build - Oct 8, 2015, 2:24:10 PM
+[2015.10.09-00.24.26:462][917]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.10.09-00.24.26:462][917]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-00.24.26:462][917]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-00.24.26:462][917]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-00.24.26:462][917]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-00.24.26:462][917]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-00.24.27:793][917]LogEditorBuildUtils: Build time 0:00:17
+[2015.10.09-00.24.28:022][918]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Sidewalk, compiling. 
+[2015.10.09-00.24.28:036][918]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Sidewalk, compiling. 
+[2015.10.09-00.24.28:155][919]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling. 
+[2015.10.09-00.24.28:171][919]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling. 
+[2015.10.09-00.24.50:279][981]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.50:279][981]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.50:280][981]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.50:280][981]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.50:280][981]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.50:280][981]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.50:910][983]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.50:910][983]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.50:910][983]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.50:911][983]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.52:035][986]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.52:035][986]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.52:035][986]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.24.52:035][986]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.24.52:649][988]Job is a success!
+[2015.10.09-00.24.53:839][989]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.10.09-00.24.53:945][989]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.10.09-00.24.53:948][989]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.10.09-00.24.53:951][989]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2015.10.09-00.24.53:962][989]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.10.09-00.24.54:540][989]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.10.09-00.24.55:141][989]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2015.10.09-00.24.55:355][989]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.10.09-00.24.55:387][989]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.10.09-00.24.55:451][989]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2015.10.09-00.24.55:476][989]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.09-00.24.56:145][989]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.09-00.24.56:865][989]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2015.10.09-00.24.57:221][989]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.10.09-00.24.57:238][989]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.10.09-00.24.57:300][989]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.10.09-00.24.57:378][989]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.10.09-00.24.57:397][989]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2015.10.09-00.24.57:482][989]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2015.10.09-00.24.57:498][989]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2015.10.09-00.25.06:269][989]Lightmass on BRANDON-PC: 24.4 sec total, 709 ms importing, 87 ms setup, 14.6 sec photons, 8.73 sec processing, 0 ms extra exporting [45/45 mappings]. Threads: 34.9 sec total, 9.32 sec processing.
+[2015.10.09-00.25.06:568][989]LogStaticLightingSystem: Illumination: 55.3 sec (3.86 sec encoding lightmaps)
+[2015.10.09-00.25.06:568][989]LogStaticLightingSystem: Lightmap texture memory:  0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.10.09-00.25.06:568][989]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 5 textures
+[2015.10.09-00.25.07:685][990]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-00.25.07:685][990]MapCheck: New page: Street - Oct 8, 2015, 2:25:07 PM
+[2015.10.09-00.25.07:845][990]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 160.292ms to complete.
+[2015.10.09-00.26.56:526][396]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:160845).
+[2015.10.09-00.27.14:255][634]MapCheck: New page: Map Check
+[2015.10.09-00.27.14:303][634]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.09-00.27.14:303][634]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.09-00.27.14:447][634]LightingResults: New page: Lighting Build - Oct 8, 2015, 2:27:14 PM
+[2015.10.09-00.27.19:611][634]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.10.09-00.27.19:612][634]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.09-00.27.19:612][634]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.09-00.27.19:612][634]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.09-00.27.19:612][634]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.09-00.27.19:612][634]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.09-00.27.20:262][634]LogEditorBuildUtils: Build time 0:00:05
+[2015.10.09-00.27.37:197][684]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.37:197][684]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.38:051][686]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.38:052][686]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.38:052][686]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.38:052][686]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.38:387][687]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.38:387][687]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.38:388][687]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.38:388][687]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.39:897][691]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.39:897][691]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.39:898][691]LightingResults:Error: Error Building_02_Win Object has overlapping UVs.
+[2015.10.09-00.27.39:898][691]LightingResults: Info Building_02_Win Lightmap UV are overlapping by 9.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.10.09-00.27.40:220][692]Job is a success!
+[2015.10.09-00.27.41:275][693]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2015.10.09-00.27.41:316][693]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.10.09-00.27.41:318][693]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.10.09-00.27.41:321][693]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2015.10.09-00.27.41:334][693]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.10.09-00.27.41:982][693]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.10.09-00.27.42:715][693]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2015.10.09-00.27.43:071][693]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.10.09-00.27.43:106][693]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.10.09-00.27.43:158][693]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT)
+[2015.10.09-00.27.43:178][693]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.09-00.27.43:897][693]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.09-00.27.44:975][693]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2015.10.09-00.27.45:377][693]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.09-00.27.45:395][693]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.09-00.27.45:461][693]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2015.10.09-00.27.45:563][693]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
+[2015.10.09-00.27.45:584][693]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8)
+[2015.10.09-00.27.45:679][693]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
+[2015.10.09-00.27.45:694][693]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8)
+[2015.10.09-00.27.45:717][693]Lightmass on BRANDON-PC: 23.6 sec total, 225 ms importing, 34 ms setup, 14.0 sec photons, 9.34 sec processing, 0 ms extra exporting [45/45 mappings]. Threads: 37.3 sec total, 10.2 sec processing.
+[2015.10.09-00.27.45:813][693]LogStaticLightingSystem: Illumination: 30.9 sec (4.66 sec encoding lightmaps)
+[2015.10.09-00.27.45:813][693]LogStaticLightingSystem: Lightmap texture memory:  0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.10.09-00.27.45:813][693]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.10.09-00.27.46:731][694]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.09-00.27.46:731][694]MapCheck: New page: Street - Oct 8, 2015, 2:27:46 PM
+[2015.10.09-00.27.46:905][694]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 173.717ms to complete.
+[2015.10.09-00.34.11:805][843]LogSavePackage: Save=196.684204ms
+[2015.10.09-00.34.11:805][843]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Street_Auto1F8933901447A4B494560D6A860BB9246.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Autosaves/Game/ThirdPersonBP/Maps/Street_Auto1.umap'
+[2015.10.09-00.34.11:807][843]LogSavePackage: Total save time: 291.859541ms
+[2015.10.09-00.34.11:807][843]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Autosaves/Game/ThirdPersonBP/Maps/Street_Auto1.umap
+[2015.10.09-00.34.11:810][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Street' took 0.485
+[2015.10.09-00.34.11:810][843]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.485
+[2015.10.09-00.42.03:367][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_02_Corner2)
+[2015.10.09-00.42.04:994][404]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.10.09-00.42.35:827][813]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.10.09-00.42.42:679][897]Cmd: DELETE
+[2015.10.09-00.42.42:679][897]Cmd: ACTOR DELETE
+[2015.10.09-00.42.42:728][897]LogEditorActor: Deleted Actor: SkyLight
+[2015.10.09-00.42.42:788][897]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.10.09-00.42.56:969][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_02_Win2)
+[2015.10.09-00.42.59:104][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_02_Win2)
+[2015.10.09-00.42.59:903][131]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.10.09-00.43.08:014][231]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:162226).
+[2015.10.09-00.43.34:864][444]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (guy)
+[2015.10.09-00.43.43:772][628]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.43.43:777][628]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.43.46:326][709]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.43.46:326][709]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.43.46:326][709]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.43.47:415][746]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.43.48:688][746]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.43.48:700][746]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.43.48:746][746]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.43.48:775][746]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.43.48:784][746]LogMaterial: 0.002644 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.43.51:147][778]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.43.51:147][778]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.43.51:147][778]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.43.59:278][839]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:162593).
+[2015.10.09-00.44.29:168][534]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.29:173][534]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.30:202][566]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.44.31:882][566]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.31:894][566]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.31:998][566]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.32:015][566]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.32:077][566]LogMaterial: 0.001841 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.44.34:210][598]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.44.34:210][598]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.44.34:210][598]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.10.09-00.44.43:762][807]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.43:767][807]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.44:648][835]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.44.44:648][835]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.44.44:648][835]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.44.44:837][841]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.44.46:275][841]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.46:287][841]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.46:359][841]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.46:412][841]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.46:425][841]LogMaterial: 0.002806 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.44.48:604][870]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.44.48:604][870]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.44.48:604][870]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.44.53:868][932]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.53:868][932]LogEditorTransaction: Undo Edit Scene Texture Id
+[2015.10.09-00.44.53:989][932]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.54:031][932]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.54:118][932]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.54:194][932]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.54:194][932]LogEditorTransaction: Undo Edit Scene Texture Id
+[2015.10.09-00.44.54:197][932]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.54:207][932]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.54:272][932]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.54:330][933]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.54:330][933]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.54:399][933]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.54:407][933]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.54:969][939]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.44.54:969][939]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.44.54:969][939]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.44.56:013][959]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.56:013][959]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.56:052][959]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.56:057][959]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.56:214][960]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.56:214][960]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.56:239][960]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.56:248][960]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.56:409][961]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.56:409][961]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.56:440][961]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.56:458][961]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.56:618][963]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.56:618][963]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.56:655][963]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.56:663][963]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.56:933][964]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.56:933][964]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2015.10.09-00.44.57:067][964]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:075][964]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:097][964]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:097][964]LogEditorTransaction: Undo Edit Const Alpha
+[2015.10.09-00.44.57:100][964]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:112][964]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:118][964]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:207][964]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:207][964]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.57:269][964]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:276][964]LogMaterial: 0.000242 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:289][964]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:289][964]LogEditorTransaction: Undo Rotate Actors
+[2015.10.09-00.44.57:294][964]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:300][964]LogMaterial: 0.000226 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:406][965]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.44.57:406][965]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.44.57:406][965]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.44.57:472][967]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:472][967]LogEditorTransaction: Undo Edit Properties
+[2015.10.09-00.44.57:486][967]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:494][967]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:704][968]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:704][968]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.57:806][968]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:814][968]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.57:835][968]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.57:835][968]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.57:838][968]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.57:846][968]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:004][969]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:005][969]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.58:032][969]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:039][969]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:185][970]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:185][970]LogEditorTransaction: Undo Delete Actors
+[2015.10.09-00.44.58:253][970]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:259][970]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:397][971]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:398][971]LogEditorTransaction: Undo Edit Intensity
+[2015.10.09-00.44.58:410][971]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:417][971]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:439][971]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:439][971]LogEditorTransaction: Undo Edit Properties
+[2015.10.09-00.44.58:445][971]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:452][971]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:612][972]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:612][972]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.58:692][972]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:700][972]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.58:853][973]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.58:853][973]LogEditorTransaction: Undo Edit Intensity
+[2015.10.09-00.44.58:860][973]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.58:867][973]LogMaterial: 0.000262 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.59:018][974]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.59:018][974]LogEditorTransaction: Undo Rotate Actors
+[2015.10.09-00.44.59:046][974]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.59:054][974]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.59:171][975]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.59:171][975]LogEditorTransaction: Undo Rotate Actors
+[2015.10.09-00.44.59:183][975]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.59:189][975]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.59:364][976]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.59:364][976]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.59:460][976]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.59:467][976]LogMaterial: 0.000215 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.59:675][977]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.59:675][977]LogEditorTransaction: Undo Clicking on Actors
+[2015.10.09-00.44.59:774][977]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.59:779][977]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.44.59:798][977]Cmd: TRANSACTION UNDO
+[2015.10.09-00.44.59:798][977]LogEditorTransaction: Undo Edit Mobility
+[2015.10.09-00.44.59:836][977]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.44.59:846][977]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.45.00:877][  1]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.45.00:877][  1]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.45.00:877][  1]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.45.04:283][ 80]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.45.05:631][ 80]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.45.05:642][ 80]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.45.05:836][ 80]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.45.05:853][ 80]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.45.05:863][ 80]LogMaterial: 0.003964 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.45.08:031][110]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.45.08:031][110]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.45.08:031][110]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.45.12:698][163]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (guy)
+[2015.10.09-00.45.16:278][205]Cmd: TRANSACTION UNDO
+[2015.10.09-00.45.16:278][205]LogEditorTransaction: Undo Rotate Actors
+[2015.10.09-00.45.16:398][205]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.45.16:402][205]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.45.17:363][214]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.45.17:363][214]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.45.17:363][214]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.45.22:689][277]Cmd: TRANSACTION UNDO
+[2015.10.09-00.45.22:690][277]LogEditorTransaction: Undo Move Actors
+[2015.10.09-00.45.22:781][277]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.45.22:785][277]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.45.23:853][289]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.45.23:853][289]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.45.23:853][289]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.46.14:813][574]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.14:817][574]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.18:114][670]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.46.18:114][670]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.18:114][670]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.46.18:455][680]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.18:462][680]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.19:376][703]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.46.19:376][703]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.19:376][703]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.46.20:269][731]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.20:274][731]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.21:203][755]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.46.21:203][755]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.21:203][755]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.46.21:656][770]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.46.23:148][770]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.23:165][770]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.23:229][770]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.23:265][770]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.23:277][770]LogMaterial: 0.003236 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.46.25:640][806]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.46.25:640][806]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.25:640][806]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.46.34:585][992]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.34:591][992]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.35:587][ 18]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.46.37:776][ 18]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.37:792][ 18]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.37:983][ 18]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.38:001][ 18]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.38:012][ 18]LogMaterial: 0.001944 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.46.41:515][ 65]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.46.41:515][ 65]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.41:515][ 65]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.46.54:398][294]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.54:404][294]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.55:420][324]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.46.55:420][324]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.55:420][324]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.46.55:473][326]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.46.57:099][326]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.57:116][326]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.46.57:238][326]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.57:257][326]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.46.57:268][326]LogMaterial: 0.003250 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.46.59:797][366]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.46.59:798][366]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.46.59:798][366]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.47.08:211][461]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.10.09-00.47.39:739][882]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.47.39:745][882]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.47.44:137][  3]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.47.44:146][  3]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.47.44:269][  7]MaterialEditorStats: Info Base pass shader without light map: 42 instructions
+[2015.10.09-00.47.44:269][  7]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.47.44:269][  7]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.10.09-00.47.45:570][ 35]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.47.47:158][ 35]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.47.47:170][ 35]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.47.47:389][ 35]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.47.47:433][ 35]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.47.47:509][ 35]LogMaterial: 0.002633 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.47.49:514][ 64]MaterialEditorStats: Info Base pass shader without light map: 66 instructions
+[2015.10.09-00.47.49:514][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.47.49:514][ 64]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.47.52:292][ 95]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (guy)
+[2015.10.09-00.48.22:855][533]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.48.22:861][533]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.48.24:899][591]LogMaterialEditor: Applying material Outline
+[2015.10.09-00.48.26:468][591]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.48.26:480][591]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.09-00.48.26:576][591]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.48.26:610][591]LogMaterial: Missing cached shader map for material Outline, compiling. 
+[2015.10.09-00.48.26:621][591]LogMaterial: 0.001525 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2015.10.09-00.48.28:679][613]LogSavePackage: Save=807.133179ms
+[2015.10.09-00.48.28:679][613]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/StreetB295F16644DAC0DBBC2F6EA5124429BE.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap'
+[2015.10.09-00.48.28:683][613]LogSavePackage: Total save time: 877.649609ms
+[2015.10.09-00.48.28:683][613]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/ThirdPersonBP/Maps/Street.umap
+[2015.10.09-00.48.28:841][613]LogFileHelpers: Saving map 'Street' took 1.356
+[2015.10.09-00.48.28:988][613]LogSavePackage: Save=22.992041ms
+[2015.10.09-00.48.28:988][613]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Outline05FE66854E9EBAB274A6AFBAC65E1946.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset'
+[2015.10.09-00.48.28:991][613]LogSavePackage: Total save time: 48.919287ms
+[2015.10.09-00.48.28:991][613]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Postprocess/Outline.uasset
+[2015.10.09-00.48.28:999][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Material/Brick/Brick" FILE="../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset" SILENT=true
+[2015.10.09-00.48.29:024][613]LogSavePackage: Save=3.571940ms
+[2015.10.09-00.48.29:024][613]LogSavePackage: Moving '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Saved/Brick7DF373E047F8D2444DDEBDBE2213FEF9.tmp' to '../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset'
+[2015.10.09-00.48.29:027][613]LogSavePackage: Total save time: 26.302274ms
+[2015.10.09-00.48.29:027][613]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Brandon/Documents/Unreal Projects/SwordProject 4.9/Content/Game/Material/Brick/Brick.uasset
+[2015.10.09-00.48.29:038][613]MaterialEditorStats: Info Base pass shader without light map: 67 instructions
+[2015.10.09-00.48.29:038][613]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.09-00.48.29:038][613]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.10.09-00.48.59:014][776]Cmd: QUIT_EDITOR
+[2015.10.09-00.48.59:725][776]LogExit: Preparing to exit.
+[2015.10.09-00.49.00:440][776]LogExit: Editor shut down
+[2015.10.09-00.49.00:441][776]LogExit: Transaction tracking system shut down
+[2015.10.09-00.49.00:651][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000339FFEC0
+[2015.10.09-00.49.00:653][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F7972E0
+[2015.10.09-00.49.00:655][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021C99260
+[2015.10.09-00.49.00:672][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C980CC0
+[2015.10.09-00.49.00:672][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031723EC0
+[2015.10.09-00.49.00:673][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001789D9E0
+[2015.10.09-00.49.00:673][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001789D760
+[2015.10.09-00.49.02:471][776]LogExit: Object subsystem successfully closed.
+[2015.10.09-00.49.02:682][776]LogD3D11RHI: Shutdown
+[2015.10.09-00.49.02:682][776]LogD3D11RHI: CleanupD3DDevice
+[2015.10.09-00.49.02:866][776]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module MaterialEditor (199)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (198)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.09-00.49.03:452][776]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.09-00.49.03:472][776]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.09-00.49.03:472][776]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.09-00.49.03:473][776]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.09-00.49.03:473][776]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.09-00.49.03:473][776]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.09-00.49.03:487][776]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.09-00.49.03:488][776]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.09-00.49.03:488][776]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.09-00.49.03:488][776]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.09-00.49.03:488][776]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.09-00.49.03:489][776]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.09-00.49.03:497][776]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.09-00.49.03:510][776]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.09-00.49.03:510][776]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.09-00.49.03:522][776]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.09-00.49.03:522][776]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.09-00.49.04:290][776]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.09-00.49.04:290][776]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.09-00.49.04:290][776]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.09-00.49.04:290][776]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.09-00.49.04:319][776]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.09-00.49.04:319][776]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.09-00.49.04:329][776]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.09-00.49.04:351][776]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.09-00.49.04:351][776]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.09-00.49.04:370][776]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.09-00.49.04:370][776]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.09-00.49.04:370][776]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.09-00.49.04:383][776]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.09-00.49.04:383][776]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.09-00.49.04:383][776]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.09-00.49.04:383][776]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.09-00.49.04:383][776]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.09-00.49.04:405][776]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.09-00.49.04:406][776]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.09-00.49.04:418][776]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.09-00.49.04:418][776]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.09-00.49.04:418][776]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.09-00.49.04:463][776]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.09-00.49.04:475][776]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.09-00.49.04:485][776]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.09-00.49.04:485][776]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.09-00.49.04:501][776]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.09-00.49.04:501][776]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.09-00.49.04:525][776]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.09-00.49.04:585][776]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.09-00.49.04:585][776]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.09-00.49.04:585][776]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.09-00.49.04:586][776]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.09-00.49.04:601][776]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.09-00.49.04:601][776]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.09-00.49.04:602][776]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.09-00.49.04:602][776]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.09-00.49.04:602][776]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.09-00.49.04:615][776]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.09-00.49.04:636][776]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.09-00.49.04:654][776]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.09-00.49.04:666][776]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.09-00.49.04:666][776]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.09-00.49.04:678][776]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.09-00.49.04:678][776]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.09-00.49.04:678][776]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.09-00.49.04:678][776]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.09-00.49.04:679][776]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.09-00.49.04:679][776]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.09-00.49.04:679][776]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.09-00.49.04:910][776]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.09-00.49.04:938][776]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.09-00.49.04:971][776]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.09-00.49.04:971][776]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.09-00.49.04:971][776]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.09-00.49.05:015][776]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.09-00.49.05:019][776]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.09-00.49.05:019][776]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.09-00.49.05:019][776]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.09-00.49.05:019][776]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.09-00.49.05:019][776]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.09-00.49.05:029][776]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.09-00.49.05:029][776]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.09-00.49.05:029][776]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.09-00.49.05:039][776]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.09-00.49.05:048][776]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.09-00.49.05:049][776]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.09-00.49.05:052][776]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.09-00.49.05:052][776]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.09-00.49.05:052][776]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.09-00.49.05:052][776]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.09-00.49.05:052][776]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.09-00.49.05:070][776]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.09-00.49.05:070][776]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.09-00.49.05:070][776]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.09-00.49.05:085][776]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.09-00.49.05:086][776]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.09-00.49.05:256][776]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.09-00.49.05:257][776]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.09-00.49.05:292][776]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.09-00.49.05:392][776]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.09-00.49.05:392][776]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.09-00.49.05:392][776]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.09-00.49.05:424][776]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.09-00.49.05:424][776]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.09-00.49.05:438][776]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.09-00.49.05:438][776]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.09-00.49.05:438][776]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.09-00.49.05:438][776]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.09-00.49.05:457][776]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.09-00.49.05:457][776]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.09-00.49.05:471][776]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.09-00.49.05:471][776]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.09-00.49.05:471][776]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.09-00.49.05:471][776]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.09-00.49.05:495][776]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.09-00.49.05:519][776]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.09-00.49.05:519][776]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.09-00.49.05:519][776]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.09-00.49.05:522][776]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.09-00.49.05:533][776]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.09-00.49.05:536][776]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.09-00.49.05:546][776]LogDerivedDataCache: Shutdown
+[2015.10.09-00.49.05:546][776]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.09-00.49.05:587][776]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.09-00.49.05:587][776]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.09-00.49.05:611][776]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.09-00.49.05:625][776]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.09-00.49.05:625][776]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.09-00.49.05:625][776]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.09-00.49.05:625][776]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.09-00.49.05:625][776]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.09-00.49.05:626][776]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.09-00.49.07:639][776]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.09-00.49.07:674][776]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.09-00.49.07:674][776]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.09-00.49.07:674][776]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.09-00.49.07:674][776]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.09-00.49.07:674][776]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.09-00.49.07:681][776]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.09-00.49.07:694][776]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.09-00.49.07:701][776]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.09-00.49.07:701][776]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.09-00.49.07:710][776]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.09-00.49.07:736][776]LogExit: Exiting.
+[2015.10.09-00.49.07:738][776]Log file closed, 10/08/15 19:49:07

@@ -1,0 +1,49 @@
+﻿[2015.10.09-23.33.27:519][  0]Log file open, 10/09/15 18:33:27
+[2015.10.09-23.33.27:519][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.10.09-23.33.27:519][  0]LogInit:Display: RandInit(1708802625) SRandInit(1708802625).
+[2015.10.09-23.33.27:519][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.09-23.33.27:519][  0]LogStats: Stats thread started at 0.129324
+[2015.10.09-23.33.27:519][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.10.09-23.33.27:519][  0]LogInit: API Version: 2672455
+[2015.10.09-23.33.27:519][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.10.09-23.33.27:519][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.09-23.33.27:519][  0]LogInit: Build Configuration: Development
+[2015.10.09-23.33.27:519][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.09-23.33.27:520][  0]LogInit: Command line:  
+[2015.10.09-23.33.27:520][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.09-23.33.27:520][  0]LogInit: Rocket: 1
+[2015.10.09-23.33.27:539][  0]LogInit: Using libcurl 7.41.0
+[2015.10.09-23.33.27:539][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.09-23.33.27:539][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.09-23.33.27:539][  0]LogInit:  - other features:
+[2015.10.09-23.33.27:539][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.09-23.33.27:539][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.09-23.33.27:539][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.09-23.33.27:539][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.09-23.33.27:539][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.09-23.33.27:539][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.09-23.33.27:539][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.09-23.33.27:539][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.09-23.33.27:539][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.09-23.33.27:539][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.09-23.33.27:556][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.09-23.33.27:570][  0]LogInit: Object subsystem initialized
+[2015.10.09-23.33.27:573][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.09-23.33.27:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.09-23.33.27:583][  0]LogInit: Computer: BRANDON-PC
+[2015.10.09-23.33.27:583][  0]LogInit: User: Brandon
+[2015.10.09-23.33.27:583][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.09-23.33.27:583][  0]LogInit: High frequency timer resolution =2.338515 MHz
+[2015.10.09-23.33.27:584][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2015.10.09-23.33.27:584][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.09-23.33.27:584][  0]LogMemory: Process Physical Memory: 53.57 MB used, 53.57 MB peak
+[2015.10.09-23.33.27:584][  0]LogMemory: Process Virtual Memory: 56.25 MB used, 56.25 MB peak
+[2015.10.09-23.33.27:584][  0]LogMemory: Physical Memory: 1941.40 MB used, 6029.32 MB total
+[2015.10.09-23.33.27:584][  0]LogMemory: Virtual Memory: 336.96 MB used, 8388608.00 MB total
+[2015.10.09-23.33.27:801][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.09-23.33.29:114][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.10.09-23.33.29:114][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.10.09-23.33.29:114][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.09-23.33.29:163][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.09-23.33.29:163][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.10.09-23.33.29:166][  0]LogD3D11RHI: Async texture creatio
