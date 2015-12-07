@@ -1,0 +1,2100 @@
+﻿[2015.12.04-04.02.06:709][  0]Log file open, 12/03/15 20:02:06
+[2015.12.04-04.02.06:709][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.12.04-04.02.06:709][  0]LogInit:Display: RandInit(-1113911582) SRandInit(-1113911581).
+[2015.12.04-04.02.06:709][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.04-04.02.06:709][  0]LogStats: Stats thread started at 0.166090
+[2015.12.04-04.02.06:709][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.04-04.02.06:709][  0]LogInit: API Version: 2672455
+[2015.12.04-04.02.06:709][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.04-04.02.06:709][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.04-04.02.06:709][  0]LogInit: Build Configuration: Development
+[2015.12.04-04.02.06:709][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.04-04.02.06:709][  0]LogInit: Command line:  
+[2015.12.04-04.02.06:709][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.04-04.02.06:709][  0]LogInit: Rocket: 1
+[2015.12.04-04.02.06:757][  0]LogInit: Using libcurl 7.41.0
+[2015.12.04-04.02.06:757][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.04-04.02.06:757][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.04-04.02.06:757][  0]LogInit:  - other features:
+[2015.12.04-04.02.06:757][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.04-04.02.06:757][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.04-04.02.06:757][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.04-04.02.06:757][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.04-04.02.06:757][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.04-04.02.06:757][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.04-04.02.06:758][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.04-04.02.06:758][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.04-04.02.06:758][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.04-04.02.06:758][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.04-04.02.06:782][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.04-04.02.06:817][  0]LogInit: Object subsystem initialized
+[2015.12.04-04.02.06:826][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.04-04.02.06:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.04-04.02.06:866][  0]LogInit: Computer: AARONS
+[2015.12.04-04.02.06:866][  0]LogInit: User: Aaron
+[2015.12.04-04.02.06:866][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.04-04.02.06:866][  0]LogInit: High frequency timer resolution =1.949470 MHz
+[2015.12.04-04.02.06:866][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2015.12.04-04.02.06:866][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.04-04.02.06:866][  0]LogMemory: Process Physical Memory: 53.04 MB used, 53.04 MB peak
+[2015.12.04-04.02.06:866][  0]LogMemory: Process Virtual Memory: 55.14 MB used, 55.14 MB peak
+[2015.12.04-04.02.06:867][  0]LogMemory: Physical Memory: 3128.16 MB used, 7643.95 MB total
+[2015.12.04-04.02.06:867][  0]LogMemory: Virtual Memory: 345.73 MB used, 134217728.00 MB total
+[2015.12.04-04.02.06:977][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.04-04.02.10:865][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8400 (Feature Level 11_0)
+[2015.12.04-04.02.10:865][  0]LogD3D11RHI: Adapter has 493MB of dedicated video memory, 0MB of dedicated system memory, and 3584MB of shared system memory, 1 output[s]
+[2015.12.04-04.02.10:870][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.04-04.02.10:870][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.04-04.02.10:870][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.04-04.02.10:884][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.04-04.02.10:884][  0]LogRHI: Texture pool is 345 MB (70% of 493 MB)
+[2015.12.04-04.02.10:897][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.04-04.02.10:918][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/WorkingDirectory/16676/).
+[2015.12.04-04.02.10:918][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/tmp/B003CD5448A67A1A5B18D2B7C0C004EC/'.
+[2015.12.04-04.02.10:918][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.04-04.02.18:807][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.04-04.02.18:831][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.04-04.02.18:858][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.04-04.02.18:886][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.04-04.02.18:906][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.04-04.02.18:921][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.04-04.02.18:937][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.04-04.02.18:952][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.04-04.02.18:967][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.04-04.02.18:983][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.04-04.02.18:999][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.04-04.02.19:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.04-04.02.19:021][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.04-04.02.19:059][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.04-04.02.19:074][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.04-04.02.19:089][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.04-04.02.19:105][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.04-04.02.19:105][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.04-04.02.19:418][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.04-04.02.20:036][  0]LogDerivedDataCache: Loaded boot cache 0.62s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.04-04.02.20:036][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.04-04.02.20:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.04-04.02.20:037][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.04-04.02.20:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.04-04.02.20:037][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.04-04.02.20:876][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.04-04.02.20:892][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.04-04.02.21:632][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.04-04.02.21:646][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.04-04.02.22:167][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.04-04.02.22:167][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.04-04.02.23:310][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.04-04.02.29:634][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.04-04.02.30:192][  0]LogAssetRegistry: FAssetRegistry took 0.0134 seconds to start up
+[2015.12.04-04.02.30:856][  0]SourceControl: Info Source control is disabled
+[2015.12.04-04.02.31:883][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.04-04.02.32:156][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.04-04.02.32:156][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.12.04-04.02.32:361][  0]LogEngine: Initializing Engine...
+[2015.12.04-04.02.32:369][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.04-04.02.32:370][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.04-04.02.32:878][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.04-04.02.32:889][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-04.02.33:048][  0]LogInit: FAudioDevice initialized.
+[2015.12.04-04.02.33:133][  0]LogDerivedDataCache: Saved boot cache 0.09s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.04-04.02.33:162][  0]LogInit: Texture streaming: Enabled
+[2015.12.04-04.02.33:179][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.04-04.02.33:179][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.04-04.02.33:180][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b2676186470d39d8323ee88c5ad92509|4cc6989648b04f0180853fecfbe4390e|54533a2c-70f4-4e67-8a5f-67ff95564374
+[2015.12.04-04.02.33:180][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.04-04.02.33:254][  0]LogInit: Transaction tracking system initialized
+[2015.12.04-04.02.33:351][  0]BlueprintLog: New page: Editor Load
+[2015.12.04-04.02.33:735][  0]LocalizationService: Info Localization service is disabled
+[2015.12.04-04.02.34:556][  0]LogConsoleResponse:Display: 
+[2015.12.04-04.02.34:987][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.04-04.02.35:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/' took 0.03s
+[2015.12.04-04.02.35:280][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.04-04.02.35:282][  0]LightingResults: New page: Lighting Build
+[2015.12.04-04.02.35:293][  0]MapCheck: New page: Map Check
+[2015.12.04-04.02.35:294][  0]LightingResults: New page: Lighting Build
+[2015.12.04-04.02.35:340][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A55B1E2160
+[2015.12.04-04.02.46:273][  0]LogAIModule: Creating AISystem for world Town
+[2015.12.04-04.03.25:615][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2015.12.04-04.03.25:628][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.04-04.03.25:900][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 271.572ms to complete.
+[2015.12.04-04.03.25:901][  0]LogFileHelpers: Loading map 'Town' took 50.620
+[2015.12.04-04.03.26:229][  0]LogCollectionManager: Loaded 0 collections in 0.006905 seconds
+[2015.12.04-04.03.26:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Collections/' took 0.01s
+[2015.12.04-04.03.26:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Developers/Aaron/Collections/' took 0.01s
+[2015.12.04-04.03.26:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Collections/' took 0.01s
+[2015.12.04-04.03.26:297][  0]LogContentBrowser: Native class hierarchy populated in 0.0276 seconds. Added 1867 classes and 333 folders.
+[2015.12.04-04.03.26:311][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2015.12.04-04.03.26:341][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.04-04.03.27:333][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.04-04.03.27:345][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2015.12.04-04.03.27:747][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.04-04.03.27:757][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.04-04.03.27:782][  0]LogLoad: Full Startup: 83.66 seconds (BP compile: 2.43 seconds)
+[2015.12.04-04.03.28:708][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.04-04.03.29:072][  0]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:2).
+[2015.12.04-04.03.29:631][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.04-04.03.30:374][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.12.04-04.03.33:472][ 21]LogAssetRegistry: Asset discovery search completed in 63.2919 seconds
+[2015.12.04-04.03.33:472][ 21]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2015.12.04-04.04.20:867][312]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.04-04.04.39:092][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.04.39:092][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.04-04.04.39:093][551]PIE: New page: SIE session: Town (Dec 3, 2015, 12:04:39 PM)
+[2015.12.04-04.04.39:093][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.04-04.04.39:759][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.665460s)
+[2015.12.04-04.04.39:761][551]LogAIModule: Creating AISystem for world Town
+[2015.12.04-04.04.39:762][551]LogPlayLevel: PIE: World Init took: (0.003010s)
+[2015.12.04-04.04.39:762][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.669327s)
+[2015.12.04-04.04.39:762][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.04-04.04.39:988][551]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BoxBrush4"
+[2015.12.04-04.04.39:992][551]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-04.04.40:021][551]LogInit: FAudioDevice initialized.
+[2015.12.04-04.04.40:126][551]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.04-04.04.40:787][551]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.04-04.04.40:787][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.03-20.04.40
+[2015.12.04-04.04.40:787][551]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.04.40:788][551]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.04.40:808][551]LogWorld: Bringing up level for play took: 0.670999
+[2015.12.04-04.04.40:817][551]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.109
+[2015.12.04-04.04.40:869][551]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BoxBrush4"
+[2015.12.04-04.04.40:869][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.04.40:951][551]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.04-04.04.40:975][551]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.04-04.04.40:976][551]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.04-04.04.44:661][592]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.04.44:875][592]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.04.44:971][592]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A563E25120
+[2015.12.04-04.12.09:431][807]LogHttp:Warning: Timeout processing Http request. 000000A54FBCAA00
+[2015.12.04-04.13.05:107][537]LogRenderer: Reallocating scene render targets to support 1600x860 (Frame:765).
+[2015.12.04-04.13.33:098][ 83]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.12.04-04.13.41:300][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.13.41:300][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.04-04.13.41:300][219]PIE: New page: PIE session: Town (Dec 3, 2015, 12:13:41 PM)
+[2015.12.04-04.13.41:300][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.04-04.13.41:854][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.553303s)
+[2015.12.04-04.13.41:856][219]LogAIModule: Creating AISystem for world Town
+[2015.12.04-04.13.41:856][219]LogPlayLevel: PIE: World Init took: (0.002472s)
+[2015.12.04-04.13.41:857][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.556413s)
+[2015.12.04-04.13.41:857][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.04-04.13.41:857][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.04-04.13.41:858][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.04-04.13.41:943][219]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-04.13.41:977][219]LogInit: FAudioDevice initialized.
+[2015.12.04-04.13.42:039][219]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.04-04.13.42:755][219]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.04-04.13.42:755][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.03-20.13.42
+[2015.12.04-04.13.42:755][219]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.13.42:758][219]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.13.42:777][219]LogWorld: Bringing up level for play took: 0.728152
+[2015.12.04-04.13.42:788][219]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.083
+[2015.12.04-04.13.42:788][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.13.42:791][219]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.42:792][219]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.42:793][219]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.48:148][284]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.48:650][290]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.48:732][291]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.04-04.13.48:817][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.13.48:974][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.13.49:123][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A55E373A60
+[2015.12.04-04.13.52:230][323]LogRenderer: Reallocating scene render targets to support 1600x860 (Frame:1038).
+[2015.12.04-04.13.53:228][331]LogRenderer: Reallocating scene render targets to support 1600x860 (Frame:1046).
+[2015.12.04-04.13.53:228][331]LogStaticMesh: Allocated Allocated 318x64x64 distance field atlas = 2.5Mb
+[2015.12.04-04.13.54:796][340]LogRenderer: Reallocating scene render targets to support 1600x860 (Frame:1054).
+[2015.12.04-04.14.03:928][419]Cmd: STAT FPS
+[2015.12.04-04.14.12:096][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.12:096][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.04-04.14.12:096][496]PIE: New page: PIE session: Town (Dec 3, 2015, 12:14:12 PM)
+[2015.12.04-04.14.12:097][496]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.04-04.14.12:690][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.593800s)
+[2015.12.04-04.14.12:692][496]LogAIModule: Creating AISystem for world Town
+[2015.12.04-04.14.12:693][496]LogPlayLevel: PIE: World Init took: (0.002478s)
+[2015.12.04-04.14.12:693][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.596886s)
+[2015.12.04-04.14.12:773][496]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-04.14.12:803][496]LogInit: FAudioDevice initialized.
+[2015.12.04-04.14.12:868][496]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.04-04.14.13:578][496]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.04-04.14.13:579][496]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.03-20.14.13
+[2015.12.04-04.14.13:579][496]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.14.13:580][496]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.14.13:601][496]LogWorld: Bringing up level for play took: 0.722273
+[2015.12.04-04.14.13:612][496]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.906
+[2015.12.04-04.14.13:612][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.13:615][496]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.13:616][496]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.13:617][496]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.19:044][560]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.20:025][573]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.21:032][586]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.27:492][645]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.28:178][647]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.30:936][655]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.34:882][671]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.35:542][680]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.37:540][706]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BoxBrush4"
+[2015.12.04-04.14.43:232][790]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.43:465][793]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.04-04.14.44:157][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.44:315][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.44:536][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A55DD5B380
+[2015.12.04-04.14.47:982][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.47:982][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.04-04.14.47:982][837]PIE: New page: PIE session: Town (Dec 3, 2015, 12:14:47 PM)
+[2015.12.04-04.14.47:982][837]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.04-04.14.48:549][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.566742s)
+[2015.12.04-04.14.48:551][837]LogAIModule: Creating AISystem for world Town
+[2015.12.04-04.14.48:552][837]LogPlayLevel: PIE: World Init took: (0.002374s)
+[2015.12.04-04.14.48:552][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.569749s)
+[2015.12.04-04.14.48:617][837]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-04.14.48:648][837]LogInit: FAudioDevice initialized.
+[2015.12.04-04.14.48:707][837]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.04-04.14.49:426][837]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.04-04.14.49:426][837]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.03-20.14.49
+[2015.12.04-04.14.49:426][837]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.14.49:427][837]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-04.14.49:449][837]LogWorld: Bringing up level for play took: 0.731566
+[2015.12.04-04.14.49:460][837]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.755
+[2015.12.04-04.14.49:461][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-04.14.49:464][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.14.49:464][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.14.49:465][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.14.55:161][909]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.14.56:405][925]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.14.56:405][925]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.02:635][  7]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.02:719][  8]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.04:704][ 35]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.09:812][ 56]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.11:027][ 60]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.15:385][ 73]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.17:103][ 78]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.19:118][ 84]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.24:632][100]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.28:221][110]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.29:899][115]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.33:586][126]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.37:256][137]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.39:942][145]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.41:646][150]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.45:307][161]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.49:106][172]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.51:446][179]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.54:547][188]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.15.57:177][196]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.03:521][215]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.05:539][221]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.06:523][224]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.12:989][243]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.13:304][244]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.15:637][251]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.21:639][269]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.22:302][271]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.26:996][285]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.29:330][292]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.29:668][293]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.36:351][313]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.39:352][322]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.40:695][326]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.43:703][335]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.48:105][348]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.50:122][354]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.50:777][356]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.55:878][371]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.16.58:583][379]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.01:945][389]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.04:682][397]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.07:382][405]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.13:393][423]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.15:060][428]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.15:062][428]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.22:803][451]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.22:803][451]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.24:178][455]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.29:936][472]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.31:266][476]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.35:387][488]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.38:751][498]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.39:782][501]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.46:189][520]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.48:855][528]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.48:857][528]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.55:105][546]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.56:912][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.17.57:170][552]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.02:477][567]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.06:867][580]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.09:613][588]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.09:909][589]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.15:461][605]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.17:138][610]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.23:158][628]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.23:818][630]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.25:495][635]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.31:836][654]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.31:836][654]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.33:506][659]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.39:530][677]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.41:929][684]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.44:255][691]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.48:258][703]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.49:599][707]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.56:621][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.56:621][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.18.58:620][734]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.03:288][748]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.05:626][755]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.08:625][764]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.10:967][771]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.13:626][779]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.18:962][795]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.21:357][802]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.22:347][805]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.27:451][820]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.30:800][842]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.34:186][852]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.35:196][855]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.39:861][869]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.42:198][876]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.44:210][882]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.47:927][893]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.50:004][899]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.55:337][915]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.56:672][919]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.19.58:679][925]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.05:383][945]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.06:713][949]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.09:716][958]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.13:380][969]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.14:047][971]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.18:386][984]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.21:050][992]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.21:719][994]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.29:836][ 18]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.30:179][ 19]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.30:180][ 19]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.37:196][ 40]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.39:974][ 48]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.44:307][ 61]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.45:680][ 65]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.48:679][ 74]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.53:106][ 87]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.54:431][ 91]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.20.58:435][103]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.01:436][112]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.05:775][125]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.06:512][127]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.07:839][131]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.14:902][152]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.15:902][155]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.20:307][168]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.21:997][173]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.25:029][182]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.29:155][194]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.30:155][197]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.32:876][205]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.36:868][217]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.41:205][230]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.41:872][232]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.45:202][242]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.49:689][269]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.51:530][297]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.54:803][346]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2015.12.04-04.21.55:291][346]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2015.12.04-04.21.55:319][346]LogMaterial: 0.000261 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.04-04.21.55:353][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.04-04.21.55:365][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.12.04-04.21.55:377][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.04-04.21.55:389][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2015.12.04-04.21.55:403][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.12.04-04.21.56:063][349]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.58:788][377]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.21.59:492][384]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.06:540][482]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.07:210][489]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.08:945][509]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.14:880][574]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.16:654][592]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.18:615][612]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.20:952][636]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.23:900][667]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.27:486][704]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.31:207][742]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.31:208][742]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.33:269][763]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.39:378][826]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.39:673][829]LogMaterialEditor: Applying material Cloth
+[2015.12.04-04.22.43:315][829]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2015.12.04-04.22.43:449][829]LogMaterial: 0.003019 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.04-04.22.43:534][829]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2015.12.04-04.22.43:640][829]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2015.12.04-04.22.43:752][829]LogMaterial: 0.067498 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.04-04.22.46:517][831]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.46:843][832]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.22.58:981][861]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.10:598][867]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.11:556][868]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.15:832][880]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.19:756][887]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.25:913][901]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.28:141][907]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.30:651][914]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.34:748][926]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.37:059][932]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.39:085][945]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.40:574][960]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.49:347][992]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.50:526][995]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.23.50:527][995]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.06:095][ 17]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.06:438][ 18]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.13:977][ 37]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.15:698][ 38]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.17:202][ 40]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.24:116][ 55]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.25:888][ 59]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.28:006][ 65]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.32:525][ 77]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.37:524][111]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.38:443][121]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.40:896][137]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.24.50:531][153]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.00:356][160]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.07:783][171]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.10:026][176]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.13:836][178]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.26:637][195]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.27:277][196]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.27:924][198]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.36:566][217]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.38:168][219]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.46:061][233]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.47:422][237]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.50:296][245]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.25.56:076][256]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.01:861][269]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.02:687][271]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.05:983][278]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.16:932][294]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.18:608][297]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.18:858][298]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.20:194][302]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2015.12.04-04.26.20:194][302]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.04-04.26.20:195][302]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.12.04-04.26.25:959][319]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.26:285][320]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.30:995][334]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.34:077][343]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.34:356][344]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.41:696][366]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.43:363][371]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.45:366][377]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.48:716][387]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.52:774][399]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.53:787][402]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.26.57:136][412]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.01:856][426]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.04:542][434]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.04:875][435]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.09:596][449]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.13:252][460]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.17:932][474]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.18:266][475]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.20:940][483]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.26:286][499]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.26:617][500]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.27:956][504]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.34:627][524]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.35:626][527]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.39:295][538]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.41:633][545]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.43:971][552]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.49:675][569]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.52:346][577]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.53:927][580]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.27.59:548][589]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.05:578][603]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.05:579][603]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.09:026][612]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.15:752][629]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.18:099][636]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.19:115][639]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.23:758][653]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.26:151][660]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.31:822][677]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.32:831][680]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.33:155][681]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.40:495][703]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.41:499][706]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.42:847][710]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.48:827][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.49:832][731]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.55:497][748]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.56:500][751]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.28.59:171][759]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.04:185][774]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.08:858][788]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.09:855][791]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.11:528][796]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.16:911][812]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.18:248][816]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.19:252][819]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.23:918][833]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.27:615][844]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.30:668][853]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.33:011][860]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.34:701][865]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.42:376][888]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.42:701][889]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.44:072][893]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.49:843][910]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.51:197][914]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.54:191][923]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.29.57:845][934]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.00:841][943]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.05:214][956]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.05:562][957]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.09:183][968]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.13:536][981]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.17:519][993]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.18:858][997]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.22:191][  7]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.25:190][ 16]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.27:858][ 24]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.29:858][ 30]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.34:190][ 43]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.37:858][ 54]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.40:531][ 62]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.43:537][ 71]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.44:887][ 75]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.51:544][ 95]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.51:878][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.54:206][103]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.30.59:209][118]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.01:222][124]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.04:211][133]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.06:888][141]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.09:892][150]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.14:572][164]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.15:228][166]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.19:567][179]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.21:571][185]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.28:236][205]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.29:242][208]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.29:245][208]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.36:267][229]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.36:920][231]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.38:259][235]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.45:264][256]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.45:989][258]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.49:314][268]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.52:315][277]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.31.54:332][283]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.00:651][302]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.02:647][308]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.03:319][310]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.08:321][325]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.10:984][333]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.11:990][336]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.15:652][347]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.20:322][361]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.23:338][370]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.23:656][371]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.29:328][388]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.31:013][393]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.36:667][410]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.38:674][416]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.38:675][416]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.46:681][440]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.46:682][440]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.47:348][442]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.54:012][462]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.55:679][467]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.32.58:351][475]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.00:688][482]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.03:349][490]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.08:026][504]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.11:695][515]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.13:028][519]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.16:358][529]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.19:697][539]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.23:040][549]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.23:717][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.28:719][566]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.31:383][574]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.35:380][586]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.36:729][590]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.39:392][598]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.45:378][616]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.47:388][622]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.50:047][630]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.53:376][640]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.54:388][643]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.33.59:718][659]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.01:048][663]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.02:049][666]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.10:389][691]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.10:715][692]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.11:057][693]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.17:747][713]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.19:392][718]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.25:056][735]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.26:067][738]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.27:393][742]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.33:396][760]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.34:400][763]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.35:407][766]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.43:066][789]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.44:737][794]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.45:066][795]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.51:093][813]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.52:750][818]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.58:093][834]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.34.59:750][839]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.00:753][842]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.04:756][854]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.07:751][863]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.09:424][868]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.11:755][875]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.17:430][892]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.19:760][899]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.21:085][903]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.25:763][917]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.27:762][923]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.34:770][944]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.34:771][944]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.35:442][946]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.43:771][971]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.43:772][971]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.44:448][973]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.51:471][994]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.52:132][996]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.56:131][  8]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.35.59:466][ 18]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.00:137][ 20]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.07:468][ 42]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.07:802][ 43]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.10:806][ 52]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.14:491][ 63]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.16:807][ 70]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.19:816][ 79]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.22:136][ 86]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.26:478][ 99]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.30:475][111]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.32:152][116]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.33:820][121]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.38:496][135]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.42:482][147]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.45:831][157]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.46:825][160]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.50:491][171]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.54:167][182]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.54:496][183]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.36.59:159][197]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.02:496][207]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.06:163][218]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.08:828][226]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.09:516][228]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.16:520][249]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.17:521][252]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.20:858][262]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.23:192][269]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.27:189][281]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.30:869][292]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.31:866][295]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.34:866][304]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.39:201][317]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.42:868][328]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.42:871][328]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.47:866][343]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.51:197][353]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.55:870][367]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.57:868][373]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.37.58:869][376]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.04:201][392]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.06:867][400]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.06:869][400]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.12:212][416]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.14:872][424]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.17:885][433]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.19:228][437]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.24:552][453]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.26:228][458]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.32:915][478]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.33:242][479]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.33:911][481]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.40:971][502]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.41:639][504]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.41:640][504]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.48:977][526]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.50:311][530]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.53:328][539]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.56:000][547]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.38.58:006][553]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.03:680][570]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.07:039][580]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.07:343][581]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.10:697][591]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.16:354][608]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.16:689][609]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.19:028][616]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.25:020][634]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.25:688][636]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.27:696][642]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.33:360][659]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.34:688][663]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.40:355][680]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.41:690][684]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.42:356][686]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.48:690][705]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.50:361][710]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.51:022][712]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.39.56:361][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.00:370][740]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.02:700][747]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.04:026][751]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.08:028][763]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.11:025][772]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.16:696][789]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.17:368][791]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.18:745][795]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.24:735][813]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.26:407][818]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.27:079][820]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.34:068][841]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.34:747][843]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.38:412][854]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.41:469][863]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.42:425][866]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.48:463][884]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.51:117][892]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.52:791][897]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.56:790][909]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.40.59:452][917]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.02:455][926]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.04:788][933]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.07:791][942]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.12:790][957]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.13:788][960]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.17:124][970]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.20:125][979]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.26:791][999]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.27:125][  0]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.27:797][  2]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.34:160][ 21]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.35:503][ 25]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.36:487][ 28]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.42:830][ 47]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.42:831][ 47]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.48:830][ 65]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.50:829][ 71]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.50:830][ 71]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.59:163][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.41.59:165][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.02:168][105]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.07:519][121]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.08:502][124]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.10:841][131]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.15:171][144]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.17:171][150]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.23:503][169]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.23:505][169]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.26:843][179]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.30:513][190]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.34:855][203]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.36:861][209]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.39:183][216]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.44:186][231]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.46:852][239]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.47:520][241]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.53:857][260]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.55:523][265]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.42.58:561][274]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.00:873][281]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.03:212][288]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.08:888][305]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.10:571][310]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.13:235][318]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.17:240][330]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.18:237][333]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.22:918][347]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.24:238][351]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.26:905][359]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.31:906][374]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.35:244][384]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.35:938][386]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.39:250][396]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.43:936][410]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.46:919][419]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.48:588][424]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.52:262][435]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.54:927][443]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.43.58:266][453]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.01:267][462]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.01:931][464]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.10:620][490]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.10:950][491]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.10:951][491]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.17:956][512]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.19:286][516]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.24:957][533]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.26:289][537]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.27:955][542]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.33:635][559]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.33:968][560]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.35:987][566]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.41:639][583]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.44:972][593]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.45:642][595]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.49:979][608]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.54:638][622]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.44.58:647][634]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.00:643][640]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.02:636][646]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.06:310][657]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.08:979][665]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.10:308][669]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.13:655][679]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.19:660][697]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.21:669][703]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.21:994][704]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.28:006][722]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.29:337][726]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.36:337][747]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.36:670][748]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.37:007][749]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.44:022][770]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.45:018][773]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.46:352][777]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.51:356][792]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.53:689][799]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.58:683][814]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.45.59:027][815]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.03:355][828]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.06:357][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.11:689][853]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.13:037][857]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.14:371][861]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.20:378][879]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.21:374][882]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.22:041][884]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.28:371][903]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.28:705][904]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.34:709][922]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.35:716][925]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.36:052][926]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.43:374][948]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.44:371][951]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.48:709][964]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.51:046][971]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.52:711][976]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.57:375][990]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.46.58:379][993]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.02:040][  4]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.05:709][ 15]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.08:712][ 24]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.11:713][ 33]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.12:716][ 36]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.18:714][ 54]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.20:380][ 59]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.23:383][ 68]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.27:716][ 81]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.28:389][ 83]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.32:720][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.36:056][106]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.36:725][108]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.45:055][133]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.45:391][134]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.45:391][134]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.53:116][157]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.47.54:456][161]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.00:134][178]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.00:798][180]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.02:806][186]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.08:802][204]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.08:803][204]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.11:806][213]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.17:480][230]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.20:801][240]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.21:135][241]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.25:801][255]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.29:477][266]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.34:498][281]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.35:185][283]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.38:529][293]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.42:872][306]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.44:542][311]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.45:873][315]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.51:205][331]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.55:207][343]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.57:217][349]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.48.58:874][354]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.02:880][366]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.06:537][377]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.11:549][392]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.11:871][393]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.14:563][401]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.19:905][417]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.21:231][421]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.21:568][422]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.27:242][439]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.28:614][443]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.33:284][457]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.36:956][468]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.36:958][468]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.44:319][490]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.46:281][496]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.47:962][501]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.51:977][513]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.55:308][523]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.56:646][527]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.49.58:640][533]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.04:656][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.06:657][557]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.07:658][560]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.12:324][574]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.14:659][581]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.20:664][599]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.21:001][600]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.23:330][607]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.29:676][626]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.30:339][628]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.31:009][630]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.37:677][650]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.39:011][654]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.41:675][662]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.45:692][674]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.47:010][678]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.53:340][697]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.55:679][704]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.50.55:681][704]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.02:689][725]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.02:690][725]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.05:355][733]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.10:688][749]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.11:025][750]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.16:362][766]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.18:696][773]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.19:025][774]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.27:718][800]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.28:047][801]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.29:714][806]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.35:051][822]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.36:054][825]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.39:060][834]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.43:723][848]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.44:727][851]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.50:728][869]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.51:419][871]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.51.53:062][876]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.00:062][897]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.00:400][898]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.04:417][910]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.07:738][920]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.08:401][922]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.13:739][938]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.15:730][944]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.16:410][946]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.24:067][969]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.24:726][971]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.26:399][976]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.31:070][990]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.34:066][999]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.37:746][ 10]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.41:066][ 20]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.42:745][ 25]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.45:411][ 33]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.51:077][ 50]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.52:414][ 54]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.52.53:416][ 57]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.00:405][ 78]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.01:739][ 82]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.02:746][ 85]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.08:751][103]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.09:425][105]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.16:075][125]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.16:431][126]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.17:426][129]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.23:416][147]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.24:736][151]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.26:418][156]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.30:418][168]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.35:745][184]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.36:073][185]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.38:418][192]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.44:082][209]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.45:742][214]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.50:430][228]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.53:099][236]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.53.53:758][238]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.00:436][258]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.01:766][262]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.01:770][262]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.09:426][285]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.11:425][291]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.12:436][294]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.16:432][306]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.19:769][316]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.24:754][331]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.25:762][334]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.28:428][342]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.33:108][356]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.35:766][364]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.38:102][371]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.40:102][377]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.46:500][396]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.48:170][401]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.48:836][403]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.55:841][424]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.54.56:174][425]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.01:846][442]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.03:519][447]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.05:512][453]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.10:846][469]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.10:848][469]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.13:182][476]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.19:530][495]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.21:522][501]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.22:186][503]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.26:185][515]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.29:520][525]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.34:526][540]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.36:856][547]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.38:187][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.41:527][561]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.46:525][576]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.46:872][577]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.49:866][586]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.54:198][599]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.56:532][606]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.55.57:876][610]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.02:869][625]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.03:871][628]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.10:531][648]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.11:534][651]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.12:538][654]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.18:539][672]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.18:872][673]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.22:206][683]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.26:540][696]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.26:541][696]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.33:866][718]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.34:207][719]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.35:211][722]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.42:218][743]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.44:229][749]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.48:553][762]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.49:549][765]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.51:887][772]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.57:556][789]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.56.58:551][792]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.00:243][797]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.06:233][815]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.08:575][822]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.09:931][826]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.13:586][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.15:582][843]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.20:587][858]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.23:918][868]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.25:251][872]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.28:597][882]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.33:595][897]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.33:918][898]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.36:581][906]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.43:580][927]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.44:261][929]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.45:590][933]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.51:920][952]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.53:275][956]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.58:603][972]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.57.59:259][974]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.00:275][977]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.06:616][996]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.07:608][999]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.09:956][  6]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.14:292][ 19]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.18:291][ 31]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.19:295][ 34]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.22:294][ 43]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.27:656][ 59]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.28:978][ 63]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.33:641][ 77]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.35:641][ 83]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.36:311][ 85]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.42:082][102]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.42:747][104]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.44:422][109]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.51:761][131]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.52:096][132]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.54:432][139]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.58.59:450][154]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.00:436][157]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.06:772][176]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.08:438][181]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.08:439][181]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.13:467][196]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.16:776][206]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.18:448][211]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.20:777][218]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.24:776][230]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.27:772][239]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.30:108][246]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.33:107][255]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.35:463][262]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.41:110][279]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.43:457][286]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.45:113][291]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.49:116][303]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.51:124][309]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.53:791][317]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.58:124][330]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-04.59.58:460][331]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.05:131][351]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.06:130][354]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.06:795][356]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.15:138][381]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.15:139][381]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.19:812][395]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.22:809][404]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.24:468][409]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.28:138][420]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.30:803][428]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.34:136][438]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.38:146][450]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.39:486][454]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.43:490][466]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.44:823][470]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.51:156][489]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.53:158][495]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.54:163][498]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.00.59:500][514]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.00:165][516]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.03:500][526]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.08:494][541]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.08:833][542]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.15:183][561]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.16:190][564]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.17:516][568]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.24:174][588]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.25:842][593]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.29:509][604]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.32:507][613]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.32:845][614]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.39:179][633]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.39:509][634]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.41:847][641]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.46:185][654]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.51:187][669]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.51:520][670]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.53:530][676]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.01.59:909][695]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.01:262][699]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.06:268][714]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.07:945][719]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.08:945][722]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.15:950][743]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.16:282][744]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.16:958][746]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.24:617][769]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.25:631][772]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.27:629][778]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.32:290][792]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.32:957][794]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.40:297][816]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.40:960][818]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.42:301][822]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.49:295][843]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.49:296][843]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.51:966][851]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.56:630][865]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.02.57:965][869]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.04:637][889]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.04:980][890]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.06:309][894]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.12:647][913]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.15:648][922]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.18:980][932]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.20:309][936]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.25:314][951]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.27:989][959]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.28:314][960]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.33:986][977]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.35:650][982]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.38:990][992]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.42:326][  2]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.42:989][  4]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.50:655][ 27]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.51:322][ 29]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.53:659][ 36]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.58:328][ 50]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.03.59:329][ 53]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.03:315][ 65]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.06:326][ 74]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.08:660][ 81]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.14:659][ 99]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.14:991][100]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.16:662][105]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.21:329][119]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.25:001][130]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.29:328][143]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.29:665][144]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.33:659][156]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.37:675][168]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.37:675][168]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.42:715][183]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.45:718][192]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.49:749][204]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.51:077][208]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.52:734][213]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.04.59:736][234]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.00:401][236]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.04:432][248]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.07:079][256]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.08:076][259]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.12:741][273]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.14:077][277]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.16:083][283]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.22:088][301]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.24:081][307]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.25:419][311]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.31:507][326]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.35:169][337]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.38:838][348]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.39:187][349]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.44:505][365]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.47:172][373]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.47:848][375]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.51:849][387]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.55:186][397]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.59:865][411]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.05.59:866][411]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.03:856][423]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.08:196][436]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.11:196][445]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.14:203][454]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.17:531][464]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.18:536][467]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.22:926][480]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.26:946][492]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.27:276][493]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.34:608][515]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.35:270][517]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.35:600][518]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.42:599][539]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.43:930][543]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.49:630][560]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.50:278][562]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.53:291][571]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.58:298][586]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.06.58:630][587]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.02:641][599]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.05:640][608]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.10:646][623]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.11:649][626]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.13:999][633]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.20:313][652]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.21:310][655]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.25:315][667]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.28:650][677]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.29:659][680]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.35:316][697]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.36:647][701]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.36:983][702]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.44:649][725]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.45:318][727]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.47:647][734]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.52:984][750]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.07.52:985][750]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.00:655][773]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.00:986][774]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.01:314][775]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.09:659][800]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.09:661][800]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.09:994][801]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.16:679][821]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.17:678][824]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.21:690][836]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.24:360][844]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.25:696][848]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.32:385][868]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.34:055][873]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.36:376][880]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.40:712][893]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.42:711][899]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.45:048][906]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.47:379][913]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.51:712][926]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.55:394][937]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.08.56:045][939]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.00:739][953]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.03:124][960]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.08:492][976]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.10:810][983]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.10:811][983]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.16:808][  1]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.19:144][  8]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.20:488][ 12]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.24:838][ 25]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.27:141][ 32]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.33:145][ 50]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.34:151][ 53]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.34:156][ 53]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.41:147][ 74]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.42:820][ 79]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.47:485][ 93]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.49:159][ 98]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.51:154][104]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.55:817][118]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.57:488][123]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.09.59:826][130]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.04:818][145]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.06:824][151]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.07:153][152]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.13:168][170]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.16:510][180]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.20:846][193]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.21:516][195]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.24:870][205]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.29:190][218]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.30:211][221]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.34:204][233]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.37:207][242]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.42:211][257]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.43:221][260]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.45:556][267]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.51:900][286]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.53:225][290]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.10.56:229][299]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.00:229][311]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.00:560][312]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.05:255][326]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.08:570][336]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.08:907][337]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.16:231][359]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.16:567][360]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.18:566][366]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.23:560][381]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.27:897][394]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.29:561][399]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.30:898][403]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.36:566][420]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.37:899][424]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.39:237][428]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.45:227][446]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.45:565][447]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.50:231][461]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.53:233][470]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.11.54:234][473]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.01:568][495]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.03:575][501]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.04:921][505]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.09:571][519]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.12:234][527]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.13:246][530]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.18:236][545]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.20:238][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.25:241][566]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.25:577][567]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.28:248][575]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.32:581][588]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.36:247][599]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.40:580][612]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.40:580][612]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.44:588][624]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.47:929][634]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.49:587][639]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.52:919][649]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.12.54:923][655]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.00:589][672]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.00:925][673]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.03:268][680]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.10:261][701]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.10:595][702]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.14:612][714]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.18:281][725]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.18:941][727]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.23:948][742]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.25:618][747]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.27:287][752]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.33:949][772]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.35:613][777]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.36:279][779]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.40:660][792]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.43:620][801]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.48:288][815]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.48:961][817]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.51:617][825]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.56:296][839]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.13.58:624][846]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.00:625][852]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.04:627][864]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.09:970][880]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.10:324][881]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.12:976][889]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.17:978][904]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.20:976][913]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.24:642][924]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.26:314][929]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.29:316][938]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.33:996][952]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.35:317][956]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.37:654][963]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.44:327][983]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.45:997][988]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.46:666][990]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.53:998][ 12]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.14.54:664][ 14]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.00:676][ 32]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.02:991][ 39]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.03:325][ 40]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.10:326][ 61]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.10:663][ 62]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.10:999][ 63]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.17:368][ 82]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.20:359][ 91]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.22:029][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.24:696][104]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.29:030][117]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.31:708][125]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.35:371][136]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.38:041][144]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.40:371][151]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.44:373][163]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.46:697][170]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.47:033][171]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.54:375][193]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.54:710][194]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.15.55:708][197]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.02:058][216]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.03:064][219]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.09:054][237]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.09:729][239]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.11:723][245]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.17:068][261]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.18:395][265]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.20:396][271]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.25:407][286]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.29:396][298]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.29:398][298]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.32:399][307]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.36:397][319]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.39:739][329]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.43:391][340]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.44:395][343]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.47:734][353]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.52:065][366]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.53:780][371]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.16.56:223][378]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.29:828][393]LogHttp:Warning: Timeout processing Http request. 000000A50E9DC200
+[2015.12.04-05.21.31:183][397]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.31:845][399]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.32:179][400]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.38:842][420]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.39:509][422]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.45:844][441]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.47:176][445]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.47:177][445]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.54:141][465]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.55:826][470]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.21.56:494][472]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.01:489][487]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.04:155][495]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.08:822][509]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.10:158][513]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.13:155][522]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.18:488][538]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.21:155][546]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.22:824][551]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.25:489][559]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.28:489][568]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.31:156][576]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.33:822][584]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.36:489][592]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.40:822][605]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.43:490][613]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.45:497][619]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.47:829][626]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.55:160][648]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.56:497][652]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.22.57:830][656]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.03:846][674]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.04:162][675]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.07:847][686]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.11:549][697]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.11:850][698]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.18:859][719]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.19:860][722]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.20:192][723]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.27:227][744]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.28:556][748]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.33:218][762]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.33:887][764]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.36:887][773]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.41:220][786]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.43:222][792]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.46:554][802]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.48:220][807]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.54:220][825]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.54:555][826]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.23.55:892][830]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.02:554][850]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.03:226][852]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.08:242][867]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.11:888][878]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.11:888][878]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.17:219][894]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.18:568][898]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.20:890][905]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.25:888][920]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.28:556][928]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.30:226][933]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.32:888][941]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.38:576][958]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.40:221][963]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.41:896][968]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.46:888][983]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.47:889][986]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.51:222][996]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.55:226][  8]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.24.56:557][ 12]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.02:889][ 31]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.03:889][ 34]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.04:228][ 35]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.11:224][ 56]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.13:560][ 63]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.17:557][ 75]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.19:588][ 81]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.20:892][ 85]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.26:226][101]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.27:560][105]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.29:565][111]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.34:240][125]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.37:234][134]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.37:559][135]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.41:228][146]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.46:567][162]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.49:236][170]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.51:897][178]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.56:237][191]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.25.56:572][192]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.00:907][205]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.03:233][212]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.04:567][216]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.11:900][238]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.11:901][238]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.12:583][240]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.19:905][262]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.20:237][263]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.26:242][281]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.28:576][288]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.29:249][290]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.35:242][308]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.36:241][311]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.37:911][316]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.44:249][335]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.45:250][338]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.47:254][344]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.51:926][358]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.54:934][367]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.26.58:917][379]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.00:599][384]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.02:915][391]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.05:916][400]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.09:585][411]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.10:917][415]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.13:248][422]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.19:582][441]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.20:584][444]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.21:918][448]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.27:248][464]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.28:598][468]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.35:584][489]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.35:927][490]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.36:944][493]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.42:915][511]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.45:260][518]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.45:918][520]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.49:926][532]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.53:918][544]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.57:261][554]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.27.57:601][555]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.02:267][569]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.05:620][579]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.09:285][590]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.10:952][595]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.13:640][603]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.17:955][616]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.19:621][621]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.20:953][625]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.25:955][640]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.27:960][646]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.32:289][659]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.34:958][667]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.35:292][668]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.43:293][692]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.43:295][692]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.46:628][702]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.50:307][713]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.51:644][717]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.55:304][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.59:317][740]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.28.59:973][742]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.07:310][764]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.07:639][765]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.08:308][767]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.16:311][791]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.16:974][793]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.20:639][804]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.23:977][814]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.25:649][819]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.29:310][830]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.31:653][837]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.33:656][843]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.38:665][858]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.40:999][865]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.42:665][870]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.47:332][884]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.50:676][894]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.54:350][905]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.29.55:032][907]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.00:013][922]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.03:016][931]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.03:346][932]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.09:015][949]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.10:012][952]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.14:343][965]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.17:344][974]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.17:344][974]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.24:010][994]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.27:008][  3]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.28:359][  7]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.31:685][ 17]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.34:676][ 26]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.36:677][ 32]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.39:372][ 40]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.42:705][ 50]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.47:371][ 64]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.47:707][ 65]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.50:706][ 74]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.55:041][ 87]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.30.58:037][ 96]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.02:384][109]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.02:384][109]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.07:378][124]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.10:379][133]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.10:724][134]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.15:046][147]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.17:723][155]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.22:046][168]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.24:387][175]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.25:389][178]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.32:377][199]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.34:056][204]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.37:047][213]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.40:055][222]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.40:722][224]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.45:382][238]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.48:380][247]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.48:730][248]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.56:049][270]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.57:389][274]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.31.58:049][276]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.04:050][294]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.06:403][301]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.12:390][319]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.12:731][320]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.15:051][327]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.19:735][341]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.22:387][349]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.22:736][350]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.26:746][362]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.30:396][373]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.34:056][384]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.34:390][385]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.38:059][396]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.42:060][408]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.46:060][420]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.47:735][425]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.49:729][431]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.55:729][449]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.56:400][451]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.32.57:397][454]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.03:063][471]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.04:069][474]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.09:074][489]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.10:749][494]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.12:431][499]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.18:429][517]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.21:086][525]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.23:083][531]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.26:421][541]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.29:421][550]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.31:770][557]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.35:115][567]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.38:795][578]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.43:131][591]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.43:815][593]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.45:794][599]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.51:459][616]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.53:802][623]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.57:469][634]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.33.59:129][639]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.02:463][649]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.06:463][661]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.07:130][663]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.12:160][678]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.14:166][684]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.17:825][695]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.21:488][706]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.21:830][707]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.28:825][728]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.29:487][730]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.32:165][738]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.36:494][751]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.37:156][753]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.41:173][765]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.43:179][771]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.46:494][781]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.50:491][793]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.52:503][799]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.55:159][807]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.34.58:163][816]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.03:165][831]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.06:833][842]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.06:833][842]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.11:833][857]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.13:835][863]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.16:498][871]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.20:166][882]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.21:836][887]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.28:505][907]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.29:515][910]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.29:517][910]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.36:846][932]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.38:181][936]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.41:847][947]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.43:518][952]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.47:526][964]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.51:182][975]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.51:515][976]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.55:849][989]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.35.58:850][998]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.02:857][ 10]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.04:858][ 16]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.07:199][ 23]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.12:521][ 39]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.14:190][ 44]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.17:525][ 54]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.21:523][ 66]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.21:523][ 66]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.25:857][ 79]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.29:859][ 91]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.30:859][ 94]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.37:191][113]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.38:195][116]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.39:233][120]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.42:036][172]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BoxBrush4"
+[2015.12.04-05.36.52:384][486]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.04-05.36.53:122][503]LogSelection:Warning: PIE object was selected: "Brush /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.BoxBrush4"
+[2015.12.04-05.36.54:286][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.36.54:404][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.36.54:405][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.04-05.36.54:405][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.04-05.36.54:407][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.04-05.36.54:621][528]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5522E6C00
+[2015.12.04-05.36.55:821][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.36.55:821][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.04-05.36.55:822][556]PIE: New page: PIE session: Town (Dec 3, 2015, 1:36:55 PM)
+[2015.12.04-05.36.55:822][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.04-05.36.56:343][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.521373s)
+[2015.12.04-05.36.56:345][556]LogAIModule: Creating AISystem for world Town
+[2015.12.04-05.36.56:346][556]LogPlayLevel: PIE: World Init took: (0.002371s)
+[2015.12.04-05.36.56:346][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.524323s)
+[2015.12.04-05.36.56:408][556]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.04-05.36.56:433][556]LogInit: FAudioDevice initialized.
+[2015.12.04-05.36.56:488][556]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.04-05.36.57:071][556]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.04-05.36.57:071][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.03-21.36.57
+[2015.12.04-05.36.57:071][556]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-05.36.57:072][556]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.04-05.36.57:089][556]LogWorld: Bringing up level for play took: 0.591351
+[2015.12.04-05.36.57:103][556]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.402
+[2015.12.04-05.36.57:103][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.36.57:106][556]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.36.57:107][556]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.36.57:107][556]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.02:637][677]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.03:386][694]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.03:510][697]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.06:632][769]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.04-05.37.06:633][769]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.37.07:858][798]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.04-05.37.07:858][798]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.37.09:198][829]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.04-05.37.09:198][829]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.37.10:070][849]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.10:606][861]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.11:463][880]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.15:545][971]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.04-05.37.15:546][971]LogBlueprintUserMessages: [Ai_Character_C_5] iamhurt
+[2015.12.04-05.37.16:011][982]LogBlueprintUserMessages: [Ai_Character_C_5] Hello
+[2015.12.04-05.37.16:684][997]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.17:327][ 11]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.04-05.37.17:327][ 11]LogBlueprintUserMessages: [Ai_Character_C_3] iamhurt
+[2015.12.04-05.37.17:823][ 22]LogBlueprintUserMessages: [Ai_Character_C_3] Hello
+[2015.12.04-05.37.21:782][111]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.22:083][118]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.22:294][123]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.22:640][131]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.23:693][156]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.24:114][166]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.24:945][186]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.26:126][214]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.26:205][216]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.26:949][233]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.31:184][336]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.38:688][513]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.40:553][557]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.42:533][604]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.04-05.37.42:669][607]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.50:411][791]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.57:052][951]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.37.57:535][963]LogBlueprintUserMessages: [RobotCharacter_C_0] X=-0.000 Y=1.000 Z=-0.001
+[2015.12.04-05.37.57:535][963]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.01:101][ 44]LogBlueprintUserMessages: [RobotCharacter_C_0] X=-1.000 Y=0.000 Z=0.000
+[2015.12.04-05.38.01:101][ 44]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.03:160][ 92]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.38.04:418][121]LogBlueprintUserMessages: [RobotCharacter_C_0] X=1.000 Y=-0.000 Z=0.000
+[2015.12.04-05.38.04:418][121]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.06:104][159]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.04-05.38.06:104][159]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.07:774][198]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=-1.000 Z=0.000
+[2015.12.04-05.38.07:774][198]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.08:896][224]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.04-05.38.10:793][269]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=-1.000 Z=0.000
+[2015.12.04-05.38.10:793][269]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.04-05.38.11:700][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.38.11:821][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.04-05.38.12:001][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A54F8CA5C0
+[2015.12.04-05.38.13:048][307]LogSavePackage: Save=43.116848ms
+[2015.12.04-05.38.13:048][307]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Cloth95FC79B14E5746C8071010B8C17C4134.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Cloth/Cloth.uasset'
+[2015.12.04-05.38.13:100][307]LogSavePackage: Total save time: 110.655203ms
+[2015.12.04-05.38.13:100][307]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Cloth/Cloth.uasset
+[2015.12.04-05.38.13:176][307]LogSavePackage: Save=31.532160ms
+[2015.12.04-05.38.13:176][307]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/ThirdPersonGameMode1559851D434B84A929BF7CB86193AE39.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2015.12.04-05.38.13:215][307]LogSavePackage: Total save time: 88.801574ms
+[2015.12.04-05.38.13:216][307]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2015.12.04-05.59.42:562][219]Cmd: QUIT_EDITOR
+[2015.12.04-05.59.43:461][219]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.04-05.59.44:064][219]LogExit: Preparing to exit.
+[2015.12.04-05.59.45:058][219]LogExit: Editor shut down
+[2015.12.04-05.59.45:059][219]LogExit: Transaction tracking system shut down
+[2015.12.04-05.59.45:075][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A563391260
+[2015.12.04-05.59.45:081][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A55088ACA0
+[2015.12.04-05.59.45:614][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A571A38220
+[2015.12.04-05.59.45:614][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A578BF47C0
+[2015.12.04-05.59.45:614][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A57CB57600
+[2015.12.04-05.59.45:614][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A57CB57420
+[2015.12.04-05.59.45:614][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A57BB013A0
+[2015.12.04-05.59.45:614][219]LogExit: Object subsystem successfully closed.
+[2015.12.04-05.59.45:720][219]LogD3D11RHI: Shutdown
+[2015.12.04-05.59.45:720][219]LogD3D11RHI: CleanupD3DDevice
+[2015.12.04-05.59.46:002][219]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.04-05.59.46:076][219]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.12.04-05.59.46:076][219]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.04-05.59.46:076][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.04-05.59.46:077][219]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.04-05.59.46:077][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.04-05.59.46:077][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.04-05.59.46:086][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.04-05.59.46:086][219]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.04-05.59.46:087][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.04-05.59.46:088][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.04-05.59.46:927][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.04-05.59.46:928][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.04-05.59.46:929][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.04-05.59.46:930][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.04-05.59.46:930][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.04-05.59.46:931][219]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.04-05.59.46:932][219]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.04-05.59.46:932][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.04-05.59.46:932][219]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.04-05.59.46:932][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.04-05.59.46:933][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.04-05.59.46:933][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.04-05.59.46:933][219]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.04-05.59.46:933][219]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.04-05.59.46:933][219]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.04-05.59.46:934][219]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.04-05.59.46:937][219]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.04-05.59.46:938][219]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.04-05.59.47:156][219]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.04-05.59.47:179][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.04-05.59.47:180][219]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.04-05.59.47:181][219]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.04-05.59.47:184][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.04-05.59.47:194][219]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.04-05.59.47:351][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.04-05.59.47:352][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.04-05.59.47:352][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.04-05.59.47:454][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.04-05.59.47:454][219]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.04-05.59.47:454][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.04-05.59.47:454][219]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.04-05.59.47:454][219]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.04-05.59.47:455][219]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.04-05.59.47:456][219]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.04-05.59.47:456][219]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.04-05.59.47:456][219]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.04-05.59.47:461][219]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.04-05.59.47:461][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.04-05.59.47:462][219]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.04-05.59.47:486][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.04-05.59.47:516][219]LogDerivedDataCache: Shutdown
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.04-05.59.47:516][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.04-05.59.47:517][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.04-05.59.47:518][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.04-05.59.47:519][219]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.04-05.59.48:530][219]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.04-05.59.48:531][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.04-05.59.48:531][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.04-05.59.48:531][219]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.04-05.59.48:531][219]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.04-05.59.48:531][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.04-05.59.48:540][219]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.04-05.59.48:540][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.04-05.59.48:540][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.04-05.59.48:540][219]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.04-05.59.48:541][219]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.04-05.59.48:542][219]LogExit: Exiting.
+[2015.12.04-05.59.48:547][219]Log file closed, 12/03/15 21:59:48

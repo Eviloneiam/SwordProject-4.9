@@ -1,0 +1,1685 @@
+﻿[2015.12.03-00.12.19:914][  0]Log file open, 12/02/15 16:12:19
+[2015.12.03-00.12.19:914][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.12.03-00.12.19:914][  0]LogInit:Display: RandInit(1143726397) SRandInit(1143726398).
+[2015.12.03-00.12.19:914][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.03-00.12.19:914][  0]LogStats: Stats thread started at 0.146394
+[2015.12.03-00.12.19:914][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.03-00.12.19:914][  0]LogInit: API Version: 2672455
+[2015.12.03-00.12.19:914][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.03-00.12.19:914][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.03-00.12.19:914][  0]LogInit: Build Configuration: Development
+[2015.12.03-00.12.19:914][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.03-00.12.19:914][  0]LogInit: Command line:  
+[2015.12.03-00.12.19:914][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.03-00.12.19:914][  0]LogInit: Rocket: 1
+[2015.12.03-00.12.19:943][  0]LogInit: Using libcurl 7.41.0
+[2015.12.03-00.12.19:943][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.03-00.12.19:943][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.03-00.12.19:943][  0]LogInit:  - other features:
+[2015.12.03-00.12.19:943][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.03-00.12.19:943][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.03-00.12.19:943][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.03-00.12.19:943][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.03-00.12.19:943][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.03-00.12.19:943][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.03-00.12.19:943][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.03-00.12.19:943][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.03-00.12.19:943][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.03-00.12.19:943][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.03-00.12.19:967][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.03-00.12.20:005][  0]LogInit: Object subsystem initialized
+[2015.12.03-00.12.20:012][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.03-00.12.20:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.03-00.12.20:054][  0]LogInit: Computer: AARONS
+[2015.12.03-00.12.20:054][  0]LogInit: User: Aaron
+[2015.12.03-00.12.20:054][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.03-00.12.20:054][  0]LogInit: High frequency timer resolution =1.949470 MHz
+[2015.12.03-00.12.20:054][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2015.12.03-00.12.20:054][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.03-00.12.20:054][  0]LogMemory: Process Physical Memory: 53.03 MB used, 53.03 MB peak
+[2015.12.03-00.12.20:054][  0]LogMemory: Process Virtual Memory: 55.14 MB used, 55.14 MB peak
+[2015.12.03-00.12.20:054][  0]LogMemory: Physical Memory: 3185.98 MB used, 7643.95 MB total
+[2015.12.03-00.12.20:054][  0]LogMemory: Virtual Memory: 345.73 MB used, 134217728.00 MB total
+[2015.12.03-00.12.20:134][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.03-00.12.23:659][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8400 (Feature Level 11_0)
+[2015.12.03-00.12.23:659][  0]LogD3D11RHI: Adapter has 493MB of dedicated video memory, 0MB of dedicated system memory, and 3584MB of shared system memory, 1 output[s]
+[2015.12.03-00.12.23:662][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.03-00.12.23:662][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.03-00.12.23:662][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.03-00.12.23:672][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.03-00.12.23:672][  0]LogRHI: Texture pool is 345 MB (70% of 493 MB)
+[2015.12.03-00.12.23:683][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.03-00.12.23:701][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/WorkingDirectory/20312/).
+[2015.12.03-00.12.23:701][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/tmp/E7743C5640793ADDE329D69CB4E44702/'.
+[2015.12.03-00.12.23:701][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.03-00.12.29:464][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.03-00.12.29:482][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.03-00.12.29:500][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.03-00.12.29:519][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.03-00.12.29:536][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.03-00.12.29:569][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.03-00.12.29:583][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.03-00.12.29:597][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.03-00.12.29:610][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.03-00.12.29:624][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.03-00.12.29:638][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.03-00.12.29:653][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.03-00.12.29:655][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.03-00.12.29:742][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.03-00.12.29:768][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.03-00.12.29:780][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.03-00.12.29:799][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.03-00.12.29:799][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.03-00.12.30:267][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.03-00.12.30:957][  0]LogDerivedDataCache: Loaded boot cache 0.69s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.03-00.12.30:958][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.03-00.12.30:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.03-00.12.30:958][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.03-00.12.30:958][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.03-00.12.30:958][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.03-00.12.31:792][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.03-00.12.31:806][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.03-00.12.33:744][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.03-00.12.33:792][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.03-00.12.34:306][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.03-00.12.34:306][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.03-00.12.35:475][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.03-00.12.47:898][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.03-00.12.48:532][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.12.03-00.12.49:258][  0]SourceControl: Info Source control is disabled
+[2015.12.03-00.12.50:641][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.03-00.12.50:941][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.03-00.12.50:941][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.12.03-00.12.51:248][  0]LogEngine: Initializing Engine...
+[2015.12.03-00.12.51:267][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.03-00.12.51:291][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.03-00.12.51:737][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.03-00.12.51:746][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.12.52:039][  0]LogInit: FAudioDevice initialized.
+[2015.12.03-00.12.52:107][  0]LogDerivedDataCache: Saved boot cache 0.07s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.03-00.12.52:130][  0]LogInit: Texture streaming: Enabled
+[2015.12.03-00.12.52:146][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.03-00.12.52:146][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.03-00.12.52:146][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b2676186470d39d8323ee88c5ad92509|4cc6989648b04f0180853fecfbe4390e|54533a2c-70f4-4e67-8a5f-67ff95564374
+[2015.12.03-00.12.52:147][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.03-00.12.52:213][  0]LogInit: Transaction tracking system initialized
+[2015.12.03-00.12.52:390][  0]BlueprintLog: New page: Editor Load
+[2015.12.03-00.12.53:048][  0]LocalizationService: Info Localization service is disabled
+[2015.12.03-00.12.54:322][  0]LogConsoleResponse:Display: 
+[2015.12.03-00.12.55:433][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.03-00.12.55:820][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/' took 0.03s
+[2015.12.03-00.12.55:853][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.03-00.12.55:942][  0]LightingResults: New page: Lighting Build
+[2015.12.03-00.12.55:981][  0]MapCheck: New page: Map Check
+[2015.12.03-00.12.55:982][  0]LightingResults: New page: Lighting Build
+[2015.12.03-00.12.56:022][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819D2C6160
+[2015.12.03-00.13.07:558][  0]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.13.12:265][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.03-00.13.12:280][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.03-00.13.12:522][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 242.097ms to complete.
+[2015.12.03-00.13.12:523][  0]LogFileHelpers: Loading map 'Town' took 16.670
+[2015.12.03-00.13.12:930][  0]LogCollectionManager: Loaded 0 collections in 0.009299 seconds
+[2015.12.03-00.13.13:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Collections/' took 0.02s
+[2015.12.03-00.13.13:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Developers/Aaron/Collections/' took 0.01s
+[2015.12.03-00.13.13:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Collections/' took 0.01s
+[2015.12.03-00.13.13:012][  0]LogContentBrowser: Native class hierarchy populated in 0.0296 seconds. Added 1867 classes and 333 folders.
+[2015.12.03-00.13.13:025][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.12.03-00.13.13:050][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.12.03-00.13.14:470][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.03-00.13.14:483][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.12.03-00.13.14:988][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.03-00.13.14:999][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.03-00.13.15:051][  0]LogLoad: Full Startup: 57.51 seconds (BP compile: 2.06 seconds)
+[2015.12.03-00.13.15:589][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.03-00.13.15:985][  0]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:2).
+[2015.12.03-00.13.16:364][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.03-00.13.18:279][ 15]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.13.18:279][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.13.18:566][ 15]PIE: New page: PIE session: Town (Dec 2, 2015, 8:13:18 AM)
+[2015.12.03-00.13.18:566][ 15]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.13.19:173][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.606324s)
+[2015.12.03-00.13.19:175][ 15]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.13.19:175][ 15]LogPlayLevel: PIE: World Init took: (0.002349s)
+[2015.12.03-00.13.19:176][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.609627s)
+[2015.12.03-00.13.19:380][ 15]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.13.19:405][ 15]LogInit: FAudioDevice initialized.
+[2015.12.03-00.13.21:059][ 15]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.13.21:203][ 15]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.13.21:203][ 15]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.13.21
+[2015.12.03-00.13.21:204][ 15]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.13.21:204][ 15]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.13.21:216][ 15]LogWorld: Bringing up level for play took: 0.120177
+[2015.12.03-00.13.21:567][ 15]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 3.805
+[2015.12.03-00.13.21:567][ 15]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.13.21:572][ 15]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.21:573][ 15]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.21:573][ 15]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.22:383][ 20]LogAssetRegistry: Asset discovery search completed in 33.8624 seconds
+[2015.12.03-00.13.22:384][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2015.12.03-00.13.22:384][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000103 seconds (updated 0 objects)
+[2015.12.03-00.13.27:382][163]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.27:778][175]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.13.28:578][198]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.28:890][207]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.30:559][258]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.13.33:513][347]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.36:001][427]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.36:001][427]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.36:217][434]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.13.37:400][472]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.13.38:335][503]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.13.40:918][580]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.42:859][639]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.46:076][740]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.03-00.13.46:673][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.13.46:771][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.13.46:833][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A8482C00
+[2015.12.03-00.14.30:900][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.14.30:900][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.14.30:900][978]PIE: New page: PIE session: Town (Dec 2, 2015, 8:14:30 AM)
+[2015.12.03-00.14.30:900][978]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.14.31:047][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146850s)
+[2015.12.03-00.14.31:049][978]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.14.31:050][978]LogPlayLevel: PIE: World Init took: (0.002385s)
+[2015.12.03-00.14.31:050][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.149980s)
+[2015.12.03-00.14.31:104][978]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.14.31:128][978]LogInit: FAudioDevice initialized.
+[2015.12.03-00.14.31:188][978]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.14.31:301][978]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.14.31:301][978]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.14.31
+[2015.12.03-00.14.31:301][978]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.14.31:302][978]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.14.31:312][978]LogWorld: Bringing up level for play took: 0.115306
+[2015.12.03-00.14.31:325][978]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.437
+[2015.12.03-00.14.31:325][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.14.31:328][978]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.31:329][978]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.31:330][978]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.33:821][ 50]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.36:524][130]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.37:170][149]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.37:447][157]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.37:966][172]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.44:245][367]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.44:853][387]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.45:360][403]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.48:669][513]Cmd: STAT FPS
+[2015.12.03-00.14.51:175][570]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.51:912][593]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.54:904][685]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.55:677][709]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.57:679][775]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.14.58:783][813]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.59:767][845]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.14.59:830][847]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.15.01:044][885]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.15.02:749][936]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.15.02:821][938]LogBlueprintUserMessages: [ConeTrace_C_1] SEEN
+[2015.12.03-00.15.02:857][939]LogBlueprintUserMessages: [FindTargets_C_1] Hellwfwfwo
+[2015.12.03-00.15.02:930][941]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.03:072][945]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.03:758][965]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.04:146][976]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.04:585][989]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.05:306][ 10]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.05:373][ 12]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.05:647][ 20]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.05:682][ 21]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.15.05:682][ 21]LogBlueprintUserMessages: [Ai_Character_C_5] iamhurt
+[2015.12.03-00.15.05:925][ 28]LogBlueprintUserMessages: [WeaponTrace_C_1] Hello
+[2015.12.03-00.15.05:956][ 29]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.15.05:956][ 29]LogBlueprintUserMessages: [Ai_Character_C_5] iamhurt
+[2015.12.03-00.15.06:165][ 35]LogBlueprintUserMessages: [Ai_Character_C_5] Hello
+[2015.12.03-00.15.06:806][ 54]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.15.11:050][179]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.15.13:535][250]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.12.03-00.15.13:914][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.15.13:975][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.15.14:033][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000819F534720
+[2015.12.03-00.15.21:846][434]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rock_12)
+[2015.12.03-00.15.44:160][948]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.15.44:935][948]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.15.44:963][948]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.15.45:036][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.12.03-00.15.45:071][948]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.12.03-00.15.59:825][301]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.15.59:855][301]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.15.59:900][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.12.03-00.16.00:670][331]LogMaterialEditor: Applying material Rock_01_Mat
+[2015.12.03-00.16.04:082][331]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.16.04:173][331]LogMaterial: 0.000632 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.16.04:281][331]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.16.04:445][331]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.16.04:508][331]LogMaterial: 0.009770 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.16.25:447][394]MaterialEditorStats: Info Base pass shader with static lighting: 98 instructions
+[2015.12.03-00.16.25:447][394]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.12.03-00.16.25:447][394]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.16.25:447][394]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.12.03-00.17.05:442][575]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.17.07:597][622]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.17.07:777][622]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky Sphere mesh)
+[2015.12.03-00.17.08:448][631]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rock_12)
+[2015.12.03-00.17.20:975][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_4)
+[2015.12.03-00.17.21:538][883]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Rock_3)
+[2015.12.03-00.17.22:767][903]Cmd: DELETE
+[2015.12.03-00.17.22:767][903]Cmd: ACTOR DELETE
+[2015.12.03-00.17.22:812][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.17.22:818][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.17.22:876][903]LogEditorActor: Deleted 2 Actors (0.071 secs)
+[2015.12.03-00.17.41:847][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_12)
+[2015.12.03-00.17.42:308][328]Cmd: DELETE
+[2015.12.03-00.17.42:308][328]Cmd: ACTOR DELETE
+[2015.12.03-00.17.42:312][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.17.42:370][328]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2015.12.03-00.17.50:415][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_13)
+[2015.12.03-00.18.02:493][725]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.12.03-00.18.10:927][890]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.18.11:619][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_10)
+[2015.12.03-00.18.27:065][208]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.12.03-00.18.27:419][212]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.18.27:778][218]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rock_10)
+[2015.12.03-00.18.28:164][221]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rock_11)
+[2015.12.03-00.18.28:538][225]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Rock_11)
+[2015.12.03-00.18.29:286][238]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.18.35:095][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.18.36:573][341]LogSavePackage: Save=1320.020874ms
+[2015.12.03-00.18.36:573][341]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town9C9C6F8449553A740D0A6FBFFB02B3FD.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.18.36:588][341]LogSavePackage: Total save time: 1439.933933ms
+[2015.12.03-00.18.36:588][341]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.18.36:848][341]LogFileHelpers: Saving map 'Town' took 1.975
+[2015.12.03-00.18.37:027][341]LogSavePackage: Save=34.352413ms
+[2015.12.03-00.18.37:027][341]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Rock_01_MatB1B2871F4E915B3C4D616C97CF2A6FB7.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Rock/Rock_01_Mat.uasset'
+[2015.12.03-00.18.37:035][341]LogSavePackage: Total save time: 78.753710ms
+[2015.12.03-00.18.37:035][341]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Rock/Rock_01_Mat.uasset
+[2015.12.03-00.19.13:102][708]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.13:474][708]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.13:501][708]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.13:533][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.12.03-00.19.13:560][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.12.03-00.19.13:572][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.12.03-00.19.26:427][975]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.26:453][975]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.26:490][975]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.26:519][975]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.26:560][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.12.03-00.19.28:271][ 26]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.28:301][ 26]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.28:350][ 26]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.12.03-00.19.29:744][ 68]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.29:774][ 68]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.29:810][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.12.03-00.19.33:306][167]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.33:334][167]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.33:363][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.12.03-00.19.36:056][249]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.36:082][249]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.36:998][276]LogMaterialEditor: Applying material Floor_02
+[2015.12.03-00.19.40:351][276]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.40:431][276]LogMaterial: 0.000676 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.40:490][276]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.40:583][276]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.19.40:631][276]LogMaterial: 0.008453 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.19.58:580][392]LogSavePackage: Save=38.615112ms
+[2015.12.03-00.19.58:580][392]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Floor_025B3D679A48189BB15B37F4B3AA17EA94.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Metal/Floors/Floor_02.uasset'
+[2015.12.03-00.19.58:666][392]LogSavePackage: Total save time: 161.434647ms
+[2015.12.03-00.19.58:667][392]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Metal/Floors/Floor_02.uasset
+[2015.12.03-00.19.58:689][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2015.12.03-00.19.58:689][392]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.19.58:689][392]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.12.03-00.20.24:215][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloth3)
+[2015.12.03-00.20.25:805][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloth3)
+[2015.12.03-00.20.26:807][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloth3)
+[2015.12.03-00.20.27:230][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cloth3)
+[2015.12.03-00.20.27:942][ 25]LogEditorViewport: Clicking on Actor (LMB): Metal_Sheet_01_Editable_C (Metal_Sheet_01_Editable19)
+[2015.12.03-00.20.45:208][331]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.12.03-00.20.47:637][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Rock_5)
+[2015.12.03-00.20.56:066][506]Cmd: DELETE
+[2015.12.03-00.20.56:066][506]Cmd: ACTOR DELETE
+[2015.12.03-00.20.56:070][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:072][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:073][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:075][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:077][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:079][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:081][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:082][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:084][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:085][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:087][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:089][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:091][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:093][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:096][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:098][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:100][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:103][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:105][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:107][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:109][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:110][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:111][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:113][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:114][506]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.12.03-00.20.56:179][506]LogEditorActor: Deleted 25 Actors (0.112 secs)
+[2015.12.03-00.20.57:703][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.20.59:008][527]LogSavePackage: Save=1221.441772ms
+[2015.12.03-00.20.59:008][527]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town999B15ED455EFE0E37CD4895D575E1FF.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.20.59:018][527]LogSavePackage: Total save time: 1258.960124ms
+[2015.12.03-00.20.59:018][527]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.20.59:266][527]LogFileHelpers: Saving map 'Town' took 1.825
+[2015.12.03-00.21.35:087][734]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.12.03-00.21.41:437][823]Cmd: TRANSACTION UNDO
+[2015.12.03-00.21.41:461][823]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.21.41:763][823]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.21.41:835][823]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.21.41:870][823]LogMaterial: 0.000259 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.21.41:936][823]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.21.41:978][823]LogMaterial: 0.008894 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.22.00:484][121]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.22.00:484][121]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.22.00:484][121]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.22.00:484][121]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.22.08:242][184]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.22.08:242][184]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.22.08:242][184]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.22.38:497][332]Cmd: TRANSACTION UNDO
+[2015.12.03-00.22.38:497][332]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.22.38:702][332]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.22.38:733][332]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.22.38:763][332]LogMaterial: 0.000204 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.22.38:796][332]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.22.38:825][332]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.22.55:326][600]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.22.55:467][600]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.23.01:471][729]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.23.01:471][729]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.23.01:471][729]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.23.01:471][729]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.23.07:127][839]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.07:127][839]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.23.07:210][839]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.07:242][839]LogMaterial: 0.000214 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.07:261][839]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.07:289][839]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.07:815][848]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.07:815][848]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.23.07:847][848]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.23.07:882][848]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.07:912][848]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.07:924][848]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.07:952][848]LogMaterial: 0.000241 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.08:544][860]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.08:545][860]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.23.08:673][860]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.12.03-00.23.08:830][860]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.23.08:841][860]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.08:887][860]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.08:903][860]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.08:930][860]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.09:513][871]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.09:513][871]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.23.09:819][871]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.23.09:875][871]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.09:905][871]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.09:915][871]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.09:945][871]LogMaterial: 0.000200 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.20:514][ 63]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.20:514][ 63]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.23.20:843][ 63]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.23.20:869][ 63]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.20:901][ 63]LogMaterial: 0.000601 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.20:930][ 63]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.20:960][ 63]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.34:581][328]Cmd: TRANSACTION UNDO
+[2015.12.03-00.23.34:582][328]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.23.34:750][328]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.23.34:777][328]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.23.34:806][328]LogMaterial: 0.000312 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.34:848][328]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.23.34:879][328]LogMaterial: 0.000653 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.23.48:309][589]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.24.00:250][810]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.12.03-00.24.00:388][810]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.24.21:110][218]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.24.21:110][218]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.24.21:110][218]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.24.21:110][218]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.24.35:259][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.24.35:259][470]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.24.35:259][470]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.24.51:336][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.24.51:622][769]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.12.03-00.24.51:755][769]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.12.03-00.24.51:827][769]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.12.03-00.24.51:912][769]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.12.03-00.24.53:286][769]LogSavePackage: Save=1832.227173ms
+[2015.12.03-00.24.53:286][769]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town4C7205D943E849A8F7A978BAC24948D7.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.24.53:295][769]LogSavePackage: Total save time: 1899.692737ms
+[2015.12.03-00.24.53:295][769]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.24.53:535][769]LogFileHelpers: Saving map 'Town' took 2.472
+[2015.12.03-00.24.58:720][859]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.25.18:002][297]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.25.18:059][297]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.25.23:088][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.25.23:088][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.25.23:088][406]PIE: New page: PIE session: Town (Dec 2, 2015, 8:25:23 AM)
+[2015.12.03-00.25.23:088][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.25.23:229][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140661s)
+[2015.12.03-00.25.23:231][406]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.25.23:231][406]LogPlayLevel: PIE: World Init took: (0.002216s)
+[2015.12.03-00.25.23:232][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.143626s)
+[2015.12.03-00.25.23:292][406]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.25.23:317][406]LogInit: FAudioDevice initialized.
+[2015.12.03-00.25.23:383][406]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.25.23:495][406]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.25.23:495][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.25.23
+[2015.12.03-00.25.23:495][406]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.25.23:496][406]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.25.23:510][406]LogWorld: Bringing up level for play took: 0.117721
+[2015.12.03-00.25.23:523][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.239
+[2015.12.03-00.25.23:524][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.25.23:527][406]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.23:530][406]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.23:531][406]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.29:548][562]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.30:197][579]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.30:804][595]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.12.03-00.25.35:990][734]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.25.36:047][734]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.25.36:113][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BBC5D260
+[2015.12.03-00.25.36:740][750]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.25.36:993][751]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.26.00:102][156]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.00:373][157]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.03:528][223]Cmd: TRANSACTION UNDO
+[2015.12.03-00.26.03:528][223]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.26.03:608][223]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.26.03:637][223]LogMaterial: 0.000250 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.03:659][223]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.26.03:696][223]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.04:390][232]Cmd: TRANSACTION UNDO
+[2015.12.03-00.26.04:390][232]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.26.04:443][232]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.26.04:475][232]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.04:526][232]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.26.04:556][232]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.05:189][248]Cmd: TRANSACTION UNDO
+[2015.12.03-00.26.05:190][248]LogEditorTransaction: Undo Move Actors
+[2015.12.03-00.26.05:308][248]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.26.05:340][248]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.05:350][248]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.26.05:378][248]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.06:455][273]Cmd: TRANSACTION UNDO
+[2015.12.03-00.26.06:455][273]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.26.06:771][273]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.12.03-00.26.06:813][273]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.12.03-00.26.06:938][273]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.12.03-00.26.07:016][273]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.12.03-00.26.07:273][273]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.26.07:304][273]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.07:324][273]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.26.07:351][273]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.26.18:526][442]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.26:551][560]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.27:346][570]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.30:029][611]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.26.30:029][611]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.26.30:029][611]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.26.30:029][611]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.26.32:633][643]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.34:164][662]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.44:798][799]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.47:484][833]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.26.47:484][833]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.26.47:484][833]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.26.49:977][862]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.51:731][888]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.26.59:688][ 21]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.27.21:004][394]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.27.40:291][781]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.27.50:169][958]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.27.50:298][958]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.27.56:721][ 75]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.12.03-00.28.20:178][485]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.28.27:307][600]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.12.03-00.28.28:618][619]Cmd: DELETE
+[2015.12.03-00.28.28:618][619]Cmd: ACTOR DELETE
+[2015.12.03-00.28.28:621][619]LogEditorActor: Deleted Actor: Landscape
+[2015.12.03-00.28.28:740][619]LogEditorActor: Deleted 1 Actors (0.122 secs)
+[2015.12.03-00.28.28:774][620]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.28.30:155][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.28.30:398][646]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.12.03-00.28.30:488][646]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.12.03-00.28.30:525][646]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.12.03-00.28.30:620][646]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.12.03-00.28.31:451][646]LogSavePackage: Save=1212.010498ms
+[2015.12.03-00.28.31:451][646]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/TownDA3C93A0409392201DC64CAD8755C9EB.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.28.31:463][646]LogSavePackage: Total save time: 1251.444753ms
+[2015.12.03-00.28.31:463][646]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.28.31:718][646]LogFileHelpers: Saving map 'Town' took 1.829
+[2015.12.03-00.28.47:970][ 26]LogUnrealMath: Expression Error : No value recognized
+[2015.12.03-00.28.47:970][ 26]LogUnrealMath: Expression Error : Error in expression
+[2015.12.03-00.29.04:278][410]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.29.04:496][411]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.29.05:178][427]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.12.03-00.29.07:303][453]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.12.03-00.29.16:322][624]Cmd: TRANSACTION UNDO
+[2015.12.03-00.29.16:322][624]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.29.16:489][624]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.29.16:518][624]LogMaterial: 0.000196 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.16:543][624]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.29.16:578][624]LogMaterial: 0.000676 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.19:146][667]Cmd: TRANSACTION UNDO
+[2015.12.03-00.29.19:146][667]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.29.19:232][667]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.29.19:425][667]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.29.19:457][667]LogMaterial: 0.000381 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.19:467][667]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.29.19:495][667]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.20:897][691]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Cloth3)
+[2015.12.03-00.29.22:626][723]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.12.03-00.29.25:733][775]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.12.03-00.29.48:655][222]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.29.48:655][222]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.29.48:655][222]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.29.48:655][222]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.29.56:174][365]Cmd: TRANSACTION UNDO
+[2015.12.03-00.29.56:175][365]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.29.56:220][365]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.29.56:369][365]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.29.56:403][365]LogMaterial: 0.000892 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.56:415][365]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.29.56:443][365]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.58:268][398]Cmd: TRANSACTION UNDO
+[2015.12.03-00.29.58:268][398]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.29.58:493][398]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.29.58:524][398]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.58:559][398]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.29.58:587][398]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.29.59:347][412]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2015.12.03-00.30.00:618][430]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.00:618][430]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.00:661][430]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.00:794][430]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.00:824][430]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.00:835][430]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.00:862][430]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.04:565][489]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.04:565][489]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.04:761][489]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.04:792][489]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.04:803][489]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.04:830][489]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.05:084][493]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.05:084][493]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2015.12.03-00.30.05:190][493]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.05:220][493]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.05:229][493]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.05:255][493]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.05:887][505]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.05:888][505]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.06:082][505]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.06:115][505]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.06:139][505]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.06:169][505]LogMaterial: 0.000602 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.06:672][515]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.06:672][515]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.06:793][515]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.06:986][515]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.07:018][515]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.07:041][515]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.07:069][515]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.07:606][526]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.07:606][526]LogEditorTransaction: Undo Edit Tool Strength
+[2015.12.03-00.30.07:757][526]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.07:787][526]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.07:829][526]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.07:857][526]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.08:339][536]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.08:339][536]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.08:420][536]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.08:633][536]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.08:664][536]LogMaterial: 0.000119 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.08:681][536]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.08:709][536]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.09:241][547]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.09:241][547]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.09:354][547]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.09:518][547]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.09:549][547]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.09:558][547]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.09:585][547]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.10:245][560]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.10:245][560]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.10:358][560]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.10:569][560]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.10:597][560]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.10:620][560]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.10:648][560]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.11:167][571]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.11:168][571]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.30.11:243][571]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.11:274][571]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.11:285][571]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.11:313][571]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.12:200][588]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.12:200][588]LogEditorTransaction: Undo Select Surfaces
+[2015.12.03-00.30.12:303][588]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.12:334][588]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.12:345][588]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.12:372][588]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.12:984][600]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.12:984][600]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.30.13:048][600]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.13:078][600]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.13:106][600]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.13:132][600]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.14:186][620]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.14:186][620]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.14:269][620]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.14:401][620]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.14:439][620]LogMaterial: 0.000209 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.14:449][620]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.14:476][620]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.14:752][626]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.14:752][626]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.14:830][626]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.14:934][626]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.14:974][626]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.14:993][626]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.15:025][626]LogMaterial: 0.003692 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.17:293][661]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.12.03-00.30.29:015][890]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.29:015][890]LogEditorTransaction: Undo Move Actors
+[2015.12.03-00.30.29:198][890]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.29:234][890]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.29:256][890]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.29:283][890]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.29:406][891]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.30.29:501][892]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.29:501][892]LogEditorTransaction: Undo Clicking on Actors
+[2015.12.03-00.30.29:547][892]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.29:577][892]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.29:587][892]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.29:614][892]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.30:227][906]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.30:227][906]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2015.12.03-00.30.30:360][906]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.30:391][906]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.30:401][906]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.30:429][906]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.30:812][914]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.30:812][914]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.30:919][914]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.30.31:053][914]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.31:084][914]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.31:094][914]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.31:127][914]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.31:606][925]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.31:606][925]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.31:753][925]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.31:786][925]LogMaterial: 0.000436 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.31:795][925]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.31:823][925]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.32:331][935]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.32:331][935]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.30.32:449][935]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.32:479][935]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.32:506][935]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.32:534][935]LogMaterial: 0.000584 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.33:803][962]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.33:803][962]LogEditorTransaction: Undo Edit Brush Size
+[2015.12.03-00.30.33:896][962]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.33:926][962]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.33:936][962]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.33:963][962]LogMaterial: 0.000212 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.34:495][974]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.34:495][974]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.30.34:618][974]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.34:650][974]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.34:672][974]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.34:700][974]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.35:147][984]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.35:147][984]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.30.35:196][984]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.35:227][984]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.35:240][984]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.35:269][984]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.36:422][  9]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.12.03-00.30.39:049][ 59]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.12.03-00.30.41:582][107]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.30.42:628][124]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.30.47:050][218]Cmd: TRANSACTION UNDO
+[2015.12.03-00.30.47:050][218]LogEditorTransaction: Undo Move Actors
+[2015.12.03-00.30.47:100][218]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.30.47:133][218]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.47:143][218]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.30.47:179][218]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.30.47:680][228]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.12.03-00.30.57:387][427]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.31.03:649][565]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.31.03:649][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.31.03:649][565]PIE: New page: PIE session: Town (Dec 2, 2015, 8:31:03 AM)
+[2015.12.03-00.31.03:649][565]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.31.03:762][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113045s)
+[2015.12.03-00.31.03:764][565]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.31.03:765][565]LogPlayLevel: PIE: World Init took: (0.002139s)
+[2015.12.03-00.31.03:765][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.115752s)
+[2015.12.03-00.31.03:870][565]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.31.03:897][565]LogInit: FAudioDevice initialized.
+[2015.12.03-00.31.03:958][565]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.31.04:095][565]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.31.04:095][565]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.31.04
+[2015.12.03-00.31.04:096][565]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.31.04:096][565]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.31.04:108][565]LogWorld: Bringing up level for play took: 0.136921
+[2015.12.03-00.31.04:122][565]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.36
+[2015.12.03-00.31.04:122][565]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.31.04:125][565]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.04:125][565]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.04:126][565]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.04:173][566]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.31.09:942][749]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.10:088][754]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.10:371][763]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.12:101][819]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.31.16:124][954]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.17:765][  7]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.18:899][ 44]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.23:789][204]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.23:979][210]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.31.24:451][226]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.24:763][236]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.31.26:700][299]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.31.29:088][378]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.31:297][451]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.31:697][464]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.12.03-00.31.34:020][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.31.34:105][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.31.34:175][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BD93F1A0
+[2015.12.03-00.31.47:727][876]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.31.47:727][876]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.31.47:727][876]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.31.47:727][876]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.31.49:073][901]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.12.03-00.31.49:710][912]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2015.12.03-00.31.59:545][145]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.31.59:546][145]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.31.59:546][145]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.32.12:363][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.32.12:363][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.32.12:363][459]PIE: New page: PIE session: Town (Dec 2, 2015, 8:32:12 AM)
+[2015.12.03-00.32.12:363][459]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.32.12:476][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112691s)
+[2015.12.03-00.32.12:478][459]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.32.12:479][459]LogPlayLevel: PIE: World Init took: (0.002616s)
+[2015.12.03-00.32.12:479][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.115954s)
+[2015.12.03-00.32.12:548][459]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.32.12:574][459]LogInit: FAudioDevice initialized.
+[2015.12.03-00.32.12:632][459]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.32.12:737][459]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.32.12:737][459]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.32.12
+[2015.12.03-00.32.12:737][459]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.32.12:738][459]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.32.12:749][459]LogWorld: Bringing up level for play took: 0.107793
+[2015.12.03-00.32.12:761][459]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.999
+[2015.12.03-00.32.12:762][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.32.12:764][459]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.12:765][459]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.12:766][459]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.15:232][520]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.17:689][588]LogBlueprintUserMessages: [Door_01_174] yo
+[2015.12.03-00.32.17:691][588]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.17:773][590]LogBlueprintUserMessages: [Door_01_174] yo
+[2015.12.03-00.32.17:849][592]LogBlueprintUserMessages: [Door_01_174] yo
+[2015.12.03-00.32.18:379][607]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.18:875][620]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.19:480][636]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.19:631][640]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.22:335][711]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.24:572][770]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.25:447][793]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.32.25:447][793]LogBlueprintUserMessages: [Ai_Character_C_5] iamhurt
+[2015.12.03-00.32.25:868][804]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.32.25:868][804]LogBlueprintUserMessages: [Ai_Character_C_5] iamhurt
+[2015.12.03-00.32.25:907][805]LogBlueprintUserMessages: [Ai_Character_C_5] Hello
+[2015.12.03-00.32.25:909][805]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.12.03-00.32.29:030][887]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.32.29:030][887]LogBlueprintUserMessages: [Ai_Character_C_3] iamhurt
+[2015.12.03-00.32.29:506][899]LogBlueprintUserMessages: [Ai_Character_C_3] Hello
+[2015.12.03-00.32.31:755][959]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.32.31:755][959]LogBlueprintUserMessages: [Ai_Character_C_4] iamhurt
+[2015.12.03-00.32.32:100][968]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.03-00.32.32:100][968]LogBlueprintUserMessages: [Ai_Character_C_4] iamhurt
+[2015.12.03-00.32.32:250][972]LogBlueprintUserMessages: [Ai_Character_C_4] Hello
+[2015.12.03-00.32.34:357][ 30]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.38:075][136]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.41:756][240]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.42:664][266]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.43:518][289]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.32.52:763][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.32.52:860][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.32.53:018][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BC9EE2A0
+[2015.12.03-00.32.56:558][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.32.59:741][621]LogSavePackage: Save=3066.814453ms
+[2015.12.03-00.32.59:741][621]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town3CCFEAFB4DD25CC87A4B10ABBEB2B9B5.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.32.59:756][621]LogSavePackage: Total save time: 3140.861876ms
+[2015.12.03-00.32.59:756][621]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.33.00:013][621]LogFileHelpers: Saving map 'Town' took 3.731
+[2015.12.03-00.33.05:731][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2015.12.03-00.34.16:854][940]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.16:854][940]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.16:996][940]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.17:109][940]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.17:135][940]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.17:165][940]LogMaterial: 0.000199 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:190][940]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.17:218][940]LogMaterial: 0.000245 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:227][940]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.17:227][940]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.17:358][940]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.17:478][940]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.17:505][940]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.17:537][940]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:579][940]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.17:608][940]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:611][940]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.17:611][940]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.17:740][940]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.17:870][940]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.17:907][940]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.17:937][940]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:947][940]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.17:977][940]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.17:979][940]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.17:979][940]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.18:075][940]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.18:201][940]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.18:236][940]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.18:271][940]LogMaterial: 0.000105 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.18:281][940]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.18:310][940]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.18:312][940]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.18:312][940]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.18:420][940]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.18:551][940]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.18:563][940]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.18:595][940]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.18:606][940]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.18:634][940]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.19:668][958]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.19:668][958]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.19:795][958]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.19:918][958]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.19:950][958]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.19:981][958]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.19:992][958]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.20:020][958]LogMaterial: 0.000211 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:022][958]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.20:022][958]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.20:113][958]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.34.20:249][958]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.20:259][958]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.20:300][958]LogMaterial: 0.000611 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:311][958]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.20:338][958]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:341][958]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.20:341][958]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.20:573][958]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.20:584][958]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.20:616][958]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:651][958]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.20:680][958]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:683][958]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.20:683][958]LogEditorTransaction: Undo Edit Tool Strength
+[2015.12.03-00.34.20:717][958]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.20:741][958]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.20:772][958]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.20:782][958]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.20:812][958]LogMaterial: 0.000247 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.32:905][183]Cmd: TRANSACTION UNDO
+[2015.12.03-00.34.32:906][183]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.34.33:057][183]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.34.33:068][183]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.34.33:100][183]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.33:111][183]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.34.33:138][183]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.34.56:271][609]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.34.56:271][609]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.34.56:272][609]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.34.56:272][609]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.35.01:060][700]Cmd: TRANSACTION UNDO
+[2015.12.03-00.35.01:060][700]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.35.01:180][700]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.12.03-00.35.01:293][700]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.35.01:332][700]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.35.01:366][700]LogMaterial: 0.000215 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.35.01:391][700]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.35.01:419][700]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.35.21:420][ 98]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.35.21:420][ 98]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.35.21:421][ 98]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.35.21:421][ 98]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.35.38:056][418]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.35.38:056][418]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.35.38:056][418]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.35.42:590][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.35.42:590][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.35.42:591][512]PIE: New page: PIE session: Town (Dec 2, 2015, 8:35:42 AM)
+[2015.12.03-00.35.42:591][512]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.35.42:703][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111875s)
+[2015.12.03-00.35.42:705][512]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.35.42:705][512]LogPlayLevel: PIE: World Init took: (0.002043s)
+[2015.12.03-00.35.42:705][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.114509s)
+[2015.12.03-00.35.42:793][512]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.35.42:818][512]LogInit: FAudioDevice initialized.
+[2015.12.03-00.35.42:880][512]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.35.42:988][512]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.35.42:988][512]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.35.42
+[2015.12.03-00.35.42:988][512]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.35.42:989][512]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.35.43:001][512]LogWorld: Bringing up level for play took: 0.111575
+[2015.12.03-00.35.43:013][512]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.251
+[2015.12.03-00.35.43:014][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.35.43:017][512]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.43:018][512]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.43:018][512]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.47:840][636]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-00.35.48:041][641]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.48:154][644]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.48:155][644]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.48:445][652]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-00.35.49:027][667]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.49:265][673]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.49:306][674]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.52:438][758]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-00.35.52:784][767]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.52:822][768]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.53:142][776]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.53:695][790]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.53:696][790]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.53:731][791]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.097425 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_5'
+[2015.12.03-00.35.55:320][832]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-00.35.55:895][847]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.55:896][847]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.56:012][850]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.56:712][867]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.56:751][868]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.56:915][872]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.56:953][873]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.050001 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_5'
+[2015.12.03-00.35.57:702][890]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.12.03-00.35.58:118][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.35.58:174][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.35.58:231][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081C1DA68E0
+[2015.12.03-00.36.09:853][127]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:25837).
+[2015.12.03-00.36.09:962][128]LogStaticMesh: Allocated Allocated 365x64x64 distance field atlas = 2.9Mb
+[2015.12.03-00.36.48:659][786]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2015.12.03-00.36.49:796][803]Cmd: DELETE
+[2015.12.03-00.36.49:796][803]Cmd: ACTOR DELETE
+[2015.12.03-00.36.49:799][803]LogEditorActor: Deleted Actor: Landscape
+[2015.12.03-00.36.49:876][803]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2015.12.03-00.36.49:911][804]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.37.13:898][171]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2015.12.03-00.37.13:968][171]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2015.12.03-00.37.14:038][171]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2015.12.03-00.37.14:127][171]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2015.12.03-00.37.14:214][171]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2015.12.03-00.37.14:299][171]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2015.12.03-00.37.14:367][171]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2015.12.03-00.37.14:444][171]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2015.12.03-00.37.14:510][171]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2015.12.03-00.37.14:585][171]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2015.12.03-00.37.14:626][171]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2015.12.03-00.37.14:680][171]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2015.12.03-00.37.14:750][171]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2015.12.03-00.37.14:814][171]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2015.12.03-00.37.14:868][171]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2015.12.03-00.37.14:944][171]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2015.12.03-00.37.16:939][172]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.37.26:586][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.38.56:043][289]LogSavePackage: Save=89356.054688ms
+[2015.12.03-00.38.56:043][289]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town9C0B49C0411563CF26B64CB0BF8833BD.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.38.56:055][289]LogSavePackage: Total save time: 89404.154461ms
+[2015.12.03-00.38.56:055][289]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.38.56:309][289]LogFileHelpers: Saving map 'Town' took 90.010
+[2015.12.03-00.47.38:859][849]LogHttp:Warning: Timeout processing Http request. 00000081AA989700
+[2015.12.03-00.49.40:138][317]LogEditorViewport: Clicking on Actor (context menu): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.12.03-00.49.41:625][337]Cmd: TRANSACTION UNDO
+[2015.12.03-00.49.41:625][337]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.12.03-00.49.41:627][337]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.49.41:696][337]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.49.41:725][337]LogMaterial: 0.000430 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.49.41:736][337]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.49.41:762][337]LogMaterial: 0.000423 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.49.43:030][356]Cmd: TRANSACTION UNDO
+[2015.12.03-00.49.43:031][356]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2015.12.03-00.49.43:246][356]PIE:Warning: Warning AttachTo: '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/Maps/Town.Town:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2015.12.03-00.49.43:257][356]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.49.43:291][356]LogMaterial: 0.000821 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.49.43:304][356]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.49.43:333][356]LogMaterial: 0.000365 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.49.56:716][542]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.49.56:716][542]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.49.56:716][542]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.49.56:716][542]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.50.03:307][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.50.03:307][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.50.03:307][637]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.50.31:010][ 51]Cmd: POLY TEXMULT UU=0.707107 VV=0.707107 UV=-0.707107 VU=0.707107
+[2015.12.03-00.50.31:800][ 59]Cmd: POLY TEXMULT UU=0.707107 VV=0.707107 UV=-0.707107 VU=0.707107
+[2015.12.03-00.50.38:776][142]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.50.49:603][280]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.50.57:808][396]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.50.58:760][410]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.51.01:171][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.51.06:713][437]LogSavePackage: Save=5401.900391ms
+[2015.12.03-00.51.06:713][437]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town552FC51E46A995B6D26DC5B4AED8D131.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.51.06:730][437]LogSavePackage: Total save time: 5494.087622ms
+[2015.12.03-00.51.06:730][437]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.51.06:995][437]LogFileHelpers: Saving map 'Town' took 6.093
+[2015.12.03-00.51.07:041][438]Cmd: UpdateLandscapeEditorData
+[2015.12.03-00.51.51:064][790]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.12.03-00.51.57:348][877]Cmd: TRANSACTION UNDO
+[2015.12.03-00.51.57:348][877]LogEditorTransaction: Undo Brush Add
+[2015.12.03-00.51.57:466][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_48' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:479][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_49' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:483][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_50' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:484][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_51' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:485][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_52' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:522][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_53' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:523][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_54' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:523][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_55' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:524][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_56' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:524][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_57' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:525][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_58' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:525][877]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/Maps/Town.Town:PersistentLevel.ModelComponent_59' invalid (1610 verts, 0 indices).
+[2015.12.03-00.51.57:579][877]LogMaterial: Missing cached shader map for material Rock_01_Mat, compiling. 
+[2015.12.03-00.51.57:627][877]LogMaterial: 0.001030 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.51.57:653][877]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-00.51.57:681][877]LogMaterial: 0.000418 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-00.52.04:903][957]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.12.03-00.52.07:885][  2]MaterialEditorStats: Info Base pass shader with static lighting: 78 instructions
+[2015.12.03-00.52.07:885][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.12.03-00.52.07:885][  2]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.52.07:885][  2]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.12.03-00.52.14:579][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.12.03-00.52.14:580][ 96]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.03-00.52.14:580][ 96]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.12.03-00.52.49:106][587]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.53.23:988][104]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.53.27:502][152]LogEditorViewport: Clicking on Actor (LMB): Metal_Sheet_01_Editable_C (Metal_Sheet_01_Editable2)
+[2015.12.03-00.53.38:515][314]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.53.58:890][607]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.54.00:572][629]LogEditorViewport: Clicking on Actor (LMB): Metal_Sheet_01_Editable_C (Metal_Sheet_01_Editable2)
+[2015.12.03-00.54.10:261][770]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.54.13:141][811]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape2)
+[2015.12.03-00.54.13:749][818]LogEditorViewport: Clicking on Actor (LMB): Metal_Sheet_01_Editable_C (Metal_Sheet_01_Editable2)
+[2015.12.03-00.54.17:077][869]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.54.27:634][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.54.34:593][ 38]LogSavePackage: Save=6859.284668ms
+[2015.12.03-00.54.34:593][ 38]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/TownB76422684DA83477608EFCA2931C9863.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.54.34:611][ 38]LogSavePackage: Total save time: 6913.902752ms
+[2015.12.03-00.54.34:611][ 38]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.54.34:842][ 38]LogFileHelpers: Saving map 'Town' took 7.478
+[2015.12.03-00.54.35:374][ 46]LogEditorViewport: Clicking on Actor (LMB): Metal_Sheet_01_Editable_C (Metal_Sheet_01_Editable2)
+[2015.12.03-00.54.52:315][305]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.54.54:039][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.55.06:601][322]LogSavePackage: Save=12474.113281ms
+[2015.12.03-00.55.06:601][322]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town15DCEC1747CC2A6FD1A0B48957DD74B6.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.55.06:616][322]LogSavePackage: Total save time: 12516.634267ms
+[2015.12.03-00.55.06:617][322]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.55.06:847][322]LogFileHelpers: Saving map 'Town' took 13.076
+[2015.12.03-00.55.17:610][453]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.20:680][488]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.21:596][498]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.23:214][517]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.25:652][544]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.25:939][547]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.26:056][548]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.26:301][551]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.30:780][613]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.31:338][620]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.34:503][663]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.35:087][670]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.35:423][674]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.35:596][676]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.55.38:474][714]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.55.39:143][722]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.55.39:475][726]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.55.40:836][747]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.55.55:683][967]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
+[2015.12.03-00.56.04:669][ 81]Cmd: POLY TEXSCALE  UU=4.000000 VV=4.000000
+[2015.12.03-00.56.05:401][ 89]Cmd: POLY TEXSCALE  UU=4.000000 VV=4.000000
+[2015.12.03-00.56.10:029][145]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.10:581][151]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.10:774][153]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.10:954][155]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.11:198][158]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.11:316][159]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.11:470][161]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.11:651][163]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.11:833][165]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.12:102][168]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.16:360][220]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.17:003][227]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.22:909][304]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.26:489][355]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2015.12.03-00.56.28:389][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.12.03-00.56.31:530][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.56.48:057][418]LogSavePackage: Save=16396.361328ms
+[2015.12.03-00.56.48:064][418]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town8B60E6CF4484CF8C6B372BB9003B0C62.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.56.48:082][418]LogSavePackage: Total save time: 16488.768741ms
+[2015.12.03-00.56.48:082][418]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.56.48:464][418]LogFileHelpers: Saving map 'Town' took 17.199
+[2015.12.03-00.57.15:415][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.57.15:415][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-00.57.15:415][699]PIE: New page: PIE session: Town (Dec 2, 2015, 8:57:15 AM)
+[2015.12.03-00.57.15:415][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-00.57.15:962][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.546069s)
+[2015.12.03-00.57.15:964][699]LogAIModule: Creating AISystem for world Town
+[2015.12.03-00.57.15:965][699]LogPlayLevel: PIE: World Init took: (0.002459s)
+[2015.12.03-00.57.15:965][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.549142s)
+[2015.12.03-00.57.16:041][699]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-00.57.16:075][699]LogInit: FAudioDevice initialized.
+[2015.12.03-00.57.16:135][699]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-00.57.16:715][699]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-00.57.16:715][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-16.57.16
+[2015.12.03-00.57.16:715][699]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.57.16:716][699]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-00.57.16:734][699]LogWorld: Bringing up level for play took: 0.590125
+[2015.12.03-00.57.16:747][699]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.988
+[2015.12.03-00.57.16:747][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.57.16:750][699]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.16:751][699]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.16:752][699]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.21:959][791]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.23:074][813]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.23:722][825]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.29:339][934]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.29:777][942]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.31:990][985]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.36:681][ 83]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.37:247][ 95]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.43:516][224]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.44:215][238]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.44:532][244]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.45:487][264]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.57.46:798][289]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.57.48:544][324]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.57.51:025][374]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.52:534][406]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.56:876][497]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.57.58:944][542]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.00:596][577]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.02:253][613]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.58.03:982][647]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.58.04:392][655]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.05:749][682]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.07:555][717]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.08:542][736]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.58.11:743][797]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-00.58.12:710][815]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.12.03-00.58.14:286][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.58.14:449][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-00.58.14:547][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081DD592340
+[2015.12.03-00.58.15:441][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-00.58.37:363][851]LogSavePackage: Save=21819.615234ms
+[2015.12.03-00.58.37:363][851]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/TownF6552AFA4DF64FFB2B5304BB5A631F2B.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-00.58.37:388][851]LogSavePackage: Total save time: 21882.132065ms
+[2015.12.03-00.58.37:388][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-00.58.37:629][851]LogFileHelpers: Saving map 'Town' took 22.468
+[2015.12.03-01.02.11:044][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-01.02.33:892][655]LogSavePackage: Save=22713.167969ms
+[2015.12.03-01.02.33:892][655]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town0BD5B19A40B8B574B8DF8C9A7F5E3F8D.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-01.02.33:925][655]LogSavePackage: Total save time: 22820.554305ms
+[2015.12.03-01.02.33:925][655]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-01.02.34:163][655]LogFileHelpers: Saving map 'Town' took 23.382
+[2015.12.03-01.04.42:612][ 74]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.12.03-01.04.44:064][ 92]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road01)
+[2015.12.03-01.04.45:122][103]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Building_2)
+[2015.12.03-01.04.46:028][113]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.12.03-01.04.47:753][135]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape2)
+[2015.12.03-01.05.09:125][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-01.05.36:166][357]LogSavePackage: Save=26944.703125ms
+[2015.12.03-01.05.36:166][357]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town8B44E89C4EE01FF96734AAA9CB9BF355.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-01.05.36:179][357]LogSavePackage: Total save time: 26993.564405ms
+[2015.12.03-01.05.36:179][357]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-01.05.36:415][357]LogFileHelpers: Saving map 'Town' took 27.561
+[2015.12.03-01.08.34:521][999]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:38055).
+[2015.12.03-01.08.38:882][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.08.38:882][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-01.08.38:883][ 26]PIE: New page: PIE session: Town (Dec 2, 2015, 9:08:38 AM)
+[2015.12.03-01.08.38:883][ 26]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-01.08.39:412][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.529085s)
+[2015.12.03-01.08.39:415][ 26]LogAIModule: Creating AISystem for world Town
+[2015.12.03-01.08.39:416][ 26]LogPlayLevel: PIE: World Init took: (0.003658s)
+[2015.12.03-01.08.39:416][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.533431s)
+[2015.12.03-01.08.39:486][ 26]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-01.08.39:511][ 26]LogInit: FAudioDevice initialized.
+[2015.12.03-01.08.39:579][ 26]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-01.08.40:172][ 26]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-01.08.40:172][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-17.08.40
+[2015.12.03-01.08.40:172][ 26]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-01.08.40:173][ 26]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-01.08.40:196][ 26]LogWorld: Bringing up level for play took: 0.594154
+[2015.12.03-01.08.40:210][ 26]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.452
+[2015.12.03-01.08.40:210][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.08.40:214][ 26]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.40:216][ 26]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.40:216][ 26]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.43:432][ 65]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.45:782][ 98]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.45:927][100]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.46:877][113]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.46:878][113]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.48:603][136]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.50:557][162]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.52:345][185]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.54:126][207]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.54:361][210]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.08.55:731][228]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.59:364][278]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.08.59:613][281]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.00:819][296]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.05:162][357]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.08:066][401]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.08:131][402]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.14:069][481]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.15:980][506]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.17:968][533]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.09.19:303][550]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.20:657][568]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.09.21:576][580]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.24:122][613]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.26:643][647]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.27:395][657]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.30:239][697]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.09.31:547][714]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.09.32:028][720]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.35:113][760]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.37:812][796]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.40:303][828]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.41:084][838]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.47:871][929]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.48:392][937]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.51:830][986]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.55:034][ 32]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.55:526][ 38]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.09.59:840][ 97]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.02:751][140]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.04:451][165]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.08:862][228]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.10:552][253]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.10.11:086][261]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.11:769][271]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.12:050][275]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.03-01.10.15:468][323]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.16:604][340]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-01.10.17:447][352]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.17:515][353]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.17:961][359]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.19:137][377]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.03-01.10.19:857][388]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.20:003][390]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.20:667][399]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.21:332][409]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.21:398][410]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.22:525][427]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.22:589][428]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.22:786][431]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.23:812][446]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.24:079][450]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.24:858][462]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.25:045][465]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.25:630][474]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.26:431][485]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.26:496][486]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.27:191][497]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.27:905][508]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.28:311][514]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.28:695][520]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.29:289][529]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.30:262][544]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.30:734][551]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.30:735][551]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.31:742][566]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.31:941][570]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.32:066][572]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.33:022][587]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.33:272][591]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.34:090][604]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.34:287][607]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.34:419][609]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.35:736][629]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.35:796][630]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.36:444][640]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.36:823][646]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.37:197][652]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.37:999][664]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.38:125][666]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.38:399][670]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.38:951][679]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087583 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.39:263][684]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087585 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.39:329][685]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.39:461][687]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087583 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.39:711][691]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087580 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.39:777][692]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.39:845][693]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.39:902][694]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.40:027][696]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087583 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.40:218][699]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087583 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.40:414][702]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.40:701][706]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.40:761][707]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087583 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.41:267][715]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.41:840][724]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.42:088][728]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.42:848][740]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.43:098][744]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.43:592][752]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.43:994][758]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.44:308][763]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.44:437][765]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.44:622][768]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.44:806][771]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.44:991][774]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_7'
+[2015.12.03-01.10.45:548][783]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.45:548][783]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.45:663][785]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.46:669][801]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.47:018][806]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.48:963][839]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.49:247][843]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.12.03-01.10.50:195][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.50:360][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.50:459][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081BED2CFE0
+[2015.12.03-01.10.55:625][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.55:625][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.03-01.10.55:625][895]PIE: New page: PIE session: Town (Dec 2, 2015, 9:10:55 AM)
+[2015.12.03-01.10.55:625][895]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.03-01.10.56:140][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.514838s)
+[2015.12.03-01.10.56:142][895]LogAIModule: Creating AISystem for world Town
+[2015.12.03-01.10.56:143][895]LogPlayLevel: PIE: World Init took: (0.002557s)
+[2015.12.03-01.10.56:143][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.517961s)
+[2015.12.03-01.10.56:210][895]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.03-01.10.56:233][895]LogInit: FAudioDevice initialized.
+[2015.12.03-01.10.56:295][895]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.03-01.10.56:875][895]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.03-01.10.56:875][895]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.12.02-17.10.56
+[2015.12.03-01.10.56:875][895]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-01.10.56:876][895]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.03-01.10.56:895][895]LogWorld: Bringing up level for play took: 0.590532
+[2015.12.03-01.10.56:908][895]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.15
+[2015.12.03-01.10.56:908][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.56:912][895]LogBlueprintUserMessages: [FindTargets_C_8] ImOving
+[2015.12.03-01.10.56:913][895]LogBlueprintUserMessages: [FindTargets_C_8] ImOving
+[2015.12.03-01.10.56:914][895]LogBlueprintUserMessages: [FindTargets_C_8] ImOving
+[2015.12.03-01.10.58:006][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.58:175][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.03-01.10.58:376][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081C61EAC00
+[2015.12.03-01.11.09:917][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-01.11.39:174][ 14]LogSavePackage: Save=29126.210938ms
+[2015.12.03-01.11.39:174][ 14]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town7492E9D24778DBD50D8FC7A1F85B39BB.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-01.11.39:189][ 14]LogSavePackage: Total save time: 29210.993756ms
+[2015.12.03-01.11.39:189][ 14]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-01.11.39:419][ 14]LogFileHelpers: Saving map 'Town' took 29.767
+[2015.12.03-01.12.06:072][176]Cmd: UpdateLandscapeSetup
+[2015.12.03-01.12.17:570][290]MapCheck: New page: Map Check
+[2015.12.03-01.12.17:638][290]Cmd: MAP REBUILD ALLVISIBLE
+[2015.12.03-01.12.17:646][290]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.12.03-01.12.18:583][290]LogEditorServer: Cleared 1 NULL BSP materials after rebuild.
+[2015.12.03-01.12.18:609][290]LightingResults: New page: Lighting Build - Dec 2, 2015, 9:12:18 AM
+[2015.12.03-01.12.43:705][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.12.03-01.12.43:705][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.12.03-01.12.43:705][290]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.12.03-01.12.43:705][290]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.12.03-01.12.43:705][290]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.12.03-01.12.47:129][290]LogEditorBuildUtils: Build time 0:00:29
+[2015.12.03-01.12.48:082][291]Cmd: UpdateLandscapeEditorData
+[2015.12.03-01.12.48:452][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_131, compiling. 
+[2015.12.03-01.12.48:484][293]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_131, compiling. 
+[2015.12.03-01.14.53:036][317]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_02, compiling. 
+[2015.12.03-01.14.53:055][317]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_02, compiling. 
+[2015.12.03-01.14.53:303][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_01, compiling. 
+[2015.12.03-01.14.53:390][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor_01, compiling. 
+[2015.12.03-01.18.57:282][ 43]LogContentStreaming: Texture pool size now 400 MB
+[2015.12.03-01.18.57:645][ 46]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:43119).
+[2015.12.03-01.22.28:449][686]LogSavePackage: Save=62380.382813ms
+[2015.12.03-01.22.28:490][686]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town_Auto15A1742F54F3E78862422AAA7A73CC068.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Autosaves/Game/Maps/Town_Auto1.umap'
+[2015.12.03-01.22.28:541][686]LogSavePackage: Total save time: 64313.197434ms
+[2015.12.03-01.22.28:541][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Autosaves/Game/Maps/Town_Auto1.umap
+[2015.12.03-01.22.28:633][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Town' took 74.627
+[2015.12.03-01.22.28:633][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 74.627
+[2015.12.03-01.24.46:525][125]Job has failed! Job is closed while Tasks are still PENDING
+[2015.12.03-01.25.06:940][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.03-01.26.03:247][315]LogSavePackage: Save=56104.269531ms
+[2015.12.03-01.26.03:247][315]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Town5A17A39945263C507B8252BC7399A08C.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.03-01.26.03:274][315]LogSavePackage: Total save time: 56164.736059ms
+[2015.12.03-01.26.03:274][315]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.03-01.26.03:583][315]LogFileHelpers: Saving map 'Town' took 57.175
+[2015.12.03-01.26.37:243][399]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-01.26.37:346][399]LogMaterial: 0.000789 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-01.26.37:586][399]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-01.26.37:796][399]LogMaterial: Missing cached shader map for material Floor_02, compiling. 
+[2015.12.03-01.26.37:953][399]LogMaterial: 0.024049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.03-01.27.00:498][399]LogSavePackage: Save=133.892807ms
+[2015.12.03-01.27.00:498][399]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Floor_02EB22895F459E676E9C1D008EA7C4ACB2.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Metal/Floors/Floor_02.uasset'
+[2015.12.03-01.27.00:510][399]LogSavePackage: Total save time: 193.938352ms
+[2015.12.03-01.27.00:510][399]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Locations/Desert/Objects/Metal/Floors/Floor_02.uasset
+[2015.12.03-01.27.03:968][400]Cmd: QUIT_EDITOR
+[2015.12.03-01.27.05:919][400]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.03-01.27.06:844][400]LogExit: Preparing to exit.
+[2015.12.03-01.27.09:060][400]LogExit: Editor shut down
+[2015.12.03-01.27.09:062][400]LogExit: Transaction tracking system shut down
+[2015.12.03-01.27.09:218][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A13ABE20
+[2015.12.03-01.27.09:222][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A8724860
+[2015.12.03-01.27.09:223][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A85CDF80
+[2015.12.03-01.27.09:223][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A8725440
+[2015.12.03-01.27.09:223][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A8725300
+[2015.12.03-01.27.09:223][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A8726840
+[2015.12.03-01.27.09:223][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000081A84F22A0
+[2015.12.03-01.27.09:232][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818E9E4540
+[2015.12.03-01.27.09:388][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000818FCDBC40
+[2015.12.03-01.27.12:328][400]LogExit: Object subsystem successfully closed.
+[2015.12.03-01.27.13:237][400]LogD3D11RHI: Shutdown
+[2015.12.03-01.27.13:237][400]LogD3D11RHI: CleanupD3DDevice
+[2015.12.03-01.27.13:342][400]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.03-01.27.16:343][400]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.12.03-01.27.16:343][400]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.03-01.27.16:362][400]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.03-01.27.16:362][400]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.03-01.27.16:380][400]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.03-01.27.16:395][400]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.03-01.27.16:739][400]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.03-01.27.16:739][400]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.03-01.27.16:759][400]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.03-01.27.16:782][400]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.03-01.27.16:782][400]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.03-01.27.16:837][400]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.03-01.27.16:837][400]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.03-01.27.16:837][400]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.03-01.27.16:837][400]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.03-01.27.16:858][400]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.03-01.27.16:859][400]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.03-01.27.16:873][400]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.03-01.27.16:873][400]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.03-01.27.16:873][400]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.03-01.27.16:890][400]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.03-01.27.17:022][400]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.03-01.27.17:080][400]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.03-01.27.17:123][400]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.03-01.27.17:135][400]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.03-01.27.17:147][400]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.03-01.27.17:148][400]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.03-01.27.18:080][400]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.03-01.27.18:081][400]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.03-01.27.18:081][400]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.03-01.27.18:081][400]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.03-01.27.18:110][400]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.03-01.27.18:128][400]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.03-01.27.18:151][400]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.03-01.27.18:151][400]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.03-01.27.18:165][400]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.03-01.27.18:230][400]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.03-01.27.18:230][400]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.03-01.27.18:256][400]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.03-01.27.18:271][400]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.03-01.27.18:278][400]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.03-01.27.18:278][400]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.03-01.27.18:292][400]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.03-01.27.18:292][400]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.03-01.27.18:313][400]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.03-01.27.18:317][400]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.03-01.27.18:368][400]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.03-01.27.18:368][400]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.03-01.27.18:407][400]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.03-01.27.18:433][400]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.03-01.27.18:451][400]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.03-01.27.18:470][400]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.03-01.27.18:470][400]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.03-01.27.18:500][400]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.03-01.27.18:535][400]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.03-01.27.18:565][400]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.03-01.27.18:620][400]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.03-01.27.18:620][400]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.03-01.27.18:627][400]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.03-01.27.18:628][400]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.03-01.27.18:670][400]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.03-01.27.18:721][400]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.03-01.27.18:752][400]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.03-01.27.18:772][400]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.03-01.27.18:772][400]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.03-01.27.18:777][400]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.03-01.27.18:851][400]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.03-01.27.18:851][400]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.03-01.27.18:867][400]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.03-01.27.18:867][400]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.03-01.27.18:884][400]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.03-01.27.18:892][400]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.03-01.27.18:892][400]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.03-01.27.18:892][400]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.03-01.27.18:905][400]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.03-01.27.18:920][400]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.03-01.27.18:920][400]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.03-01.27.19:075][400]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.03-01.27.19:100][400]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.03-01.27.19:117][400]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.03-01.27.19:117][400]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.03-01.27.19:117][400]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.03-01.27.19:117][400]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.03-01.27.19:138][400]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.03-01.27.19:138][400]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.03-01.27.19:265][400]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.03-01.27.19:266][400]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.03-01.27.19:266][400]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.03-01.27.19:266][400]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.03-01.27.19:332][400]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.03-01.27.19:347][400]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.03-01.27.19:347][400]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.03-01.27.19:347][400]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.03-01.27.19:375][400]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.03-01.27.19:399][400]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.03-01.27.19:430][400]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.03-01.27.19:442][400]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.03-01.27.19:442][400]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.03-01.27.19:473][400]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.03-01.27.19:523][400]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.03-01.27.19:543][400]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.03-01.27.19:560][400]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.03-01.27.19:560][400]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.03-01.27.19:594][400]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.03-01.27.19:605][400]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.03-01.27.19:615][400]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.03-01.27.19:632][400]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.03-01.27.19:653][400]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.03-01.27.19:662][400]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.03-01.27.19:702][400]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.03-01.27.19:712][400]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.03-01.27.20:284][400]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.03-01.27.20:297][400]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.03-01.27.20:332][400]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.03-01.27.20:433][400]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.03-01.27.20:433][400]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.03-01.27.20:444][400]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.03-01.27.20:473][400]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.03-01.27.20:493][400]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.03-01.27.20:543][400]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.03-01.27.20:544][400]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.03-01.27.20:544][400]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.03-01.27.20:609][400]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.03-01.27.20:650][400]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.03-01.27.20:670][400]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.03-01.27.20:705][400]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.03-01.27.20:747][400]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.03-01.27.20:747][400]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.03-01.27.20:768][400]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.03-01.27.20:833][400]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.03-01.27.20:862][400]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.03-01.27.20:885][400]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.03-01.27.20:885][400]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.03-01.27.21:198][400]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.03-01.27.21:198][400]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.03-01.27.21:230][400]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.03-01.27.21:230][400]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.03-01.27.21:230][400]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.03-01.27.21:230][400]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.03-01.27.21:230][400]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.03-01.27.21:231][400]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.03-01.27.21:251][400]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.03-01.27.21:323][400]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.03-01.27.21:635][400]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.03-01.27.21:651][400]LogDerivedDataCache: Shutdown
+[2015.12.03-01.27.21:651][400]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.03-01.27.21:665][400]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.03-01.27.21:668][400]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.03-01.27.21:680][400]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.03-01.27.21:680][400]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.03-01.27.21:691][400]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.03-01.27.21:701][400]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.03-01.27.21:701][400]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.03-01.27.21:701][400]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.03-01.27.21:708][400]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.03-01.27.21:713][400]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.03-01.27.21:714][400]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.03-01.27.21:714][400]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.03-01.27.21:722][400]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.03-01.27.21:734][400]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.03-01.27.21:745][400]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.03-01.27.21:754][400]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.03-01.27.21:768][400]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.03-01.27.21:771][400]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.03-01.27.21:785][400]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.03-01.27.21:794][400]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.03-01.27.21:802][400]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.03-01.27.21:803][400]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.03-01.27.21:832][400]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.03-01.27.21:838][400]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.03-01.27.21:846][400]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.03-01.27.21:846][400]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.03-01.27.21:855][400]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.03-01.27.21:855][400]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.03-01.27.21:855][400]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.03-01.27.21:855][400]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.03-01.27.23:862][400]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.03-01.27.23:886][400]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.03-01.27.23:886][400]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.03-01.27.23:937][400]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.03-01.27.23:937][400]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.03-01.27.23:937][400]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.03-01.27.24:025][400]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.03-01.27.24:034][400]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.03-01.27.24:042][400]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.03-01.27.24:057][400]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.03-01.27.24:065][400]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.03-01.27.24:162][400]LogExit: Exiting.
+[2015.12.03-01.27.24:251][400]Log file closed, 12/02/15 17:27:24

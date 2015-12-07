@@ -1,0 +1,808 @@
+﻿Log file open, 12/02/15 22:10:43
+CommandLine Options:  
+
+LogMemory: Platform Memory Stats for Windows
+LogMemory: Process Physical Memory: 2616.70 MB used, 2777.54 MB peak
+LogMemory: Process Virtual Memory: 2583.26 MB used, 2726.20 MB peak
+LogMemory: Physical Memory: 5013.90 MB used, 7643.95 MB total
+LogMemory: Virtual Memory: 3289.45 MB used, 134217728.00 MB total
+LogMemory: 
+Allocator Stats for TBB: (not implemented)
+LogMemory: Memory Stats:
+LogMemory: FMemStack (gamethread) current size = 0.00 MB
+LogMemory: FPageAllocator (all threads) allocation size [used/ unused] = [0.00 / 0.25] MB
+LogMemory: Nametable memory usage = 4.39 MB
+LogMemory:            16352  -  Light interaction memory - STAT_LightInteractionMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:            80272  -  Rendering mem stack memory - STAT_RenderingMemStackMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:           133292  -  ViewState memory - STAT_ViewStateMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:           395020  -  Scene memory - STAT_RenderingSceneMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:           822584  -  Static draw list memory - STAT_StaticDrawListMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:         83582264  -  Primitive memory - STAT_PrimitiveInfoMemory - STATGROUP_SceneMemory - STATCAT_Advanced
+LogMemory:        103161856  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:          3284928  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:        -22003708  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:         96290124  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:         21037128  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:       -828257628  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:         27112724  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:          4856266  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:         -2324736  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+LogMemory:                0  -  Reflection Capture Texture Memory - STAT_ReflectionCaptureTextureMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  Reflection Capture Memory - STAT_ReflectionCaptureMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:             -576  -  Precomputed Light Volume Memory - STAT_PrecomputedLightVolumeMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          1723193  -  Audio Memory Used - STAT_AudioMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          1310516  -  SkeletalMesh Vertex Memory - STAT_SkeletalMeshVertexMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          1604010  -  SkeletalMesh Index Memory - STAT_SkeletalMeshIndexMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  Precomputed Shadow Depth Map Memory - STAT_PrecomputedShadowDepthMapMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:             7756  -  Persistent Uber Graph Frame memory - STAT_PersistentUberGraphFrameMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  Precomputed Visibility Memory - STAT_PrecomputedVisibilityMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:        147602392  -  Navigation Memory - STAT_NavigationMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          3326092  -  StaticMesh Total Memory - STAT_StaticMeshTotalMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  PageAllocator Used - STAT_PageAllocatorUsed - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:           265216  -  PageAllocator Free - STAT_PageAllocatorFree - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:         72360600  -  Texture Memory Used - STAT_TextureMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          1626395  -  VertexShader Memory - STAT_VertexShaderMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          8003770  -  PixelShader Memory - STAT_PixelShaderMemory - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:        209715200  -  Texture Memory Pool [Texture] - MCR_TexturePool - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  GPU Memory Pool [GPU] - MCR_GPU - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  Physical Memory Pool [Physical] - MCR_Physical - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:          1151066  -  ICU Data File Memory Used - STAT_MemoryICUDataFileAllocationSize - STATGROUP_Memory - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Pixels2D - STAT_TEXTUREGROUP_Pixels2D - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_IESLightProfile - STAT_TEXTUREGROUP_IESLightProfile - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:            21844  -  TEXTUREGROUP_Bokeh - STAT_TEXTUREGROUP_Bokeh - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Terrain_Weightmap - STAT_TEXTUREGROUP_Terrain_Weightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:         22107472  -  TEXTUREGROUP_Terrain_Heightmap - STAT_TEXTUREGROUP_Terrain_Heightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_ColorLookupTable - STAT_TEXTUREGROUP_ColorLookupTable - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Shadowmap - STAT_TEXTUREGROUP_Shadowmap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_ProcBuilding_LightMap - STAT_TEXTUREGROUP_ProcBuilding_LightMap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_ProcBuilding_Face - STAT_TEXTUREGROUP_ProcBuilding_Face - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_MobileFlattened - STAT_TEXTUREGROUP_MobileFlattened - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_RenderTarget - STAT_TEXTUREGROUP_RenderTarget - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Lightmap - STAT_TEXTUREGROUP_Lightmap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:          2934768  -  TEXTUREGROUP_UI - STAT_TEXTUREGROUP_UI - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:          3653632  -  TEXTUREGROUP_Skybox - STAT_TEXTUREGROUP_Skybox - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_EffectsNotFiltered - STAT_TEXTUREGROUP_EffectsNotFiltered - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:            32764  -  TEXTUREGROUP_Effects - STAT_TEXTUREGROUP_Effects - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Cinematic - STAT_TEXTUREGROUP_Cinematic - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_VehicleSpecular - STAT_TEXTUREGROUP_VehicleSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_VehicleNormalMap - STAT_TEXTUREGROUP_VehicleNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Vehicle - STAT_TEXTUREGROUP_Vehicle - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_WeaponSpecular - STAT_TEXTUREGROUP_WeaponSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_WeaponNormalMap - STAT_TEXTUREGROUP_WeaponNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Weapon - STAT_TEXTUREGROUP_Weapon - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_CharacterSpecular - STAT_TEXTUREGROUP_CharacterSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_CharacterNormalMap - STAT_TEXTUREGROUP_CharacterNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_Character - STAT_TEXTUREGROUP_Character - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:                0  -  TEXTUREGROUP_WorldSpecular - STAT_TEXTUREGROUP_WorldSpecular - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:         12987184  -  TEXTUREGROUP_WorldNormalMap - STAT_TEXTUREGROUP_WorldNormalMap - STATGROUP_TextureGroup - STATCAT_Advanced
+LogMemory:         30622936  -  TEXTUREGROUP_World - STAT_TEXTUREGROUP_World - STATGROUP_TextureGroup - STATCAT_Advanced
+
+
+Obj List: -alphasort
+Objects:
+
+                                                                                                Class  Count  NumKBytes  MaxKBytes  ResKBytes ExclusiveResKBytes
+                                                                                      AbstractNavData      1          1K          1K          0K          0K
+                                                                             ActorFactoryAmbientSound      1          0K          0K          0K          0K
+                                                                           ActorFactoryAnimationAsset      1          0K          0K          0K          0K
+                                                                           ActorFactoryAtmosphericFog      1          0K          0K          0K          0K
+                                                                               ActorFactoryBasicShape      1          0K          0K          0K          0K
+                                                                                ActorFactoryBlueprint      1          0K          0K          0K          0K
+                                                                     ActorFactoryBoxReflectionCapture      1          0K          0K          0K          0K
+                                                                                ActorFactoryBoxVolume     20          2K          2K          0K          0K
+                                                                              ActorFactoryCameraActor      1          0K          0K          0K          0K
+                                                                                ActorFactoryCharacter      1          0K          0K          0K          0K
+                                                                                    ActorFactoryClass      1          0K          0K          0K          0K
+                                                                           ActorFactoryCylinderVolume     20          2K          2K          0K          0K
+                                                                            ActorFactoryDeferredDecal      1          0K          0K          0K          0K
+                                                                             ActorFactoryDestructible      1          0K          0K          0K          0K
+                                                                         ActorFactoryDirectionalLight      1          0K          0K          0K          0K
+                                                                                  ActorFactoryEmitter      1          0K          0K          0K          0K
+                                                                               ActorFactoryEmptyActor      1          0K          0K          0K          0K
+                                                                     ActorFactoryExponentialHeightFog      1          0K          0K          0K          0K
+                                                                       ActorFactoryInteractiveFoliage      1          0K          0K          0K          0K
+                                                                                ActorFactoryLandscape      2          0K          0K          0K          0K
+                                                                             ActorFactoryMatineeActor      1          0K          0K          0K          0K
+                                                                                  ActorFactoryNiagara      1          0K          0K          0K          0K
+                                                                                     ActorFactoryNote      1          0K          0K          0K          0K
+                                                                                     ActorFactoryPawn      1          0K          0K          0K          0K
+                                                                             ActorFactoryPhysicsAsset      1          0K          0K          0K          0K
+                                                                   ActorFactoryPlaneReflectionCapture      1          0K          0K          0K          0K
+                                                                              ActorFactoryPlayerStart      1          0K          0K          0K          0K
+                                                                               ActorFactoryPointLight      1          0K          0K          0K          0K
+                                                                        ActorFactoryProceduralFoliage      1          0K          0K          0K          0K
+                                                                             ActorFactorySkeletalMesh      1          0K          0K          0K          0K
+                                                                                 ActorFactorySkyLight      1          0K          0K          0K          0K
+                                                                  ActorFactorySphereReflectionCapture      1          0K          0K          0K          0K
+                                                                             ActorFactorySphereVolume     20          2K          2K          0K          0K
+                                                                                ActorFactorySpotLight      1          0K          0K          0K          0K
+                                                                               ActorFactoryStaticMesh      1          0K          0K          0K          0K
+                                                                              ActorFactoryTargetPoint      1          0K          0K          0K          0K
+                                                                               ActorFactoryTextRender      1          0K          0K          0K          0K
+                                                                               ActorFactoryTriggerBox      1          0K          0K          0K          0K
+                                                                           ActorFactoryTriggerCapsule      1          0K          0K          0K          0K
+                                                                            ActorFactoryTriggerSphere      1          0K          0K          0K          0K
+                                                                        ActorFactoryVectorFieldVolume      1          0K          0K          0K          0K
+                                                                                       Ai_Character_C      3          4K          4K          0K          0K
+                                                                                  AimOffsetBlendSpace      1          1K          1K          0K          0K
+                                                                                   AIPerceptionSystem      1          0K          0K          0K          0K
+                                                                                             AISystem      1          0K          0K          0K          0K
+                                                                                       AnimationGraph      3          0K          0K          0K          0K
+                                                                                  AnimationStateGraph      6          1K          1K          0K          0K
+                                                                           AnimationStateMachineGraph      2          0K          0K          0K          0K
+                                                                             AnimationTransitionGraph      8          1K          1K          0K          0K
+                                                                                        AnimBlueprint      3          4K          4K          0K          0K
+                                                                          AnimBlueprintGeneratedClass      6         12K         16K          0K          0K
+                                                                       AnimBlueprintThumbnailRenderer      1          0K          0K          0K          0K
+                                                                     AnimCompress_BitwiseCompressOnly     14          1K          1K          0K          0K
+                                                                        AnimCompress_RemoveLinearKeys      7          1K          1K          0K          0K
+                                                                          AnimGraphNode_ApplyAdditive      1          0K          0K          0K          0K
+                                                                        AnimGraphNode_BlendListByBool      1          1K          2K          0K          0K
+                                                                        AnimGraphNode_BlendListByEnum     68         69K        183K          0K          0K
+                                                                         AnimGraphNode_BlendListByInt      1          0K          2K          0K          0K
+                                                                       AnimGraphNode_BlendSpacePlayer      4          6K         11K          0K          0K
+                                                                   AnimGraphNode_BoneDrivenController      1          2K          5K          0K          0K
+                                                                  AnimGraphNode_ComponentToLocalSpace      1          0K          0K          0K          0K
+                                                                               AnimGraphNode_CopyBone      1          1K          2K          0K          0K
+                                                                                 AnimGraphNode_Fabrik      1          1K          3K          0K          0K
+                                                                      AnimGraphNode_HandIKRetargeting      1          1K          2K          0K          0K
+                                                                           AnimGraphNode_IdentityPose      1          0K          0K          0K          0K
+                                                                       AnimGraphNode_LayeredBoneBlend      2          2K          5K          0K          0K
+                                                                           AnimGraphNode_LocalRefPose      1          0K          0K          0K          0K
+                                                                  AnimGraphNode_LocalToComponentSpace      1          0K          0K          0K          0K
+                                                                                 AnimGraphNode_LookAt      1          2K          3K          0K          0K
+                                                                            AnimGraphNode_MeshRefPose      1          0K          0K          0K          0K
+                                                                             AnimGraphNode_ModifyBone      1          2K          3K          0K          0K
+                                                                            AnimGraphNode_ObserveBone      1          1K          2K          0K          0K
+                                                                                   AnimGraphNode_Root      3          1K          2K          0K          0K
+                                                                         AnimGraphNode_RotateRootBone      1          0K          0K          0K          0K
+                                                                     AnimGraphNode_RotationMultiplier      1          1K          2K          0K          0K
+                                                               AnimGraphNode_RotationOffsetBlendSpace      2          3K          6K          0K          0K
+                                                                         AnimGraphNode_SaveCachedPose      2          1K          1K          0K          0K
+                                                                         AnimGraphNode_SequencePlayer     44         52K        121K          0K          0K
+                                                                                   AnimGraphNode_Slot      2          1K          2K          0K          0K
+                                                                             AnimGraphNode_SpringBone      1          2K          3K          0K          0K
+                                                                           AnimGraphNode_StateMachine      3          1K          2K          0K          0K
+                                                                            AnimGraphNode_StateResult      6          3K          5K          0K          0K
+                                                                                  AnimGraphNode_Trail      1          2K          3K          0K          0K
+                                                                       AnimGraphNode_TransitionResult      8          2K          5K          0K          0K
+                                                                              AnimGraphNode_TwoBoneIK      1          2K          3K          0K          0K
+                                                                            AnimGraphNode_TwoWayBlend      1          0K          0K          0K          0K
+                                                                          AnimGraphNode_UseCachedPose      4          1K          1K          0K          0K
+                                                                           AnimGraphNode_WheelHandler      1          0K          0K          0K          0K
+                                                                                          AnimMontage      6          3K          3K          0K          0K
+                                                                                         AnimSequence     21        265K        265K         94K         94K
+                                                                        AnimSequenceThumbnailRenderer      1          0K          0K          0K          0K
+                                                                               AnimSingleNodeInstance      1          1K          1K          0K          0K
+                                                                                   AnimStateEntryNode      2          0K          0K          0K          0K
+                                                                                        AnimStateNode      6          4K          4K          0K          0K
+                                                                              AnimStateTransitionNode      8         13K         13K          0K          0K
+                                                                                        ArrayProperty   1135        159K        159K          0K          0K
+                                                                                       ArrowComponent     31         46K         47K          0K          0K
+                                                                                   AssetClassProperty      3          0K          0K          0K          0K
+                                                                                      AssetImportData    201         20K         20K          0K          0K
+                                                                                  AssetObjectProperty     16          2K          2K          0K          0K
+                                                                                       AtmosphericFog      1          0K          0K          0K          0K
+                                                                              AtmosphericFogComponent      1          1K          1K          0K          0K
+                                                                                       AudioComponent      1          0K          0K          0K          0K
+                                                                                  AutoReimportManager      1          0K          0K          0K          0K
+                                                                                     AvoidanceManager      8          1K          1K          0K          0K
+                                                                                         BehaviorTree      1          0K          0K          0K          0K
+                                                                           BehaviorTreeDecoratorGraph      5          1K          1K          0K          0K
+                                                             BehaviorTreeDecoratorGraphNode_Decorator      3          0K          0K          0K          0K
+                                                                 BehaviorTreeDecoratorGraphNode_Logic      5          0K          0K          0K          0K
+                                                                                    BehaviorTreeGraph      1          0K          0K          0K          0K
+                                                                      BehaviorTreeGraphNode_Composite      3          1K          1K          0K          0K
+                                                             BehaviorTreeGraphNode_CompositeDecorator      5          2K          2K          0K          0K
+                                                                      BehaviorTreeGraphNode_Decorator      3          1K          1K          0K          0K
+                                                                           BehaviorTreeGraphNode_Root      1          0K          0K          0K          0K
+                                                                        BehaviorTreeGraphNode_Service      2          1K          1K          0K          0K
+                                                                           BehaviorTreeGraphNode_Task      3          1K          1K          0K          0K
+                                                                                  BehaviorTreeManager      1          0K          0K          0K          0K
+                                                                                   BillboardComponent     35         53K         54K          0K          0K
+                                                                                       BlackboardData      1          0K          1K          0K          0K
+                                                                               BlackboardKeyType_Bool      1          0K          0K          0K          0K
+                                                                             BlackboardKeyType_Object      3          0K          0K          0K          0K
+                                                                             BlackboardKeyType_Vector      2          0K          0K          0K          0K
+                                                                                           BlendSpace      2          2K          2K          0K          0K
+                                                                          BlendSpaceThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                            Blueprint     23         37K         38K          0K          0K
+                                                                       BlueprintBoundEventNodeSpawner     82         27K         27K          0K          0K
+                                                                            BlueprintBoundNodeSpawner      2          0K          0K          0K          0K
+                                                                        BlueprintComponentNodeSpawner     62         21K         21K          0K          0K
+                                                                         BlueprintDelegateNodeSpawner    678        217K        217K          0K          0K
+                                                                            BlueprintEventNodeSpawner    159         52K         52K          0K          0K
+                                                                            BlueprintFieldNodeSpawner    981        314K        314K          0K          0K
+                                                                         BlueprintFunctionNodeSpawner   2325        744K        744K          0K          0K
+                                                                              BlueprintGeneratedClass     50         47K         53K          0K          0K
+                                                                                 BlueprintNodeSpawner   1529        465K        465K          0K          0K
+                                                                           BlueprintThumbnailRenderer      1          0K          0K          0K          0K
+                                                                         BlueprintVariableNodeSpawner   2680       1486K       1486K          0K          0K
+                                                                                            BodySetup    138        115K        119K        928K        928K
+                                                                                         BoolProperty   3709        521K        521K          0K          0K
+                                                                                         BoxComponent      4          6K          6K          2K          2K
+                                                                                      BP_Sky_Sphere_C      1          1K          1K          0K          0K
+                                                                                                Brush     27         27K         27K          0K          0K
+                                                                                       BrushComponent     38         52K         54K          5K          2K
+                                                                                 BTComposite_Selector      1          0K          0K          0K          0K
+                                                                                 BTComposite_Sequence      2          0K          0K          0K          0K
+                                                                               BTDecorator_Blackboard      3          0K          1K          0K          0K
+                                                                                        BTTask_MoveTo      1          0K          0K          0K          0K
+                                                                                          BTTask_Wait      1          0K          0K          0K          0K
+                                                                                         ByteProperty   1121        157K        157K          0K          0K
+                                                                                           CableActor     34         32K         32K          0K          0K
+                                                                                       CableComponent     34         49K         51K          0K          0K
+                                                                                          CameraActor      1          1K          1K          0K          0K
+                                                                                      CameraComponent      4          6K          6K          0K          0K
+                                                                                               Canvas      2          0K          0K          0K          0K
+                                                                                          CanvasPanel      2          0K          0K          0K          0K
+                                                                                      CanvasPanelSlot      2          0K          0K          0K          0K
+                                                                                     CapsuleComponent      4          5K          5K          3K          3K
+                                                                           CharacterMovementComponent      3          3K          3K          0K          0K
+                                                                                                Class   1954        889K        960K          0K          0K
+                                                                                        ClassProperty    268         39K         39K          0K          0K
+                                                                               ClassThumbnailRenderer      1          0K          0K          0K          0K
+                                                                             ComponentDelegateBinding      4          0K          0K          0K          0K
+                                                                                          ConeTrace_C      1          0K          0K          0K          0K
+                                                                                   CookOnTheFlyServer      1          0K          0K          0K          0K
+                                                                                         CrowdManager      1          0K          0K          0K          0K
+                                                                                          CubeBuilder     24         14K         15K          0K          0K
+                                                                                           CurveFloat      2          0K          0K          0K          0K
+                                                                                     CurveLinearColor      3          3K          3K          0K          0K
+                                                                                    DealDamageTrace_C      1          0K          0K          0K          0K
+                                                                                 DefaultPhysicsVolume      8          8K          8K          0K          0K
+                                                                                     DelegateFunction    157         30K         30K          0K          0K
+                                                                                     DelegateProperty     58          8K          8K          0K          0K
+                                                                    DestructibleMeshThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                        DeviceProfile     36         69K        107K          0K          0K
+                                                                                 DeviceProfileManager      1          0K          0K          0K          0K
+                                                                                     DirectionalLight      1          0K          0K          0K          0K
+                                                                            DirectionalLightComponent     22         23K         23K          0K          0K
+                                                                                            Door_01_C      2          2K          2K          0K          0K
+                                                                                       DoubleProperty      8          1K          1K          0K          0K
+                                                                                 DrawFrustumComponent      1          1K          1K          0K          0K
+                                                                                              EdGraph    156         40K         41K          0K          0K
+                                                                                  EdGraphNode_Comment     38         11K         11K          0K          0K
+                                                                            EdGraphNode_Documentation      1          0K          0K          0K          0K
+                                                                                           EdGraphPin  20367       8810K       8886K          0K          0K
+                                                                                     EdGraphSchema_K2      1          0K          0K          0K          0K
+                                                                                   EditorActorFolders      2          0K          0K          0K          0K
+                                                                                                 Enum    502         96K         96K          0K          0K
+                                                                                      EnvQueryManager      1          0K          0K          0K          0K
+                                                                            FbxAnimSequenceImportData     21          3K          3K          0K          0K
+                                                                            FbxSkeletalMeshImportData      6          0K          0K          0K          0K
+                                                                              FbxStaticMeshImportData     25          4K          4K          0K          0K
+                                                                                        FindTargets_C      1          0K          0K          0K          0K
+                                                                                        FloatProperty   3152        418K        418K          0K          0K
+                                                                     FoliageType_ISMThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                                 Font      6         27K         28K        288K          0K
+                                                                                         FontBulkData     19          3K          3K          0K          0K
+                                                                                FontThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                             Function   3169        618K        618K          0K          0K
+                                                                GameplayTagsK2Node_LiteralGameplayTag      1          0K          0K          0K          0K
+                                             GameplayTagsK2Node_MultiCompareGameplayTagAssetInterface      1          0K          0K          0K          0K
+                                   GameplayTagsK2Node_MultiCompareGameplayTagAssetInterfaceSingleTags      1          0K          0K          0K          0K
+                                                  GameplayTagsK2Node_MultiCompareGameplayTagContainer      1          0K          0K          0K          0K
+                                        GameplayTagsK2Node_MultiCompareGameplayTagContainerSingleTags      1          0K          0K          0K          0K
+                                                                 GameplayTagsK2Node_SwitchGameplayTag      1          0K          0K          0K          0K
+                                                        GameplayTagsK2Node_SwitchGameplayTagContainer      1          0K          0K          0K          0K
+                                                                                     GameUserSettings      1          0K          0K          0K          0K
+                                                                                   GCObjectReferencer      1          0K          0K          0K          0K
+                                                                                    GeomModifier_Clip      1          0K          0K          0K          0K
+                                                                                  GeomModifier_Create      1          0K          0K          0K          0K
+                                                                                  GeomModifier_Delete      1          0K          0K          0K          0K
+                                                                                    GeomModifier_Edit      1          0K          0K          0K          0K
+                                                                                 GeomModifier_Extrude      1          0K          0K          0K          0K
+                                                                                    GeomModifier_Flip      1          0K          0K          0K          0K
+                                                                                   GeomModifier_Lathe      1          0K          0K          0K          0K
+                                                                                GeomModifier_Optimize      1          0K          0K          0K          0K
+                                                                                     GeomModifier_Pen      1          0K          0K          0K          0K
+                                                                                   GeomModifier_Split      1          0K          0K          0K          0K
+                                                                             GeomModifier_Triangulate      1          0K          0K          0K          0K
+                                                                                    GeomModifier_Turn      1          0K          0K          0K          0K
+                                                                                    GeomModifier_Weld      1          0K          0K          0K          0K
+                                                                                           GroupActor      2          2K          2K          0K          0K
+                                                                           InputActionDelegateBinding      2          0K          0K          0K          0K
+                                                                             InputAxisDelegateBinding      4          0K          2K          0K          0K
+                                                                              InputKeyDelegateBinding      3          1K          3K          0K          0K
+                                                                            InputTouchDelegateBinding      2          0K          0K          0K          0K
+                                                                                InstancedFoliageActor      1          1K          1K          0K          0K
+                                                                                        Int16Property     11          1K          1K          0K          0K
+                                                                                        Int64Property      4          0K          0K          0K          0K
+                                                                                         Int8Property      5          0K          0K          0K          0K
+                                                                                    InterfaceProperty     14          1K          1K          0K          0K
+                                                                                   InterpCurveEdSetup      1          0K          0K          0K          0K
+                                                                                           InterpData      1          0K          0K          0K          0K
+                                                                                         InterpFilter      1          0K          0K          0K          0K
+                                                                                 InterpFilter_Classes      6          0K          0K          0K          0K
+                                                                                          InterpGroup      2          0K          0K          0K          0K
+                                                                                      InterpTrackMove      2          1K          2K          0K          0K
+                                                                                          IntProperty   1428        189K        189K          0K          0K
+                                                                               K2Node_ActorBoundEvent      2          0K          0K          0K          0K
+                                                                                  K2Node_AddComponent     62         24K         31K          0K          0K
+                                                                                   K2Node_AddDelegate    169         51K         51K          0K          0K
+                                                                                      K2Node_AIMoveTo      2          0K          0K          0K          0K
+                                                                                    K2Node_AnimGetter    112         55K         60K          0K          0K
+                                                                                K2Node_AssignDelegate    169         59K         59K          0K          0K
+                                                                           K2Node_AssignmentStatement     39          8K          8K          0K          0K
+                                                                                   K2Node_AsyncAction      3          0K          0K          0K          0K
+                                                                                   K2Node_BreakStruct    221        267K        422K          0K          0K
+                                                                             K2Node_CallArrayFunction     34         13K         14K          0K          0K
+                                                                         K2Node_CallDataTableFunction      1          0K          0K          0K          0K
+                                                                                  K2Node_CallFunction   2743        879K        900K          0K          0K
+                                                                          K2Node_CallFunctionOnMember      8          3K          3K          0K          0K
+                                                       K2Node_CallMaterialParameterCollectionFunction      6          1K          2K          0K          0K
+                                                                                K2Node_CastByteToEnum     68         17K         18K          0K          0K
+                                                                              K2Node_ClassDynamicCast    471        132K        191K          0K          0K
+                                                                                 K2Node_ClearDelegate    170         50K         51K          0K          0K
+                                                          K2Node_CommutativeAssociativeBinaryOperator     99         34K         35K          0K          0K
+                                                                           K2Node_ComponentBoundEvent      3          1K          1K          0K          0K
+                                                                                     K2Node_Composite      5          2K          2K          0K          0K
+                                                                                  K2Node_ConvertAsset      1          0K          0K          0K          0K
+                                                                                K2Node_CreateDelegate      1          0K          0K          0K          0K
+                                                                       K2Node_CreateDragDropOperation      1          0K          0K          0K          0K
+                                                                                  K2Node_CreateWidget      3          0K          1K          0K          0K
+                                                                                   K2Node_CustomEvent      6          2K          2K          0K          0K
+                                                                              K2Node_DoOnceMultiInput      1          0K          0K          0K          0K
+                                                                                   K2Node_DynamicCast    482        136K        196K          0K          0K
+                                                                                  K2Node_EaseFunction      1          0K          0K          0K          0K
+                                                                                  K2Node_EnumEquality      3          0K          0K          0K          0K
+                                                                                K2Node_EnumInequality      1          0K          0K          0K          0K
+                                                                                   K2Node_EnumLiteral     68         17K         18K          0K          0K
+                                                                                         K2Node_Event    193         73K         77K          0K          0K
+                                                                             K2Node_ExecutionSequence     22          4K          4K          0K          0K
+                                                                          K2Node_ForEachElementInEnum     68         17K         17K          0K          0K
+                                                                                    K2Node_FormatText      1          0K          0K          0K          0K
+                                                                                 K2Node_FunctionEntry    103         45K         48K          0K          0K
+                                                                                K2Node_FunctionResult      9          2K          2K          0K          0K
+                                                                           K2Node_GenericCreateObject      1          0K          0K          0K          0K
+                                                                              K2Node_GetClassDefaults      1          0K          0K          0K          0K
+                                                                               K2Node_GetDataTableRow      1          0K          0K          0K          0K
+                                                                             K2Node_GetEnumeratorName      1          0K          0K          0K          0K
+                                                                     K2Node_GetEnumeratorNameAsString      1          0K          0K          0K          0K
+                                                                          K2Node_GetInputAxisKeyValue     15          7K          7K          0K          0K
+                                                                             K2Node_GetInputAxisValue      6          2K          2K          0K          0K
+                                                                       K2Node_GetInputVectorAxisValue      4          1K          1K          0K          0K
+                                                                             K2Node_GetNumEnumEntries     68         19K         21K          0K          0K
+                                                                                    K2Node_IfThenElse     61         13K         13K          0K          0K
+                                                                                 K2Node_InAppPurchase      1          0K          0K          0K          0K
+                                                                            K2Node_InAppPurchaseQuery      1          0K          0K          0K          0K
+                                                                          K2Node_InAppPurchaseRestore      1          0K          0K          0K          0K
+                                                                                   K2Node_InputAction      3          0K          0K          0K          0K
+                                                                                K2Node_InputAxisEvent     18          8K          8K          0K          0K
+                                                                             K2Node_InputAxisKeyEvent     15          6K          6K          0K          0K
+                                                                                      K2Node_InputKey    211         69K         70K          0K          0K
+                                                                                    K2Node_InputTouch      3          0K          1K          0K          0K
+                                                                          K2Node_InputVectorAxisEvent      4          1K          1K          0K          0K
+                                                                                          K2Node_Knot      9          1K          1K          0K          0K
+                                                                        K2Node_LatentGameplayTaskCall      3          0K          0K          0K          0K
+                                                                              K2Node_LatentOnlineCall     13          2K          2K          0K          0K
+                                                                              K2Node_LeaderboardFlush      1          0K          0K          0K          0K
+                                                                              K2Node_LeaderboardQuery      1          0K          0K          0K          0K
+                                                                                       K2Node_Literal      5          0K          1K          0K          0K
+                                                                                     K2Node_LoadAsset      1          0K          0K          0K          0K
+                                                                                K2Node_LoadAssetClass      1          0K          0K          0K          0K
+                                                                                 K2Node_MacroInstance     46         27K         29K          0K          0K
+                                                                                     K2Node_MakeArray      6          1K          1K          0K          0K
+                                                                                    K2Node_MakeStruct    210        239K        376K          0K          0K
+                                                                                K2Node_MathExpression      1          0K          0K          0K          0K
+                                                                             K2Node_MatineeController      1          0K          0K          0K          0K
+                                                                                       K2Node_Message      4          2K          2K          0K          0K
+                                                                                     K2Node_MultiGate      1          0K          0K          0K          0K
+                                                                                K2Node_RemoveDelegate    170         51K         51K          0K          0K
+                                                                                        K2Node_Select      1          0K          0K          0K          0K
+                                                                                          K2Node_Self      2          0K          0K          0K          0K
+                                                                             K2Node_SetFieldsInStruct    210        256K        382K          0K          0K
+                                                                  K2Node_SetVariableOnPersistentFrame     57         11K         12K          0K          0K
+                                                                           K2Node_SpawnActorFromClass      1          0K          0K          0K          0K
+                                                                                    K2Node_SwitchEnum     69         43K         63K          0K          0K
+                                                                                 K2Node_SwitchInteger      3          1K          1K          0K          0K
+                                                                                    K2Node_SwitchName      1          0K          0K          0K          0K
+                                                                                  K2Node_SwitchString      1          0K          0K          0K          0K
+                                                                             K2Node_TemporaryVariable     34         13K         14K          0K          0K
+                                                                                      K2Node_Timeline      2          0K          0K          0K          0K
+                                                                                        K2Node_Tunnel     56         42K         44K          0K          0K
+                                                                                   K2Node_VariableGet   1469        539K        541K          0K          0K
+                                                                                   K2Node_VariableSet    686        245K        253K          0K          0K
+                                                                                K2Node_VariableSetRef      7          1K          1K          0K          0K
+                                                                                            Landscape      1         17K         17K          0K          0K
+                                                                                   LandscapeComponent   1024       1776K       1776K        112K        112K
+                                                                            LandscapeGizmoActiveActor      1        193K        193K          0K          0K
+                                                                        LandscapeGizmoRenderComponent      1          1K          1K          0K          0K
+                                                               LandscapeHeightfieldCollisionComponent   1024       1864K       1864K      34196K      34196K
+                                                                                        LandscapeInfo      1          0K          0K          0K          0K
+                                                                                     LandscapeInfoMap      9          1K          1K          0K          0K
+                                                                             LandscapeLayerInfoObject      1          0K          0K          0K          0K
+                                                                    LandscapeMaterialInstanceConstant   1025        640K        640K       1225K       1225K
+                                                                                   LazyObjectProperty      7          0K          0K          0K          0K
+                                                                                                Level      8        158K        172K          0K          0K
+                                                                                 LevelScriptBlueprint      1          1K          1K          0K          0K
+                                                                               LevelThumbnailRenderer      1          0K          0K          0K          0K
+                                                                            LightmassImportanceVolume      1          1K          1K          0K          0K
+                                                                                   LineBatchComponent     31         44K         45K          0K          0K
+                                                                                  LinuxTargetSettings      1          0K          0K          0K          0K
+                                                                                          MapProperty      4          0K          0K          0K          0K
+                                                                                             Material    106        277K        281K     115315K         94K
+                                                                                MaterialExpressionAbs     29          8K         15K          0K          0K
+                                                                                MaterialExpressionAdd     54         19K         32K          0K          0K
+                                                                       MaterialExpressionAppendVector     48         19K         28K          0K          0K
+                                                                         MaterialExpressionBumpOffset      5          2K          3K          0K          0K
+                                                                   MaterialExpressionCameraPositionWS      5          1K          2K          0K          0K
+                                                                     MaterialExpressionCameraVectorWS      3          0K          1K          0K          0K
+                                                                               MaterialExpressionCeil      6          1K          3K          0K          0K
+                                                                              MaterialExpressionClamp     42         18K         27K          0K          0K
+                                                                            MaterialExpressionComment     68         22K         38K          0K          0K
+                                                                      MaterialExpressionComponentMask     85         29K         46K          0K          0K
+                                                                           MaterialExpressionConstant    150         38K         74K          0K          0K
+                                                                    MaterialExpressionConstant2Vector      8          2K          3K          0K          0K
+                                                                    MaterialExpressionConstant3Vector     58         17K         29K          0K          0K
+                                                                    MaterialExpressionConstant4Vector      6          1K          3K          0K          0K
+                                                                  MaterialExpressionConstantBiasScale      2          0K          1K          0K          0K
+                                                                             MaterialExpressionCosine      1          0K          0K          0K          0K
+                                                                       MaterialExpressionCrossProduct      2          0K          1K          0K          0K
+                                                                             MaterialExpressionCustom     29         16K         23K          0K          0K
+                                                                                MaterialExpressionDDX      3          0K          1K          0K          0K
+                                                                                MaterialExpressionDDY      3          0K          1K          0K          0K
+                                                                      MaterialExpressionDeriveNormalZ      1          0K          0K          0K          0K
+                                                                       MaterialExpressionDesaturation      9          3K          5K          0K          0K
+                                                                           MaterialExpressionDistance      4          1K          2K          0K          0K
+                                                                             MaterialExpressionDivide     37         13K         22K          0K          0K
+                                                                         MaterialExpressionDotProduct     21          8K         12K          0K          0K
+                                                                 MaterialExpressionFeatureLevelSwitch     27         14K         20K          0K          0K
+                                                                              MaterialExpressionFloor     10          3K          5K          0K          0K
+                                                                               MaterialExpressionFmod      2          0K          1K          0K          0K
+                                                                MaterialExpressionFontSampleParameter      1          0K          1K          0K          0K
+                                                                               MaterialExpressionFrac      5          1K          2K          0K          0K
+                                                                            MaterialExpressionFresnel      3          1K          1K          0K          0K
+                                                                      MaterialExpressionFunctionInput     81         36K         55K          0K          0K
+                                                                     MaterialExpressionFunctionOutput     57         22K         35K          0K          0K
+                                                                                 MaterialExpressionIf     21         11K         16K          0K          0K
+                                                                        MaterialExpressionLightmapUVs      1          0K          0K          0K          0K
+                                                                  MaterialExpressionLinearInterpolate     69         32K         46K          0K          0K
+                                                               MaterialExpressionMaterialFunctionCall     86         57K        112K          0K          0K
+                                                                                MaterialExpressionMax      2          0K          1K          0K          0K
+                                                                                MaterialExpressionMin      4          1K          2K          0K          0K
+                                                                           MaterialExpressionMultiply    178         65K        107K          0K          0K
+                                                                              MaterialExpressionNoise      1          0K          0K          0K          0K
+                                                                          MaterialExpressionNormalize     15          5K          8K          0K          0K
+                                                                   MaterialExpressionObjectPositionWS      2          0K          0K          0K          0K
+                                                                       MaterialExpressionObjectRadius      1          0K          0K          0K          0K
+                                                                           MaterialExpressionOneMinus     21          6K         11K          0K          0K
+                                                                             MaterialExpressionPanner      3          1K          1K          0K          0K
+                                                                         MaterialExpressionPixelDepth      2          0K          0K          0K          0K
+                                                                              MaterialExpressionPower      8          2K          4K          0K          0K
+                                                                    MaterialExpressionRotateAboutAxis      1          0K          0K          0K          0K
+                                                                            MaterialExpressionRotator      1          0K          0K          0K          0K
+                                                                    MaterialExpressionScalarParameter     36         11K         19K          0K          0K
+                                                                     MaterialExpressionSceneTexelSize      5          1K          2K          0K          0K
+                                                                       MaterialExpressionSceneTexture     34         14K         19K          0K          0K
+                                                                     MaterialExpressionScreenPosition      6          1K          2K          0K          0K
+                                                                               MaterialExpressionSine      1          0K          0K          0K          0K
+                                                                         MaterialExpressionSphereMask      3          1K          2K          0K          0K
+                                                               MaterialExpressionSpriteTextureSampler      1          0K          1K          0K          0K
+                                                                         MaterialExpressionSquareRoot      3          0K          1K          0K          0K
+                                                                         MaterialExpressionStaticBool      6          1K          3K          0K          0K
+                                                                MaterialExpressionStaticBoolParameter      2          0K          1K          0K          0K
+                                                                       MaterialExpressionStaticSwitch     17          7K         11K          0K          0K
+                                                              MaterialExpressionStaticSwitchParameter      3          1K          1K          0K          0K
+                                                                           MaterialExpressionSubtract     41         15K         25K          0K          0K
+                                                                  MaterialExpressionTextureCoordinate     33          8K         16K          0K          0K
+                                                                      MaterialExpressionTextureObject     12          3K          6K          0K          0K
+                                                                      MaterialExpressionTextureSample     89         63K        132K          0K          0K
+                                                           MaterialExpressionTextureSampleParameter2D     12          9K         18K          0K          0K
+                                                         MaterialExpressionTextureSampleParameterCube      1          0K          1K          0K          0K
+                                                                               MaterialExpressionTime      6          1K          2K          0K          0K
+                                                                          MaterialExpressionTransform     11          3K          6K          0K          0K
+                                                                  MaterialExpressionTransformPosition      1          0K          0K          0K          0K
+                                                                       MaterialExpressionTwoSidedSign      2          0K          0K          0K          0K
+                                                                    MaterialExpressionVectorParameter     39         18K         48K          0K          0K
+                                                                        MaterialExpressionVertexColor     10          4K         11K          0K          0K
+                                                                     MaterialExpressionVertexNormalWS      3          0K          1K          0K          0K
+                                                                           MaterialExpressionViewSize      4          1K          1K          0K          0K
+                                                                      MaterialExpressionWorldPosition     14          3K          6K          0K          0K
+                                                                                     MaterialFunction     34         16K         19K          0K          0K
+                                                                    MaterialFunctionThumbnailRenderer      1          0K          0K          0K          0K
+                                                                             MaterialInstanceConstant     18         11K         11K       2920K         22K
+                                                                              MaterialInstanceDynamic     49         27K         36K         60K         60K
+                                                                    MaterialInstanceThumbnailRenderer      2          0K          0K          0K          0K
+                                                                                         MatineeActor      1          1K          1K          0K          0K
+                                                                                             MetaData    230       9007K      14708K          0K          0K
+                                                                            Metal_Sheet_01_Editable_C     20         20K         20K          0K          0K
+                                                                                                Model     40        257K        257K         10K         10K
+                                                                                       ModelComponent     12         19K         19K         69K          9K
+                                                                            MulticastDelegateProperty    171         24K         24K          0K          0K
+                                                                                         NameProperty    649         86K         86K          0K          0K
+                                                                                         NavCollision     32         10K         10K         50K         50K
+                                                                                     NavigationSystem      1          1K          1K          0K          0K
+                                                                               NavLinkCustomComponent      2          0K          0K          0K          0K
+                                                                                         NavLinkProxy      2          2K          2K          0K          0K
+                                                                            NavLinkRenderingComponent      2          2K          2K          0K          0K
+                                                                                  NavMeshBoundsVolume      1          1K          1K          0K          0K
+                                                                            NavMeshRenderingComponent      1          1K          1K          0K          0K
+                                                                                       ObjectProperty   2676        376K        376K          0K          0K
+                                                                                              Package    557       3130K       3248K          0K          0K
+                                                                                  PaperBatchComponent      8         10K         10K          0K          0K
+                                                                            PaperFlipbookActorFactory      1          0K          0K          0K          0K
+                                                                       PaperFlipbookThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                          PaperSprite      1          0K          0K          0K          0K
+                                                                              PaperSpriteActorFactory      1          0K          0K          0K          0K
+                                                                         PaperSpriteThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                 PaperTerrainMaterial      1          0K          0K          0K          0K
+                                                                        PaperTileSetThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                 ParticleEventManager      7          6K          6K          0K          0K
+                                                                      ParticleSystemThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                     PhysicalMaterial      3          0K          0K          0K          0K
+                                                                                         PhysicsAsset      5          4K          4K          5K          5K
+                                                                              PhysicsCollisionHandler      1          0K          0K          0K          0K
+                                                                            PhysicsConstraintTemplate     77         46K         46K          0K          0K
+                                                                                          PlayerStart      1          1K          1K          0K          0K
+                                                                                                Polys     41         99K        105K          0K          0K
+                                                                                    PostProcessVolume      1          1K          1K          0K          0K
+                                                                                          ProgressBar      2          1K          1K          0K          0K
+                                                                                        RecastNavMesh      1          1K          1K          0K          0K
+                                                                                                  Rig      1         15K         15K          0K          0K
+                                                            RobotCharacter01_Skeleton_AnimBlueprint_C      3          8K          9K          0K          0K
+                                                                            RotatingMovementComponent      1          0K          0K          0K          0K
+                                                                                       SceneComponent     35         35K         37K          0K          0K
+                                                                                   SceneThumbnailInfo     89          6K          6K          0K          0K
+                                                                      SceneThumbnailInfoWithPrimitive    123         11K         11K          0K          0K
+                                                                                         ScriptStruct    921        151K        151K          0K          0K
+                                                                                             SCS_Node     25          6K          6K          0K          0K
+                                                                                            Selection      3          0K          0K          0K          0K
+                                                                             SimpleConstructionScript     10          1K          1K          0K          0K
+                                                                                         SkeletalMesh      6       5259K       5259K      13582K       3120K
+                                                                                    SkeletalMeshActor      5          4K          4K          0K          0K
+                                                                                SkeletalMeshComponent     14         55K         55K         80K         80K
+                                                                                   SkeletalMeshSocket      4          0K          0K          0K          0K
+                                                                        SkeletalMeshThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                             Skeleton      7         54K         57K          0K          0K
+                                                                                             SkyLight      1          0K          0K          0K          0K
+                                                                                    SkyLightComponent      1          1K          1K          0K          0K
+                                                                          SlateBrushThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                           SoundClass      6          0K          0K          0K          0K
+                                                                                             SoundCue      8          2K          2K       1445K          0K
+                                                                                        SoundCueGraph      8          1K          1K          0K          0K
+                                                                                    SoundCueGraphNode      7          1K          1K          0K          0K
+                                                                               SoundCueGraphNode_Root      8          1K          1K          0K          0K
+                                                                                             SoundMix      1          0K          0K          0K          0K
+                                                                                  SoundNodeWavePlayer      7          0K          0K          0K          0K
+                                                                                            SoundWave      7          5K          5K       1706K       1706K
+                                                                           SoundWaveThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                            SpotLight     13         12K         12K          0K          0K
+                                                                                   SpotLightComponent     13         13K         13K          0K          0K
+                                                                                   SpringArmComponent      3          2K          2K          0K          0K
+                                                                                           StaticMesh     32         62K         62K      64662K       5104K
+                                                                                      StaticMeshActor     39         37K         37K          0K          0K
+                                                                                  StaticMeshComponent     81        146K        160K         72K         72K
+                                                                          StaticMeshThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                          StrProperty    903        119K        119K          0K          0K
+                                                                                       StructProperty   4544        639K        639K          0K          0K
+                                                                            SubsurfaceProfileRenderer      1          0K          0K          0K          0K
+                                                                                          TargetPoint     12         11K         11K          0K          0K
+                                                                            TerrainSplineActorFactory      1          0K          0K          0K          0K
+                                                                                        TexAlignerBox      1          0K          0K          0K          0K
+                                                                                    TexAlignerDefault      1          0K          0K          0K          0K
+                                                                                        TexAlignerFit      1          0K          0K          0K          0K
+                                                                                     TexAlignerPlanar      1          0K          0K          0K          0K
+                                                                                         TextProperty    135         17K         17K          0K          0K
+                                                                                            Texture2D    173        110K        110K     112025K      55965K
+                                                                                          TextureCube      2          1K          1K      16448K      16448K
+                                                                         TextureCubeThumbnailRenderer      1          0K          0K          0K          0K
+                                                                                TextureRenderTarget2D      1          0K          0K        512K        512K
+                                                                             TextureThumbnailRenderer      5          0K          0K          0K          0K
+                                                                                     ThumbnailManager      1          5K          7K          0K          0K
+                                                                                  TileMapActorFactory      1          0K          0K          0K          0K
+                                                                                    TimelineComponent      2          0K          1K          0K          0K
+                                                                                     TimelineTemplate      1          0K          0K          0K          0K
+                                                                                             TireType      1          0K          0K          0K          0K
+                                                                                               Town_C      1          0K          0K          0K          0K
+                                                                                          TransBuffer      1        856K       1179K          0K          0K
+                                                                                           TriggerBox      1          0K          1K          0K          0K
+                                                                                       UInt16Property      8          1K          1K          0K          0K
+                                                                                       UInt32Property     47          6K          6K          0K          0K
+                                                                                       UInt64Property      8          1K          1K          0K          0K
+                                                                                       UnrealEdEngine      1         83K         87K          0K          0K
+                                                                                      UserDefinedEnum      4          1K          2K          0K          0K
+                                                                                   WeakObjectProperty     32          4K          4K          0K          0K
+                                                                                        WeaponTrace_C      1          0K          0K          0K          0K
+                                                                                      WidgetBlueprint      1          1K          1K          0K          0K
+                                                                        WidgetBlueprintGeneratedClass      2          2K          2K          0K          0K
+                                                                                           WidgetTree      2          0K          0K          0K          0K
+                                                                                WindowsTargetSettings      1          0K          0K          0K          0K
+                                                                                                World      8         19K         23K          0K          0K
+                                                                                        WorldSettings      8         12K         15K          0K          0K
+                                                                                   WorldThumbnailInfo      1          0K          0K          0K          0K
+                                                                               WorldThumbnailRenderer      1          0K          0K          0K          0K
+
+72905 Objects (45.629M / 53.215M / 357.247M / 117.018M)
+
+
+RHI resource memory (not tracked by our allocator)
+       103161856  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
+         3284928  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+       -22003708  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
+        96290124  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        21037128  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
+      -828257628  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
+        27112724  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+         4856266  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+        -2324736  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
+-569.194MB total
+
+
+Levels:
+    /Game/Maps/Town
+
+
+Listing spawned actors in persistent level:
+Total: 166
+TimeAlive,Class,Name,Owner
+124.10,AbstractNavData,AbstractNavData-Default,None
+124.10,Ai_Character_C,Ai_Character_C_3,None
+124.10,Ai_Character_C,Ai_Character_C_4,None
+124.10,Ai_Character_C,Ai_Character_C_5,None
+124.10,AtmosphericFog,AtmosphericFog_1,None
+124.10,Brush,BoxBrush,None
+124.10,Brush,BoxBrush10,None
+124.10,Brush,BoxBrush11,None
+124.10,Brush,BoxBrush12,None
+124.10,Brush,BoxBrush13,None
+124.10,Brush,BoxBrush14,None
+124.10,Brush,BoxBrush15_14,None
+124.10,Brush,BoxBrush16,None
+124.10,Brush,BoxBrush17,None
+124.10,Brush,BoxBrush18,None
+124.10,Brush,BoxBrush19,None
+124.10,Brush,BoxBrush2_11,None
+124.10,Brush,BoxBrush3,None
+124.10,Brush,BoxBrush4,None
+124.10,Brush,BoxBrush5,None
+124.10,Brush,BoxBrush6,None
+124.10,Brush,BoxBrush7,None
+124.10,Brush,BoxBrush8,None
+124.10,Brush,BoxBrush9,None
+124.10,Brush,Brush_1,None
+124.10,StaticMeshActor,Building_01_7,None
+124.10,StaticMeshActor,Building_10,None
+124.10,StaticMeshActor,Building_11,None
+124.10,StaticMeshActor,Building_13,None
+124.10,StaticMeshActor,Building_16,None
+124.10,StaticMeshActor,Building_2,None
+124.10,StaticMeshActor,Building_5,None
+124.10,StaticMeshActor,Building_6,None
+124.10,StaticMeshActor,Building_7,None
+124.10,StaticMeshActor,Building_8,None
+124.10,StaticMeshActor,Building_9,None
+124.10,CableActor,CableActor10,None
+124.10,CableActor,CableActor11,None
+124.10,CableActor,CableActor12,None
+124.10,CableActor,CableActor13,None
+124.10,CableActor,CableActor14,None
+124.10,CableActor,CableActor15,None
+124.10,CableActor,CableActor16,None
+124.10,CableActor,CableActor17,None
+124.10,CableActor,CableActor18,None
+124.10,CableActor,CableActor19,None
+124.10,CableActor,CableActor20,None
+124.10,CableActor,CableActor21,None
+124.10,CableActor,CableActor22,None
+124.10,CableActor,CableActor23,None
+124.10,CableActor,CableActor24,None
+124.10,CableActor,CableActor25,None
+124.10,CableActor,CableActor26,None
+124.10,CableActor,CableActor27,None
+124.10,CableActor,CableActor28,None
+124.10,CableActor,CableActor29,None
+124.10,CableActor,CableActor30,None
+124.10,CableActor,CableActor31,None
+124.10,CableActor,CableActor32,None
+124.10,CableActor,CableActor33,None
+124.10,CableActor,CableActor34,None
+124.10,CableActor,CableActor35,None
+124.10,CableActor,CableActor36,None
+124.10,CableActor,CableActor4,None
+124.10,CableActor,CableActor5,None
+124.10,CableActor,CableActor6,None
+124.10,CableActor,CableActor7,None
+124.10,CableActor,CableActor8,None
+124.10,CableActor,CableActor9,None
+124.10,CableActor,CableActor_3,None
+124.10,CameraActor,CameraActor_36,None
+124.10,StaticMeshActor,Cloth01_4,None
+124.10,StaticMeshActor,Cloth2,None
+124.10,StaticMeshActor,Cloth4_4,None
+124.10,DefaultPhysicsVolume,DefaultPhysicsVolume_21,None
+124.10,Door_01_C,Door_01_174,None
+124.10,Door_01_C,Door_2,None
+124.10,GroupActor,GroupActor_0,None
+124.10,GroupActor,GroupActor_1,None
+124.10,InstancedFoliageActor,InstancedFoliageActor_0,None
+124.10,Landscape,Landscape_2,None
+124.10,LandscapeGizmoActiveActor,LandscapeGizmoActiveActor_0,None
+124.10,LightmassImportanceVolume,LightmassImportanceVolume_1,None
+124.10,DirectionalLight,LightSource2,None
+124.10,SkeletalMeshActor,MainCharacter_5,None
+124.10,MatineeActor,MatineeActor2_3,None
+124.10,StaticMeshActor,Metal_Sheet_01_5,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable10,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable11,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable12,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable13,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable14,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable15,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable16,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable17_186,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable18,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable19,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable20,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable21,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable2_39,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable4,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable5,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable6_180,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable7,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable8_61,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable9_75,None
+124.10,Metal_Sheet_01_Editable_C,Metal_Sheet_01_Editable_45,None
+124.10,StaticMeshActor,Metal_Sheet_8,None
+124.10,NavLinkProxy,NavLinkProxy_1,None
+124.10,NavLinkProxy,NavLinkProxy_3,None
+124.10,NavMeshBoundsVolume,NavMeshBoundsVolume_1,None
+124.10,StaticMeshActor,Pallet_01_4,None
+124.10,StaticMeshActor,Pallet_02_7,None
+124.10,PlayerStart,PlayerStart,None
+124.10,StaticMeshActor,Pole10,None
+124.10,StaticMeshActor,Pole11,None
+124.10,StaticMeshActor,Pole12,None
+124.10,StaticMeshActor,Pole13_23,None
+124.10,StaticMeshActor,Pole14,None
+124.10,StaticMeshActor,Pole15,None
+124.10,StaticMeshActor,Pole16,None
+124.10,StaticMeshActor,Pole17,None
+124.10,StaticMeshActor,Pole18,None
+124.10,StaticMeshActor,Pole2,None
+124.10,StaticMeshActor,Pole3,None
+124.10,StaticMeshActor,Pole4,None
+124.10,StaticMeshActor,Pole5,None
+124.10,StaticMeshActor,Pole6,None
+124.10,StaticMeshActor,Pole7,None
+124.10,StaticMeshActor,Pole8,None
+124.10,StaticMeshActor,Pole9,None
+124.10,StaticMeshActor,Pole_7,None
+124.10,PostProcessVolume,PostProcessVolume_1,None
+124.10,RecastNavMesh,RecastNavMesh-Default,None
+124.10,StaticMeshActor,Road01_4,None
+124.10,SkeletalMeshActor,RobotCharacter01_4,None
+124.10,SkyLight,SkyLight_1,None
+124.10,BP_Sky_Sphere_C,SkySphere,None
+124.10,SpotLight,SpotLight10_9,None
+124.10,SpotLight,SpotLight11_12,None
+124.10,SpotLight,SpotLight12_6,None
+124.10,SpotLight,SpotLight13_12,None
+124.10,SpotLight,SpotLight2_9,None
+124.10,SpotLight,SpotLight3,None
+124.10,SpotLight,SpotLight4_3,None
+124.10,SpotLight,SpotLight5_5,None
+124.10,SpotLight,SpotLight6,None
+124.10,SpotLight,SpotLight7_9,None
+124.10,SpotLight,SpotLight8_3,None
+124.10,SpotLight,SpotLight9_6,None
+124.10,SpotLight,SpotLight_1,None
+124.10,TargetPoint,TargetPoint10,None
+124.10,TargetPoint,TargetPoint11,None
+124.10,TargetPoint,TargetPoint12,None
+124.10,TargetPoint,TargetPoint2,None
+124.10,TargetPoint,TargetPoint3,None
+124.10,TargetPoint,TargetPoint4,None
+124.10,TargetPoint,TargetPoint5_3,None
+124.10,TargetPoint,TargetPoint6,None
+124.10,TargetPoint,TargetPoint7,None
+124.10,TargetPoint,TargetPoint8_3,None
+124.10,TargetPoint,TargetPoint9,None
+124.10,TargetPoint,TargetPoint_1,None
+124.10,Town_C,Town_C_0,None
+124.10,TriggerBox,TriggerBox_1,None
+124.10,WorldSettings,WorldSettings_1,None
+
+
+Log file closed, 12/02/15 22:10:44

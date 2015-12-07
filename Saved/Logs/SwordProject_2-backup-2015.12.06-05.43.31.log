@@ -1,0 +1,837 @@
+﻿[2015.11.30-06.06.40:315][  0]Log file open, 11/29/15 22:06:40
+[2015.11.30-06.06.40:315][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.11.30-06.06.40:315][  0]LogInit:Display: RandInit(-1859522802) SRandInit(-1859522800).
+[2015.11.30-06.06.40:315][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.30-06.06.40:315][  0]LogStats: Stats thread started at 0.166789
+[2015.11.30-06.06.40:315][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.30-06.06.40:315][  0]LogInit: API Version: 2672455
+[2015.11.30-06.06.40:315][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.30-06.06.40:316][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.30-06.06.40:316][  0]LogInit: Build Configuration: Development
+[2015.11.30-06.06.40:316][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.30-06.06.40:316][  0]LogInit: Command line:  
+[2015.11.30-06.06.40:316][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.30-06.06.40:316][  0]LogInit: Rocket: 1
+[2015.11.30-06.06.40:354][  0]LogInit: Using libcurl 7.41.0
+[2015.11.30-06.06.40:354][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.30-06.06.40:354][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.30-06.06.40:354][  0]LogInit:  - other features:
+[2015.11.30-06.06.40:354][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.30-06.06.40:354][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.30-06.06.40:354][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.30-06.06.40:354][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.30-06.06.40:354][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.30-06.06.40:354][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.30-06.06.40:354][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.30-06.06.40:354][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.30-06.06.40:354][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.30-06.06.40:354][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.30-06.06.40:390][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.30-06.06.40:430][  0]LogInit: Object subsystem initialized
+[2015.11.30-06.06.40:438][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.30-06.06.40:438][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.30-06.06.40:483][  0]LogInit: Computer: AARONS
+[2015.11.30-06.06.40:483][  0]LogInit: User: Aaron
+[2015.11.30-06.06.40:483][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.30-06.06.40:483][  0]LogInit: High frequency timer resolution =1.949470 MHz
+[2015.11.30-06.06.40:483][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2015.11.30-06.06.40:483][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.30-06.06.40:483][  0]LogMemory: Process Physical Memory: 53.02 MB used, 53.02 MB peak
+[2015.11.30-06.06.40:483][  0]LogMemory: Process Virtual Memory: 55.09 MB used, 55.09 MB peak
+[2015.11.30-06.06.40:483][  0]LogMemory: Physical Memory: 3739.78 MB used, 7643.95 MB total
+[2015.11.30-06.06.40:483][  0]LogMemory: Virtual Memory: 345.73 MB used, 134217728.00 MB total
+[2015.11.30-06.06.40:593][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.30-06.06.44:092][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8400 (Feature Level 11_0)
+[2015.11.30-06.06.44:092][  0]LogD3D11RHI: Adapter has 493MB of dedicated video memory, 0MB of dedicated system memory, and 3584MB of shared system memory, 1 output[s]
+[2015.11.30-06.06.44:096][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.30-06.06.44:096][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.11.30-06.06.44:096][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.30-06.06.44:111][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.30-06.06.44:111][  0]LogRHI: Texture pool is 345 MB (70% of 493 MB)
+[2015.11.30-06.06.44:127][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.11.30-06.06.44:148][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/WorkingDirectory/12300/).
+[2015.11.30-06.06.44:148][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/tmp/A857A2414FB54EDCF16E59A81193B1C8/'.
+[2015.11.30-06.06.44:148][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.30-06.06.50:193][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.30-06.06.50:213][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.30-06.06.50:234][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.30-06.06.50:264][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.30-06.06.50:284][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.30-06.06.50:307][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.30-06.06.50:325][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.30-06.06.50:342][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.30-06.06.50:368][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.30-06.06.50:393][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.30-06.06.50:423][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.30-06.06.50:452][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.30-06.06.50:460][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.30-06.06.50:513][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.30-06.06.50:531][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.30-06.06.50:566][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.30-06.06.50:601][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.30-06.06.50:601][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.30-06.06.51:044][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.30-06.06.51:280][  0]LogDerivedDataCache: Loaded boot cache 0.24s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.30-06.06.51:281][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.30-06.06.51:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.30-06.06.51:281][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.30-06.06.51:281][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.30-06.06.51:281][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.30-06.06.52:229][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.30-06.06.52:243][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.30-06.06.53:033][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.30-06.06.53:044][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.30-06.06.53:617][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.30-06.06.53:617][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.30-06.06.54:695][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.30-06.06.57:035][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.30-06.06.57:212][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.11.30-06.06.57:928][  0]SourceControl: Info Source control is disabled
+[2015.11.30-06.06.58:570][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.30-06.06.58:875][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.30-06.06.58:875][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.30-06.06.59:083][  0]LogEngine: Initializing Engine...
+[2015.11.30-06.06.59:091][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.30-06.06.59:093][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.30-06.06.59:631][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.30-06.06.59:641][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.06.59:675][  0]LogInit: FAudioDevice initialized.
+[2015.11.30-06.06.59:773][  0]LogDerivedDataCache: Saved boot cache 0.10s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.30-06.06.59:809][  0]LogInit: Texture streaming: Enabled
+[2015.11.30-06.06.59:838][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.30-06.06.59:838][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.30-06.06.59:838][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b2676186470d39d8323ee88c5ad92509|4cc6989648b04f0180853fecfbe4390e|54533a2c-70f4-4e67-8a5f-67ff95564374
+[2015.11.30-06.06.59:838][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.30-06.06.59:942][  0]LogInit: Transaction tracking system initialized
+[2015.11.30-06.07.00:099][  0]BlueprintLog: New page: Editor Load
+[2015.11.30-06.07.00:575][  0]LocalizationService: Info Localization service is disabled
+[2015.11.30-06.07.01:697][  0]LogConsoleResponse:Display: 
+[2015.11.30-06.07.02:437][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.30-06.07.02:708][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/' took 0.03s
+[2015.11.30-06.07.02:740][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.30-06.07.02:742][  0]LightingResults: New page: Lighting Build
+[2015.11.30-06.07.02:762][  0]MapCheck: New page: Map Check
+[2015.11.30-06.07.02:762][  0]LightingResults: New page: Lighting Build
+[2015.11.30-06.07.02:820][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEF4B02160
+[2015.11.30-06.07.10:195][  0]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.07.10:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.30-06.07.10:726][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.30-06.07.11:035][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 308.771ms to complete.
+[2015.11.30-06.07.11:036][  0]LogFileHelpers: Loading map 'Town' took 8.296
+[2015.11.30-06.07.11:348][  0]LogCollectionManager: Loaded 0 collections in 0.018900 seconds
+[2015.11.30-06.07.11:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Collections/' took 0.01s
+[2015.11.30-06.07.11:421][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Developers/Aaron/Collections/' took 0.01s
+[2015.11.30-06.07.11:422][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Collections/' took 0.01s
+[2015.11.30-06.07.11:422][  0]LogContentBrowser: Native class hierarchy populated in 0.0281 seconds. Added 1867 classes and 333 folders.
+[2015.11.30-06.07.11:435][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.11.30-06.07.11:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.11.30-06.07.11:644][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.11.30-06.07.11:656][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.11.30-06.07.11:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.30-06.07.11:967][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.30-06.07.11:990][  0]LogLoad: Full Startup: 34.58 seconds (BP compile: 1.87 seconds)
+[2015.11.30-06.07.12:369][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.11.30-06.07.12:793][  0]LogRenderer: Reallocating scene render targets to support 812x464 (Frame:2).
+[2015.11.30-06.07.13:055][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.11.30-06.07.20:288][ 22]LogAssetRegistry: Asset discovery search completed in 23.0868 seconds
+[2015.11.30-06.07.20:288][ 22]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2015.11.30-06.07.20:288][ 22]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2015.11.30-06.07.41:382][163]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.30-06.07.43:658][163]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 107 classes and 0 folders.
+[2015.11.30-06.07.44:219][163]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.11.30-06.07.44:425][163]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.30-06.08.49:064][892]BlueprintLog: New page: Compile RobotCharacter01_Skeleton_AnimBlueprint
+[2015.11.30-06.08.49:952][892]BlueprintEditorCompileResults: Info [0132.54] Compile of RobotCharacter01_Skeleton_AnimBlueprint successful! [in 887 ms]
+[2015.11.30-06.08.53:305][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.08.53:305][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-06.08.53:306][996]PIE: New page: PIE session: Town (Nov 29, 2015, 2:08:53 PM)
+[2015.11.30-06.08.53:306][996]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.08.53:473][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167040s)
+[2015.11.30-06.08.53:475][996]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.08.53:476][996]LogPlayLevel: PIE: World Init took: (0.002723s)
+[2015.11.30-06.08.53:476][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.170501s)
+[2015.11.30-06.08.53:570][996]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.08.53:595][996]LogInit: FAudioDevice initialized.
+[2015.11.30-06.08.53:700][996]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.08.53:825][996]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.08.53:825][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.11.29-22.08.53
+[2015.11.30-06.08.53:825][996]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.08.53:826][996]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.08.53:838][996]LogWorld: Bringing up level for play took: 0.128168
+[2015.11.30-06.08.53:853][996]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.057
+[2015.11.30-06.08.53:854][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.08.53:859][996]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.08.53:860][996]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.08.53:860][996]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.08.59:509][134]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.09.00:802][167]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.09.01:605][188]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.11.30-06.09.04:817][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.09.04:900][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.09.05:099][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8BE6FE20
+[2015.11.30-06.09.21:437][448]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.21:698][452]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.22:491][473]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.24:653][533]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.25:061][544]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.25:858][565]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.09.30:445][668]LogSavePackage: Save=449.123596ms
+[2015.11.30-06.09.30:445][668]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint8C7946994BD2F9A2360666B16CEF89EE.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.09.30:455][668]LogSavePackage: Total save time: 515.618604ms
+[2015.11.30-06.09.30:455][668]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.10.22:555][374]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.10.28:481][528]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.10.30:735][594]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.10.35:577][715]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.10.39:126][797]LogSavePackage: Save=438.990601ms
+[2015.11.30-06.10.39:126][797]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint7B7176A94E97296EFA8B9BABC2DB9003.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.10.39:139][797]LogSavePackage: Total save time: 476.818826ms
+[2015.11.30-06.10.39:139][797]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.10.40:142][825]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.11.18:294][640]LogSavePackage: Save=453.373474ms
+[2015.11.30-06.11.18:294][640]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint15A8C463459A93822E54149C7954D2AB.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.11.18:306][640]LogSavePackage: Total save time: 491.072960ms
+[2015.11.30-06.11.18:306][640]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.12.02:868][438]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.03:431][453]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.04:945][495]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.05:735][517]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.06:192][529]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.06:811][546]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.32:029][ 61]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.33:462][101]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.34:524][130]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.36:511][159]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.12.42:919][285]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter01_Skeleton_AnimBlueprint', cached variable property's owner is '/Game/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.SKEL_RobotCharacter01_Skeleton_AnimBlueprint_C'
+[2015.11.30-06.13.27:985][221]LogSavePackage: Save=485.225220ms
+[2015.11.30-06.13.27:985][221]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint2648B4DB4AA33F11FAD43B92B792E1C9.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.13.28:000][221]LogSavePackage: Total save time: 527.119681ms
+[2015.11.30-06.13.28:000][221]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.14.10:507][ 26]LogSavePackage: Save=499.744537ms
+[2015.11.30-06.14.10:507][ 26]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint68DDAFD4498C183A9EA35D840774E1C5.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.14.10:518][ 26]LogSavePackage: Total save time: 536.070827ms
+[2015.11.30-06.14.10:518][ 26]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.14.39:580][489]LogSavePackage: Save=521.304260ms
+[2015.11.30-06.14.39:580][489]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprintCE06DDA84B0B5041EBCE98A920EAFE64.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.14.39:593][489]LogSavePackage: Total save time: 581.507284ms
+[2015.11.30-06.14.39:594][489]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.15.10:764][238]LogSavePackage: Save=524.257874ms
+[2015.11.30-06.15.10:764][238]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint59FDECB84479D2FE0A46CD98C454854F.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.15.10:780][238]LogSavePackage: Total save time: 566.291351ms
+[2015.11.30-06.15.10:780][238]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.15.33:656][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.15.33:656][399]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.30-06.15.33:684][399]LogPlayLevel: [PlayLevel] Compiling RobotCharacter01_Skeleton_AnimBlueprint before play...
+[2015.11.30-06.15.34:121][399]LogPlayLevel: PlayLevel: Blueprint regeneration took 465 ms (1 blueprints)
+[2015.11.30-06.15.34:260][399]PIE: New page: PIE session: Town (Nov 29, 2015, 2:15:34 PM)
+[2015.11.30-06.15.34:260][399]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.15.34:432][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.171483s)
+[2015.11.30-06.15.34:435][399]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.15.34:436][399]LogPlayLevel: PIE: World Init took: (0.004081s)
+[2015.11.30-06.15.34:437][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.176557s)
+[2015.11.30-06.15.34:550][399]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.15.34:581][399]LogInit: FAudioDevice initialized.
+[2015.11.30-06.15.34:647][399]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.15.34:792][399]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.15.34:792][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.11.29-22.15.34
+[2015.11.30-06.15.34:793][399]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.15.34:794][399]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.15.34:808][399]LogWorld: Bringing up level for play took: 0.149574
+[2015.11.30-06.15.34:852][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 2.055
+[2015.11.30-06.15.34:853][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.15.34:858][399]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.34:859][399]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.34:860][399]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.40:759][519]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.41:505][534]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.42:601][557]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.43:953][586]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.15.47:124][654]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.15.48:502][683]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.49:276][700]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.15.50:695][730]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.51:905][756]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.15.53:431][789]LogBlueprintUserMessages: [FindTargets_C_1] ImOving
+[2015.11.30-06.15.55:796][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.15.55:868][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.15.56:047][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8AD7A480
+[2015.11.30-06.16.35:544][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.35:545][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-06.16.35:545][381]PIE: New page: PIE session: Town (Nov 29, 2015, 2:16:35 PM)
+[2015.11.30-06.16.35:545][381]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.16.35:714][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168555s)
+[2015.11.30-06.16.35:717][381]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.16.35:718][381]LogPlayLevel: PIE: World Init took: (0.004220s)
+[2015.11.30-06.16.35:719][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.173613s)
+[2015.11.30-06.16.35:719][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.16.35:720][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.30-06.16.35:858][381]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.16.35:884][381]LogInit: FAudioDevice initialized.
+[2015.11.30-06.16.35:952][381]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.16.36:109][381]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.16.36:109][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.11.29-22.16.36
+[2015.11.30-06.16.36:110][381]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.16.36:111][381]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.16.36:126][381]LogWorld: Bringing up level for play took: 0.163580
+[2015.11.30-06.16.36:141][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.345
+[2015.11.30-06.16.36:141][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.36:148][381]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.36:149][381]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.36:150][381]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.37:557][404]LogBlueprintUserMessages: [RobotCharacter_C_3] 0
+[2015.11.30-06.16.37:557][404]LogAnimation:Warning: Playing a Montage (Robot2_Swing_01_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.11.30-06.16.42:732][516]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.42:826][518]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.42:915][520]LogBlueprintUserMessages: [FindTargets_C_2] ImOving
+[2015.11.30-06.16.44:149][547]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.44:225][547]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.44:337][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE948185E0
+[2015.11.30-06.16.49:901][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.49:902][716]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.30-06.16.49:914][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.16.49:967][716]LogPlayLevel: [PlayLevel] Compiling RobotCharacter before play...
+[2015.11.30-06.16.51:173][716]LogPlayLevel: PlayLevel: Blueprint regeneration took 1272 ms (2 blueprints)
+[2015.11.30-06.16.51:192][716]LogPlayLevel: [PlayLevel] Compiling RobotCharacter01_Skeleton_AnimBlueprint before play...
+[2015.11.30-06.16.51:640][716]LogPlayLevel: PlayLevel: Blueprint regeneration took 1739 ms (2 blueprints)
+[2015.11.30-06.16.51:804][716]PIE: New page: PIE session: Town (Nov 29, 2015, 2:16:51 PM)
+[2015.11.30-06.16.51:804][716]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.16.51:988][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183704s)
+[2015.11.30-06.16.51:991][716]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.16.51:992][716]LogPlayLevel: PIE: World Init took: (0.003704s)
+[2015.11.30-06.16.51:992][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.188227s)
+[2015.11.30-06.16.52:124][716]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.16.52:154][716]LogInit: FAudioDevice initialized.
+[2015.11.30-06.16.52:225][716]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.16.52:385][716]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.16.52:385][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.11.29-22.16.52
+[2015.11.30-06.16.52:385][716]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.16.52:385][716]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.16.52:396][716]LogWorld: Bringing up level for play took: 0.160321
+[2015.11.30-06.16.52:417][716]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 1.62
+[2015.11.30-06.16.52:418][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.16.52:422][716]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.16.52:424][716]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.16.52:425][716]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.16.54:101][745]LogBlueprintUserMessages: [RobotCharacter_C_6] 0
+[2015.11.30-06.16.54:101][745]LogAnimation:Warning: Playing a Montage (Robot2_Swing_01_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.11.30-06.16.59:035][852]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.16.59:655][865]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.17.00:512][882]LogBlueprintUserMessages: [FindTargets_C_3] ImOving
+[2015.11.30-06.17.02:034][912]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.17.05:216][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.17.05:286][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.17.05:287][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.17.05:468][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE94480220
+[2015.11.30-06.17.11:131][157]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.17.13:712][157]LogSavePackage: Save=2249.922363ms
+[2015.11.30-06.17.13:712][157]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterE80420204D5938D2BD676C9174BC42B5.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.11.30-06.17.13:728][157]LogSavePackage: Total save time: 2388.157297ms
+[2015.11.30-06.17.13:728][157]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.11.30-06.18.14:913][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.18.15:750][735]LogSavePackage: Save=558.742615ms
+[2015.11.30-06.18.15:750][735]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprintB52C4F65478B19748D3D31ADB8B3C227.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.18.15:761][735]LogSavePackage: Total save time: 596.169215ms
+[2015.11.30-06.18.15:761][735]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.18.31:507][169]LogRenderer: Reallocating scene render targets to support 812x700 (Frame:12695).
+[2015.11.30-06.18.43:472][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8850B060
+[2015.11.30-06.18.44:167][468]LogSavePackage: Save=499.563995ms
+[2015.11.30-06.18.44:167][468]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprintF2E60DA546E2E7C07BFD8D9F252B8323.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.18.44:176][468]LogSavePackage: Total save time: 536.124691ms
+[2015.11.30-06.18.44:176][468]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.18.46:149][520]BlueprintLog: New page: Compile RobotCharacter01_Skeleton_AnimBlueprint
+[2015.11.30-06.18.46:877][520]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.11.30-06.18.46:878][520]BlueprintEditorCompileResults: Info [0729.47] Compile of RobotCharacter01_Skeleton_AnimBlueprint successful! [in 726 ms]
+[2015.11.30-06.18.52:474][662]BlueprintLog: New page: Compile RobotCharacter01_Skeleton_AnimBlueprint
+[2015.11.30-06.18.53:021][662]BlueprintEditorCompileResults: Info [0735.61] Compile of RobotCharacter01_Skeleton_AnimBlueprint successful! [in 546 ms]
+[2015.11.30-06.18.54:428][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.18.54:429][697]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.30-06.18.54:489][697]LogPlayLevel: [PlayLevel] Compiling RobotCharacter before play...
+[2015.11.30-06.18.55:587][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 1159 ms (2 blueprints)
+[2015.11.30-06.18.55:606][697]LogPlayLevel: [PlayLevel] Compiling RobotCharacter01_Skeleton_AnimBlueprint before play...
+[2015.11.30-06.18.56:063][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 1634 ms (2 blueprints)
+[2015.11.30-06.18.56:241][697]PIE: New page: PIE session: Town (Nov 29, 2015, 2:18:56 PM)
+[2015.11.30-06.18.56:241][697]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.18.56:406][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164917s)
+[2015.11.30-06.18.56:408][697]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.18.56:408][697]LogPlayLevel: PIE: World Init took: (0.002051s)
+[2015.11.30-06.18.56:409][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.167597s)
+[2015.11.30-06.18.56:536][697]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.18.56:563][697]LogInit: FAudioDevice initialized.
+[2015.11.30-06.18.56:641][697]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.18.56:765][697]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.18.56:766][697]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.11.29-22.18.56
+[2015.11.30-06.18.56:766][697]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.18.56:767][697]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.18.56:781][697]LogWorld: Bringing up level for play took: 0.130931
+[2015.11.30-06.18.56:796][697]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 2
+[2015.11.30-06.18.56:797][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.18.56:801][697]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.18.56:802][697]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.18.56:804][697]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.03:034][829]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.03:516][840]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.05:072][876]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.07:524][932]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.19.08:732][957]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.19.09:376][972]LogBlueprintUserMessages: [ConeTrace_C_4] SEEN
+[2015.11.30-06.19.09:852][982]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.19.09:900][983]LogBlueprintUserMessages: [FindTargets_C_4] Hellwfwfwo
+[2015.11.30-06.19.10:644][998]LogBlueprintUserMessages: [ConeTrace_C_4] SEEN
+[2015.11.30-06.19.10:889][  3]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.12:316][ 32]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.17:931][151]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.19.18:641][166]LogBlueprintUserMessages: [FindTargets_C_4] ImOving
+[2015.11.30-06.19.19:945][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.19.20:017][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.19.20:018][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.19.20:207][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE948784A0
+[2015.11.30-06.19.21:795][213]LogSavePackage: Save=501.419373ms
+[2015.11.30-06.19.21:795][213]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint224BC0214093AAC12DD2A9AFB898D9EE.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.19.21:806][213]LogSavePackage: Total save time: 540.013440ms
+[2015.11.30-06.19.21:807][213]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.21.52:279][128]BlueprintLog: New page: Compile RobotCharacter01_Skeleton_AnimBlueprint
+[2015.11.30-06.21.52:700][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.21.52:701][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.30-06.21.52:856][128]BlueprintEditorCompileResults: Info  Pose  was visible but ignored
+[2015.11.30-06.21.52:857][128]BlueprintEditorCompileResults: Info [0915.45] Compile of RobotCharacter01_Skeleton_AnimBlueprint successful! [in 577 ms]
+[2015.11.30-06.21.54:364][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.21.54:364][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-06.21.54:364][159]PIE: New page: PIE session: Town (Nov 29, 2015, 2:21:54 PM)
+[2015.11.30-06.21.54:364][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.21.54:576][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.211224s)
+[2015.11.30-06.21.54:580][159]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.21.54:580][159]LogPlayLevel: PIE: World Init took: (0.004427s)
+[2015.11.30-06.21.54:581][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.216324s)
+[2015.11.30-06.21.54:716][159]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.21.54:749][159]LogInit: FAudioDevice initialized.
+[2015.11.30-06.21.54:818][159]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.21.54:969][159]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.21.54:969][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 0) at 2015.11.29-22.21.54
+[2015.11.30-06.21.54:969][159]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.21.54:970][159]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.21.54:983][159]LogWorld: Bringing up level for play took: 0.154029
+[2015.11.30-06.21.55:001][159]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.205
+[2015.11.30-06.21.55:002][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.21.55:007][159]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.21.55:009][159]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.21.55:010][159]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.22.01:558][286]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.22.02:685][308]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.22.03:248][319]LogBlueprintUserMessages: [FindTargets_C_5] ImOving
+[2015.11.30-06.22.04:735][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.22.04:809][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.22.04:910][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE981F6980
+[2015.11.30-06.22.07:780][433]Cmd: TRANSACTION UNDO
+[2015.11.30-06.22.07:780][433]LogEditorTransaction: Undo Create Pin Link
+[2015.11.30-06.22.07:903][433]Cmd: TRANSACTION UNDO
+[2015.11.30-06.22.07:903][433]LogEditorTransaction: Undo Move Node
+[2015.11.30-06.22.08:518][441]Cmd: TRANSACTION UNDO
+[2015.11.30-06.22.08:518][441]LogEditorTransaction: Undo Create Pin Link
+[2015.11.30-06.22.11:971][507]LogSavePackage: Save=522.711304ms
+[2015.11.30-06.22.11:971][507]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter01_Skeleton_AnimBlueprint79BDBA774716B87A4C8D6299B2A4081F.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset'
+[2015.11.30-06.22.11:984][507]LogSavePackage: Total save time: 595.143296ms
+[2015.11.30-06.22.11:984][507]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Meshes/Characters/RobotCharacter/RobotCharacter01_Skeleton_AnimBlueprint.uasset
+[2015.11.30-06.36.02:024][815]LogHttp:Warning: Timeout processing Http request. 000000AE943EE700
+[2015.11.30-06.36.18:733][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.36.18:733][170]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.30-06.36.18:753][170]LogPlayLevel: [PlayLevel] Compiling RobotCharacter01_Skeleton_AnimBlueprint before play...
+[2015.11.30-06.36.19:150][170]LogPlayLevel: PlayLevel: Blueprint regeneration took 416 ms (1 blueprints)
+[2015.11.30-06.36.19:254][170]PIE: New page: PIE session: Town (Nov 29, 2015, 2:36:19 PM)
+[2015.11.30-06.36.19:254][170]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.36.19:417][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.162860s)
+[2015.11.30-06.36.19:419][170]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.36.19:420][170]LogPlayLevel: PIE: World Init took: (0.002966s)
+[2015.11.30-06.36.19:421][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.166596s)
+[2015.11.30-06.36.19:520][170]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.36.19:549][170]LogInit: FAudioDevice initialized.
+[2015.11.30-06.36.19:616][170]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.36.19:736][170]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.36.19:736][170]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.11.29-22.36.19
+[2015.11.30-06.36.19:737][170]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.36.19:737][170]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.36.19:750][170]LogWorld: Bringing up level for play took: 0.124135
+[2015.11.30-06.36.19:763][170]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 0.97
+[2015.11.30-06.36.19:764][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.36.19:767][170]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.19:767][170]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.19:768][170]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.22:212][231]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.36.26:296][344]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.26:559][351]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.26:740][356]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.27:285][370]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.36.28:785][411]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.36.34:036][556]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.34:347][565]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.35:328][594]LogBlueprintUserMessages: [FindTargets_C_6] ImOving
+[2015.11.30-06.36.35:644][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.36.35:704][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.36.35:853][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8AAC7CE0
+[2015.11.30-06.37.10:467][675]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Script/Engine.Pawn'
+[2015.11.30-06.37.16:165][902]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Script/Engine.Pawn'
+[2015.11.30-06.37.16:957][929]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Script/Engine.Pawn'
+[2015.11.30-06.37.19:916][ 59]BlueprintLog: New page: Compile RobotCharacter
+[2015.11.30-06.37.20:628][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.37.20:762][ 59]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'RobotCharacter', cached variable property's owner is '/Script/Engine.Pawn'
+[2015.11.30-06.37.20:773][ 59]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2015.11.30-06.37.20:773][ 59]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2015.11.30-06.37.20:773][ 59]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.11.30-06.37.20:773][ 59]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2015.11.30-06.37.20:773][ 59]BlueprintEditorCompileResults: Info [1843.37] Compile of RobotCharacter successful! [in 856 ms]
+[2015.11.30-06.37.20:843][ 59]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Script/Engine.Pawn'
+[2015.11.30-06.37.22:085][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.37.22:085][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.30-06.37.22:085][103]PIE: New page: PIE session: Town (Nov 29, 2015, 2:37:22 PM)
+[2015.11.30-06.37.22:086][103]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.11.30-06.37.22:235][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149077s)
+[2015.11.30-06.37.22:237][103]LogAIModule: Creating AISystem for world Town
+[2015.11.30-06.37.22:238][103]LogPlayLevel: PIE: World Init took: (0.002984s)
+[2015.11.30-06.37.22:238][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.152720s)
+[2015.11.30-06.37.22:238][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.37.22:335][103]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.30-06.37.22:358][103]LogInit: FAudioDevice initialized.
+[2015.11.30-06.37.22:418][103]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.30-06.37.22:527][103]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.30-06.37.22:527][103]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.11.29-22.37.22
+[2015.11.30-06.37.22:527][103]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.37.22:528][103]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.30-06.37.22:539][103]LogWorld: Bringing up level for play took: 0.111427
+[2015.11.30-06.37.22:550][103]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town -0.242
+[2015.11.30-06.37.22:551][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.37.22:554][103]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.22:555][103]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.22:556][103]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.23:190][116]LogBlueprintUserMessages: [RobotCharacter_C_10] 0
+[2015.11.30-06.37.23:191][116]LogAnimation:Warning: Playing a Montage (Robot2_Swing_01_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.11.30-06.37.28:756][266]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.37.28:757][266]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.29:277][280]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.29:937][297]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.37:342][493]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.37:419][495]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.38:929][537]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.37.39:148][543]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.40:080][569]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.37.41:032][596]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.37.44:625][690]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.47:374][763]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.37.47:640][770]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.50:179][839]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.37.52:388][899]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.56:455][ 14]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.58:670][ 76]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.59:241][ 91]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.37.59:744][104]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.37.59:858][107]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.37.59:970][110]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.01:675][155]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.02:194][169]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.02:419][175]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.03:141][192]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.03:406][200]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.03:816][211]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.04:336][225]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.04:599][232]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.06:096][272]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.06:623][286]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.07:665][314]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.08:358][332]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.08:585][338]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.09:119][352]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.09:611][365]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.10:343][384]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.10:651][392]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.11:185][406]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.11:728][420]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.12:345][437]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.12:759][449]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.13:004][456]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.13:662][474]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.13:765][477]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.14:478][498]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.14:579][501]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.15:213][520]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.15:417][526]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.16:842][565]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.17:434][581]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.11.30-06.38.17:884][593]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.18:269][603]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.18:725][615]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.19:116][626]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.19:659][642]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.19:898][649]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.20:551][666]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.20:757][672]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.21:442][692]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.21:620][697]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.22:421][718]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.22:459][719]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.23:363][743]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.23:364][743]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.23:543][748]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087292 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.23:939][759]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083599 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.24:129][764]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.24:264][768]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088270 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.24:367][771]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.24:689][780]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087584 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.24:907][786]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.25:016][789]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082712 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.25:229][795]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088255 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.25:333][798]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.25:399][800]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088255 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.25:801][809]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.26:065][817]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.081780 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.26:362][825]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.26:583][831]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.26:619][832]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.093027 > MaxSimulationTimeStep (0.050) for 'RobotCharacter_C_10'
+[2015.11.30-06.38.27:359][852]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.27:397][853]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.27:470][855]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.38.27:507][856]LogBlueprintUserMessages: [FindTargets_C_7] Hellwfwfwo
+[2015.11.30-06.38.28:185][874]LogCharacterMovement:Warning: CharMoveComp could not find overlap body for bone WeaponArmature
+[2015.11.30-06.38.28:221][875]LogCharacterMovement:Warning: CharMoveComp could not find overlap body for bone WeaponArmature
+[2015.11.30-06.38.29:101][899]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.38.30:226][929]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.38.32:869][  2]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.38.33:708][ 26]LogBlueprintUserMessages: [FindTargets_C_7] ImOving
+[2015.11.30-06.38.37:175][122]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.38.38:292][153]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.38.38:327][154]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.38.38:788][167]LogBlueprintUserMessages: [ConeTrace_C_7] SEEN
+[2015.11.30-06.38.39:891][198]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.11.30-06.38.40:418][212]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.38.40:483][212]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.11.30-06.38.40:568][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE971B4400
+[2015.11.30-06.41.27:393][865]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.30-06.41.42:492][235]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.11.30-06.41.58:905][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.41.58:906][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.30-06.42.01:306][533]LogSavePackage: Save=1981.509888ms
+[2015.11.30-06.42.01:306][533]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter71882BE4421454A9E881ED97B6AF40A5.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.11.30-06.42.01:318][533]LogSavePackage: Total save time: 2097.857364ms
+[2015.11.30-06.42.01:318][533]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.11.30-06.47.46:598][568]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-06.49.13:597][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.30-06.49.13:598][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.30-06.49.15:612][882]Cmd: QUIT_EDITOR
+[2015.11.30-06.49.16:982][882]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-06.49.16:985][882]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.30-06.49.17:635][882]LogExit: Preparing to exit.
+[2015.11.30-06.49.18:855][882]LogExit: Editor shut down
+[2015.11.30-06.49.18:856][882]LogExit: Transaction tracking system shut down
+[2015.11.30-06.49.18:866][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEF7DC3D80
+[2015.11.30-06.49.18:869][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEFF361DA0
+[2015.11.30-06.49.18:879][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE81C4B740
+[2015.11.30-06.49.18:880][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEFF363C40
+[2015.11.30-06.49.18:881][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEFF363560
+[2015.11.30-06.49.18:882][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE82B56160
+[2015.11.30-06.49.18:888][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE88D87920
+[2015.11.30-06.49.18:893][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE88D87420
+[2015.11.30-06.49.18:901][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8AD79D00
+[2015.11.30-06.49.18:908][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEFFDEA3E0
+[2015.11.30-06.49.18:909][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AEFFDEB420
+[2015.11.30-06.49.18:922][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8DF39760
+[2015.11.30-06.49.18:927][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE8AE48B80
+[2015.11.30-06.49.19:534][882]LogExit: Object subsystem successfully closed.
+[2015.11.30-06.49.19:634][882]LogD3D11RHI: Shutdown
+[2015.11.30-06.49.19:634][882]LogD3D11RHI: CleanupD3DDevice
+[2015.11.30-06.49.19:817][882]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.30-06.49.19:905][882]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.30-06.49.19:918][882]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.30-06.49.19:918][882]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.30-06.49.19:919][882]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.30-06.49.19:919][882]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.30-06.49.19:919][882]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.30-06.49.19:920][882]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.30-06.49.19:921][882]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.30-06.49.20:479][882]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.30-06.49.20:480][882]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.30-06.49.20:481][882]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.30-06.49.20:481][882]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.30-06.49.20:481][882]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.30-06.49.20:481][882]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.30-06.49.20:481][882]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.30-06.49.20:482][882]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.30-06.49.20:483][882]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.30-06.49.20:604][882]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.30-06.49.20:647][882]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.30-06.49.20:648][882]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.30-06.49.20:649][882]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.30-06.49.20:649][882]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.30-06.49.20:651][882]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.30-06.49.20:662][882]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.30-06.49.20:905][882]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.30-06.49.20:907][882]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.30-06.49.20:907][882]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.30-06.49.21:008][882]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.30-06.49.21:008][882]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.30-06.49.21:008][882]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.30-06.49.21:018][882]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.30-06.49.21:019][882]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.30-06.49.21:025][882]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.30-06.49.21:031][882]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.30-06.49.21:124][882]LogDerivedDataCache: Shutdown
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.30-06.49.21:124][882]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.30-06.49.21:125][882]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.30-06.49.21:126][882]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.30-06.49.21:126][882]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.30-06.49.23:135][882]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.30-06.49.23:136][882]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.30-06.49.23:136][882]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.30-06.49.23:136][882]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.30-06.49.23:136][882]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.30-06.49.23:136][882]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.30-06.49.23:147][882]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.30-06.49.23:148][882]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.30-06.49.23:148][882]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.30-06.49.23:148][882]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.30-06.49.23:149][882]LogExit: Exiting.
+[2015.11.30-06.49.23:153][882]Log file closed, 11/29/15 22:49:23
