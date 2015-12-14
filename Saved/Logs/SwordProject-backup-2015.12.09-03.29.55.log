@@ -1,0 +1,491 @@
+﻿[2015.12.08-19.11.49:222][  0]Log file open, 12/08/15 11:11:49
+[2015.12.08-19.11.49:222][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.12.08-19.11.49:222][  0]LogInit:Display: RandInit(-10780870) SRandInit(-10780869).
+[2015.12.08-19.11.49:222][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.08-19.11.49:222][  0]LogStats: Stats thread started at 0.170210
+[2015.12.08-19.11.49:222][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.08-19.11.49:222][  0]LogInit: API Version: 2672455
+[2015.12.08-19.11.49:222][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.08-19.11.49:222][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.08-19.11.49:222][  0]LogInit: Build Configuration: Development
+[2015.12.08-19.11.49:222][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.08-19.11.49:222][  0]LogInit: Command line:  
+[2015.12.08-19.11.49:222][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.08-19.11.49:222][  0]LogInit: Rocket: 1
+[2015.12.08-19.11.49:273][  0]LogInit: Using libcurl 7.41.0
+[2015.12.08-19.11.49:274][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.08-19.11.49:274][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.08-19.11.49:274][  0]LogInit:  - other features:
+[2015.12.08-19.11.49:274][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.08-19.11.49:274][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.08-19.11.49:274][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.08-19.11.49:274][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.08-19.11.49:274][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.08-19.11.49:274][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.08-19.11.49:274][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.08-19.11.49:274][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.08-19.11.49:274][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.08-19.11.49:274][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.08-19.11.49:301][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.08-19.11.49:335][  0]LogInit: Object subsystem initialized
+[2015.12.08-19.11.49:344][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.08-19.11.49:344][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.08-19.11.49:423][  0]LogInit: Computer: AARONS
+[2015.12.08-19.11.49:423][  0]LogInit: User: Aaron
+[2015.12.08-19.11.49:423][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.08-19.11.49:423][  0]LogInit: High frequency timer resolution =1.949474 MHz
+[2015.12.08-19.11.49:423][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2015.12.08-19.11.49:423][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.08-19.11.49:423][  0]LogMemory: Process Physical Memory: 53.01 MB used, 53.01 MB peak
+[2015.12.08-19.11.49:423][  0]LogMemory: Process Virtual Memory: 55.12 MB used, 55.12 MB peak
+[2015.12.08-19.11.49:423][  0]LogMemory: Physical Memory: 4403.13 MB used, 7643.95 MB total
+[2015.12.08-19.11.49:423][  0]LogMemory: Virtual Memory: 345.73 MB used, 134217728.00 MB total
+[2015.12.08-19.11.49:532][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.08-19.11.54:217][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8400 (Feature Level 11_0)
+[2015.12.08-19.11.54:217][  0]LogD3D11RHI: Adapter has 493MB of dedicated video memory, 0MB of dedicated system memory, and 3584MB of shared system memory, 1 output[s]
+[2015.12.08-19.11.54:223][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.08-19.11.54:223][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.08-19.11.54:223][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.08-19.11.54:251][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.08-19.11.54:251][  0]LogRHI: Texture pool is 345 MB (70% of 493 MB)
+[2015.12.08-19.11.54:264][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.08-19.11.54:282][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/WorkingDirectory/32588/).
+[2015.12.08-19.11.54:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/tmp/950B3C94439CA551CCF6ED84317A559F/'.
+[2015.12.08-19.11.54:282][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.08-19.12.04:654][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.08-19.12.04:675][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.08-19.12.04:696][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.08-19.12.04:734][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.08-19.12.04:764][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.08-19.12.04:789][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.08-19.12.04:804][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.08-19.12.04:818][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.08-19.12.04:833][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.08-19.12.04:849][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.08-19.12.04:873][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.08-19.12.04:900][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.08-19.12.04:912][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.08-19.12.04:956][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.08-19.12.04:970][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.08-19.12.04:983][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.08-19.12.05:022][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.08-19.12.05:022][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.08-19.12.05:330][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.08-19.12.06:080][  0]LogDerivedDataCache: Loaded boot cache 0.75s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.08-19.12.06:080][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.08-19.12.06:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.08-19.12.06:081][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.08-19.12.06:081][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.08-19.12.06:081][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.08-19.12.07:128][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.08-19.12.07:153][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.08-19.12.07:981][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.08-19.12.07:993][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.08-19.12.08:563][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.08-19.12.08:563][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.08-19.12.09:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.08-19.12.27:726][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.08-19.12.28:372][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.12.08-19.12.30:806][  0]SourceControl: Info Source control is disabled
+[2015.12.08-19.12.32:057][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.08-19.12.32:405][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.08-19.12.32:405][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.12.08-19.12.32:627][  0]LogEngine: Initializing Engine...
+[2015.12.08-19.12.32:636][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.08-19.12.32:638][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.08-19.12.33:378][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.08-19.12.33:389][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.08-19.12.33:433][  0]LogInit: FAudioDevice initialized.
+[2015.12.08-19.12.33:550][  0]LogDerivedDataCache: Saved boot cache 0.12s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.08-19.12.33:582][  0]LogInit: Texture streaming: Enabled
+[2015.12.08-19.12.33:605][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.08-19.12.33:605][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.08-19.12.33:606][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b2676186470d39d8323ee88c5ad92509|4cc6989648b04f0180853fecfbe4390e|54533a2c-70f4-4e67-8a5f-67ff95564374
+[2015.12.08-19.12.33:606][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.08-19.12.33:746][  0]LogInit: Transaction tracking system initialized
+[2015.12.08-19.12.33:856][  0]BlueprintLog: New page: Editor Load
+[2015.12.08-19.12.34:370][  0]LocalizationService: Info Localization service is disabled
+[2015.12.08-19.12.35:544][  0]LogConsoleResponse:Display: 
+[2015.12.08-19.12.36:098][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.08-19.12.36:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/' took 0.04s
+[2015.12.08-19.12.36:782][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.08-19.12.36:933][  0]LightingResults: New page: Lighting Build
+[2015.12.08-19.12.36:943][  0]MapCheck: New page: Map Check
+[2015.12.08-19.12.36:943][  0]LightingResults: New page: Lighting Build
+[2015.12.08-19.12.36:996][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A92A6A6160
+[2015.12.08-19.12.48:708][  0]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.12.51:383][  0]LogAIModule: Creating AISystem for world Town
+[2015.12.08-19.13.39:606][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.08-19.13.39:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.08-19.13.39:931][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 293.732ms to complete.
+[2015.12.08-19.13.39:932][  0]LogFileHelpers: Loading map 'Town' took 63.150
+[2015.12.08-19.13.40:370][  0]LogCollectionManager: Loaded 0 collections in 0.008990 seconds
+[2015.12.08-19.13.40:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Collections/' took 0.01s
+[2015.12.08-19.13.40:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Developers/Aaron/Collections/' took 0.01s
+[2015.12.08-19.13.40:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Collections/' took 0.01s
+[2015.12.08-19.13.40:447][  0]LogContentBrowser: Native class hierarchy populated in 0.0343 seconds. Added 1867 classes and 333 folders.
+[2015.12.08-19.13.40:461][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.12.08-19.13.40:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.08-19.13.41:545][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2015.12.08-19.13.41:559][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.12.08-19.13.42:163][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.08-19.13.42:197][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.08-19.13.42:248][  0]LogLoad: Full Startup: 116.53 seconds (BP compile: 2.93 seconds)
+[2015.12.08-19.13.43:483][  0]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.08-19.13.43:911][  0]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:2).
+[2015.12.08-19.13.43:938][  0]LogStaticMesh: Allocated Allocated 318x64x64 distance field atlas = 2.5Mb
+[2015.12.08-19.13.45:862][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.08-19.13.58:565][ 30]LogAssetRegistry: Asset discovery search completed in 90.2038 seconds
+[2015.12.08-19.13.58:565][ 30]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.12.08-19.13.58:565][ 30]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2015.12.08-19.18.49:222][ 84]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.18.50:219][ 84]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.18.50:295][ 84]LogMaterial: 0.000361 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-19.18.50:339][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.12.08-19.18.50:354][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.12.08-19.18.50:367][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2015.12.08-19.18.50:382][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.12.08-19.18.50:396][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2015.12.08-19.18.50:411][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.12.08-19.18.50:438][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2015.12.08-19.18.50:461][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2015.12.08-19.19.21:827][804]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.19.22:332][806]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:489).
+[2015.12.08-19.19.33:314][ 22]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:624).
+[2015.12.08-19.19.41:480][214]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.19.41:529][214]LogMaterial: 0.000346 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-19.19.42:657][255]LogMaterialEditor: Applying material Sand_01
+[2015.12.08-19.19.47:086][255]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.19.47:281][255]LogMaterial: 0.000329 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-19.19.47:487][255]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.19.47:942][255]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.19.48:321][255]LogMaterial: 0.064145 seconds spent updating 1 materials, 1 interfaces, 1025 instances, 0 with static permutations.
+[2015.12.08-19.19.57:575][346]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.08-19.20.00:789][346]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 107 classes and 0 folders.
+[2015.12.08-19.20.34:766][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.20.34:769][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.08-19.20.53:851][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.08-19.21.07:472][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.08-19.21.45:112][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.08-19.21.50:266][835]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.08-19.21.56:175][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.12.08-19.22.02:616][134]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.12.08-19.22.12:213][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.12.08-19.22.24:792][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.12.08-19.22.27:814][711]LogSavePackage: Save=2253.911621ms
+[2015.12.08-19.22.27:814][711]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter68412C524D5B5D4E9D492F9B31535B27.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.22.27:874][711]LogSavePackage: Total save time: 2399.071235ms
+[2015.12.08-19.22.27:874][711]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.23.36:477][711]LogSavePackage: Save=122.214508ms
+[2015.12.08-19.23.36:477][711]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Sand_01CDAFAF6F4A72E0828DE59E8899BE5A96.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Material/Desert/Sand/Sand_01.uasset'
+[2015.12.08-19.23.36:487][711]LogSavePackage: Total save time: 156.768441ms
+[2015.12.08-19.23.36:487][711]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Material/Desert/Sand/Sand_01.uasset
+[2015.12.08-19.23.36:561][711]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2015.12.08-19.23.36:561][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.12.08-19.23.36:561][711]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.08-19.23.36:561][711]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.12.08-19.24.27:383][662]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/RobotCharacter.RobotCharacter:EventGraph.K2Node_Composite_23.Movement Functions.K2Node_CallFunction_3284 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/RobotCharacter.RobotCharacter:EventGraph.K2Node_CallFunction_3284
+[2015.12.08-19.24.27:383][662]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/RobotCharacter.RobotCharacter:EventGraph.K2Node_Composite_23.Movement Functions.K2Node_VariableSet_186 or K2Node_VariableSet /Game/ThirdPersonBP/Blueprints/RobotCharacter.RobotCharacter:EventGraph.K2Node_VariableSet_186
+[2015.12.08-19.24.52:203][238]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.12.08-19.24.59:637][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.25.01:480][456]LogSavePackage: Save=1543.990845ms
+[2015.12.08-19.25.01:480][456]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter95EC35F948C9175ACD52ED8BF49693B3.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.25.01:490][456]LogSavePackage: Total save time: 1565.155525ms
+[2015.12.08-19.25.01:490][456]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.25.58:103][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.25.59:932][198]LogSavePackage: Save=1584.771606ms
+[2015.12.08-19.25.59:932][198]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterF22F39784824D8F05483DF97BC9E5C8B.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.25.59:942][198]LogSavePackage: Total save time: 1606.051683ms
+[2015.12.08-19.25.59:942][198]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.26.45:433][574]LogEditorTransaction: Undo Move Nodes
+[2015.12.08-19.26.45:519][574]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.26.45:570][574]LogMaterial: 0.000761 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-19.26.45:706][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.26.53:888][840]LogEditorTransaction: Redo Move Nodes
+[2015.12.08-19.26.53:909][840]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-19.26.53:958][840]LogMaterial: 0.000385 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-19.26.54:082][840]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.12.08-19.26.55:462][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.12.08-19.26.57:495][876]LogSavePackage: Save=1742.290527ms
+[2015.12.08-19.26.57:496][876]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterA161FD884D47605C7B047D8550590529.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.26.57:504][876]LogSavePackage: Total save time: 1762.475416ms
+[2015.12.08-19.26.57:504][876]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.27.10:841][179]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2015.12.08-19.27.10:841][179]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.12.08-19.27.10:841][179]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.12.08-19.27.10:841][179]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.12.08-19.27.11:697][208]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.27.58:083][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.12.08-19.28.23:343][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.12.08-19.28.25:203][327]LogSavePackage: Save=1579.392212ms
+[2015.12.08-19.28.25:203][327]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterCA3D7FA544F0F89AACA55588A752599C.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.28.25:213][327]LogSavePackage: Total save time: 1614.859700ms
+[2015.12.08-19.28.25:213][327]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.28.30:401][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.28.51:764][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.12.08-19.29.14:991][720]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.12.08-19.29.16:920][720]LogSavePackage: Save=1640.472778ms
+[2015.12.08-19.29.16:921][720]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter336214CE402F3E719BB579A32006B180.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.29.16:934][720]LogSavePackage: Total save time: 1666.128401ms
+[2015.12.08-19.29.16:934][720]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.31.35:001][400]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.31.40:237][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.12.08-19.31.42:193][528]LogSavePackage: Save=1706.635742ms
+[2015.12.08-19.31.42:196][528]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter3F66BD6B4015D0FEC95A15A8ED5759B1.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.31.42:223][528]LogSavePackage: Total save time: 1748.863541ms
+[2015.12.08-19.31.42:223][528]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.31.47:869][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.31.51:203][669]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.12.08-19.31.52:954][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.12.08-19.31.54:820][712]LogSavePackage: Save=1605.086304ms
+[2015.12.08-19.31.54:820][712]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter70FDAD364224B866835E46B8D1AE3EDE.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.31.54:832][712]LogSavePackage: Total save time: 1628.370013ms
+[2015.12.08-19.31.54:832][712]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.33.16:877][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.33.18:737][182]LogSavePackage: Save=1595.704834ms
+[2015.12.08-19.33.18:737][182]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter903574B742862E437C8575A0F807E17F.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.33.18:747][182]LogSavePackage: Total save time: 1623.863667ms
+[2015.12.08-19.33.18:747][182]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-19.35.21:713][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.35.48:052][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-19.35.58:255][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.12.08-19.36.20:087][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.12.08-19.36.22:050][359]LogSavePackage: Save=1642.718506ms
+[2015.12.08-19.36.22:051][359]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterFA2EE9AD46F0551F323E8681B6284709.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-19.36.22:060][359]LogSavePackage: Total save time: 1711.550910ms
+[2015.12.08-19.36.22:061][359]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-21.36.01:565][538]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.08-21.36.33:882][520]LogSavePackage: Save=1802.770874ms
+[2015.12.08-21.36.33:882][520]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacterA05EC3454E4CBC078AD4B5AE27F96271.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-21.36.33:901][520]LogSavePackage: Total save time: 1862.483419ms
+[2015.12.08-21.36.33:901][520]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-21.36.59:760][807]LogSavePackage: Save=1761.501831ms
+[2015.12.08-21.36.59:760][807]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter0F9A8A6E4D966B6EB3C8AEB8311A1A6A.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.08-21.36.59:772][807]LogSavePackage: Total save time: 1786.825065ms
+[2015.12.08-21.36.59:772][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.08-21.37.05:699][837]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-21.37.05:838][837]LogMaterial: 0.000453 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.12.08-21.37.05:942][837]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-21.37.06:308][837]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.08-21.37.06:588][837]LogMaterial: 0.043211 seconds spent updating 1 materials, 1 interfaces, 1025 instances, 0 with static permutations.
+[2015.12.08-21.38.02:929][837]LogSavePackage: Save=70.203041ms
+[2015.12.08-21.38.02:929][837]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Sand_01AF6572E644422F172C14FDAC66EBA5B8.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Material/Desert/Sand/Sand_01.uasset'
+[2015.12.08-21.38.02:945][837]LogSavePackage: Total save time: 141.638722ms
+[2015.12.08-21.38.02:945][837]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Material/Desert/Sand/Sand_01.uasset
+[2015.12.08-21.38.04:531][837]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.08-21.38.05:530][838]Cmd: QUIT_EDITOR
+[2015.12.08-21.38.06:950][838]LogExit: Preparing to exit.
+[2015.12.08-21.38.08:228][838]LogExit: Editor shut down
+[2015.12.08-21.38.08:230][838]LogExit: Transaction tracking system shut down
+[2015.12.08-21.38.08:248][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A93024EF20
+[2015.12.08-21.38.08:267][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A92C487240
+[2015.12.08-21.38.08:269][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A94405AC00
+[2015.12.08-21.38.08:274][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A92BBC42C0
+[2015.12.08-21.38.08:278][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A92BBC4C20
+[2015.12.08-21.38.08:278][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A9495AE480
+[2015.12.08-21.38.08:323][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A92C33ADE0
+[2015.12.08-21.38.08:329][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A940B99DA0
+[2015.12.08-21.38.09:454][838]LogExit: Object subsystem successfully closed.
+[2015.12.08-21.38.09:638][838]LogD3D11RHI: Shutdown
+[2015.12.08-21.38.09:638][838]LogD3D11RHI: CleanupD3DDevice
+[2015.12.08-21.38.09:730][838]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module MaterialEditor (198)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.08-21.38.09:855][838]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.08-21.38.09:869][838]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.08-21.38.09:869][838]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.08-21.38.09:870][838]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.08-21.38.09:870][838]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.08-21.38.09:870][838]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.08-21.38.09:871][838]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.08-21.38.09:872][838]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.08-21.38.10:376][838]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.08-21.38.10:376][838]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.08-21.38.10:377][838]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.08-21.38.10:378][838]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.08-21.38.10:379][838]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.08-21.38.10:379][838]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.08-21.38.10:380][838]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.08-21.38.10:381][838]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.08-21.38.10:382][838]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.08-21.38.10:382][838]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.08-21.38.10:382][838]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.08-21.38.10:382][838]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.08-21.38.10:382][838]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.08-21.38.10:383][838]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.08-21.38.10:383][838]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.08-21.38.10:393][838]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.08-21.38.10:394][838]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.08-21.38.10:395][838]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.08-21.38.10:395][838]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.08-21.38.10:395][838]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.08-21.38.10:395][838]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.08-21.38.10:463][838]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.08-21.38.10:464][838]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.08-21.38.10:536][838]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.08-21.38.10:537][838]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.08-21.38.10:544][838]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.08-21.38.10:545][838]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.08-21.38.10:548][838]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.08-21.38.10:561][838]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.08-21.38.10:872][838]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.08-21.38.10:873][838]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.08-21.38.10:873][838]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.08-21.38.10:975][838]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.08-21.38.10:975][838]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.08-21.38.10:975][838]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.08-21.38.10:975][838]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.08-21.38.10:975][838]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.08-21.38.11:023][838]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.08-21.38.11:023][838]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.08-21.38.11:023][838]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.08-21.38.11:023][838]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.08-21.38.11:023][838]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.08-21.38.11:024][838]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.08-21.38.11:031][838]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.08-21.38.11:058][838]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.08-21.38.11:138][838]LogDerivedDataCache: Shutdown
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.08-21.38.11:138][838]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.08-21.38.11:139][838]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.08-21.38.11:140][838]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.08-21.38.11:140][838]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.08-21.38.11:140][838]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.08-21.38.11:140][838]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.08-21.38.13:147][838]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.08-21.38.13:147][838]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.08-21.38.13:147][838]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.08-21.38.13:147][838]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.08-21.38.13:147][838]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.08-21.38.13:148][838]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.08-21.38.13:187][838]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.08-21.38.13:188][838]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.08-21.38.13:221][838]LogExit: Exiting.
+[2015.12.08-21.38.13:252][838]Log file closed, 12/08/15 13:38:13

@@ -1,0 +1,1025 @@
+﻿[2015.12.09-17.35.45:628][  0]Log file open, 12/09/15 09:35:45
+[2015.12.09-17.35.45:628][  0]LogInit:Display: Running engine for game: SwordProject
+[2015.12.09-17.35.45:628][  0]LogInit:Display: RandInit(-790278913) SRandInit(-790278912).
+[2015.12.09-17.35.45:628][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.12.09-17.35.45:628][  0]LogStats: Stats thread started at 0.174828
+[2015.12.09-17.35.45:628][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-17.35.45:628][  0]LogInit: API Version: 2672455
+[2015.12.09-17.35.45:628][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.12.09-17.35.45:628][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.12.09-17.35.45:628][  0]LogInit: Build Configuration: Development
+[2015.12.09-17.35.45:628][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.12.09-17.35.45:628][  0]LogInit: Command line:  
+[2015.12.09-17.35.45:628][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.12.09-17.35.45:628][  0]LogInit: Rocket: 1
+[2015.12.09-17.35.45:665][  0]LogInit: Using libcurl 7.41.0
+[2015.12.09-17.35.45:665][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.09-17.35.45:665][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.09-17.35.45:665][  0]LogInit:  - other features:
+[2015.12.09-17.35.45:665][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.09-17.35.45:665][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.09-17.35.45:665][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.09-17.35.45:665][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.09-17.35.45:665][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.09-17.35.45:665][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.09-17.35.45:665][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.09-17.35.45:665][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.09-17.35.45:665][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.09-17.35.45:665][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.09-17.35.45:688][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.09-17.35.45:725][  0]LogInit: Object subsystem initialized
+[2015.12.09-17.35.45:730][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-17.35.45:730][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.09-17.35.45:773][  0]LogInit: Computer: AARONS
+[2015.12.09-17.35.45:773][  0]LogInit: User: Aaron
+[2015.12.09-17.35.45:773][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.12.09-17.35.45:773][  0]LogInit: High frequency timer resolution =1.949467 MHz
+[2015.12.09-17.35.45:773][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx)
+[2015.12.09-17.35.45:774][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.09-17.35.45:774][  0]LogMemory: Process Physical Memory: 53.01 MB used, 53.01 MB peak
+[2015.12.09-17.35.45:774][  0]LogMemory: Process Virtual Memory: 55.08 MB used, 55.08 MB peak
+[2015.12.09-17.35.45:774][  0]LogMemory: Physical Memory: 3113.11 MB used, 7643.95 MB total
+[2015.12.09-17.35.45:774][  0]LogMemory: Virtual Memory: 345.73 MB used, 134217728.00 MB total
+[2015.12.09-17.35.45:890][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.09-17.35.48:713][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8400 (Feature Level 11_0)
+[2015.12.09-17.35.48:713][  0]LogD3D11RHI: Adapter has 493MB of dedicated video memory, 0MB of dedicated system memory, and 3584MB of shared system memory, 1 output[s]
+[2015.12.09-17.35.48:716][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.12.09-17.35.48:716][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.12.09-17.35.48:716][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.09-17.35.48:728][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.09-17.35.48:728][  0]LogRHI: Texture pool is 345 MB (70% of 493 MB)
+[2015.12.09-17.35.48:745][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.12.09-17.35.48:761][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/WorkingDirectory/8944/).
+[2015.12.09-17.35.48:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Intermediate/Shaders/tmp/20708B3C4465BB602DC468BEC07BE26B/'.
+[2015.12.09-17.35.48:762][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.09-17.35.54:754][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.09-17.35.54:793][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.09-17.35.54:813][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.09-17.35.54:833][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.09-17.35.54:854][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.09-17.35.54:888][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.09-17.35.54:911][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.09-17.35.54:925][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.09-17.35.54:953][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.09-17.35.54:969][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.09-17.35.55:001][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.09-17.35.55:017][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.09-17.35.55:021][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.09-17.35.55:060][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.09-17.35.55:085][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.09-17.35.55:105][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.09-17.35.55:129][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.09-17.35.55:129][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.09-17.35.55:466][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache: Loaded boot cache 0.72s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.09-17.35.56:184][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.09-17.35.56:745][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.09-17.35.56:759][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.09-17.35.57:612][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.09-17.35.57:628][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.09-17.35.58:140][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.09-17.35.58:140][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.09-17.35.59:263][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.09-17.36.16:721][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.09-17.36.17:408][  0]LogAssetRegistry: FAssetRegistry took 0.0187 seconds to start up
+[2015.12.09-17.36.18:154][  0]SourceControl: Info Source control is disabled
+[2015.12.09-17.36.19:296][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-17.36.19:604][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.12.09-17.36.19:604][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.12.09-17.36.19:829][  0]LogEngine: Initializing Engine...
+[2015.12.09-17.36.19:838][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.12.09-17.36.19:839][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.12.09-17.36.20:420][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.09-17.36.20:431][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-17.36.20:480][  0]LogInit: FAudioDevice initialized.
+[2015.12.09-17.36.20:616][  0]LogDerivedDataCache: Saved boot cache 0.14s 42MB C:/Users/Aaron/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.12.09-17.36.20:664][  0]LogInit: Texture streaming: Enabled
+[2015.12.09-17.36.20:684][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.09-17.36.20:684][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.12.09-17.36.20:684][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId b2676186470d39d8323ee88c5ad92509|4cc6989648b04f0180853fecfbe4390e|54533a2c-70f4-4e67-8a5f-67ff95564374
+[2015.12.09-17.36.20:685][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.09-17.36.20:789][  0]LogInit: Transaction tracking system initialized
+[2015.12.09-17.36.20:899][  0]BlueprintLog: New page: Editor Load
+[2015.12.09-17.36.21:292][  0]LocalizationService: Info Localization service is disabled
+[2015.12.09-17.36.21:625][  0]LogConsoleResponse:Display: 
+[2015.12.09-17.36.22:130][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.09-17.36.22:462][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/' took 0.04s
+[2015.12.09-17.36.22:462][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.09-17.36.22:464][  0]LightingResults: New page: Lighting Build
+[2015.12.09-17.36.22:475][  0]MapCheck: New page: Map Check
+[2015.12.09-17.36.22:475][  0]LightingResults: New page: Lighting Build
+[2015.12.09-17.36.22:518][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F751296160
+[2015.12.09-17.36.34:136][  0]LogAIModule: Creating AISystem for world Town
+[2015.12.09-17.36.35:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.09-17.36.35:621][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.09-17.36.35:936][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 314.435ms to complete.
+[2015.12.09-17.36.35:937][  0]LogFileHelpers: Loading map 'Town' took 13.475
+[2015.12.09-17.36.36:294][  0]LogCollectionManager: Loaded 0 collections in 0.006326 seconds
+[2015.12.09-17.36.36:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/Collections/' took 0.01s
+[2015.12.09-17.36.36:373][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Developers/Aaron/Collections/' took 0.01s
+[2015.12.09-17.36.36:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Collections/' took 0.01s
+[2015.12.09-17.36.36:374][  0]LogContentBrowser: Native class hierarchy populated in 0.0368 seconds. Added 1867 classes and 333 folders.
+[2015.12.09-17.36.36:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2015.12.09-17.36.36:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.09-17.36.37:580][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.09-17.36.37:593][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2015.12.09-17.36.38:057][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.09-17.36.38:066][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.09-17.36.38:099][  0]LogLoad: Full Startup: 54.77 seconds (BP compile: 2.88 seconds)
+[2015.12.09-17.36.39:143][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.09-17.36.39:521][  0]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:2).
+[2015.12.09-17.36.40:958][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.12.09-17.36.41:551][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2015.12.09-17.36.44:898][ 19]LogAssetRegistry: Asset discovery search completed in 27.5072 seconds
+[2015.12.09-17.36.44:898][ 19]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.12.09-17.36.57:743][204]Cmd: STAT FPS
+[2015.12.09-17.37.03:849][350]LogMaterial: Missing cached shader map for material Sand_01, compiling. 
+[2015.12.09-17.37.04:464][352]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:197).
+[2015.12.09-17.37.05:008][369]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:198).
+[2015.12.09-17.37.14:548][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-17.37.14:549][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.12.09-17.37.14:550][558]PIE: New page: PIE session: Town (Dec 9, 2015, 1:37:14 AM)
+[2015.12.09-17.37.14:550][558]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.09-17.37.15:122][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.571641s)
+[2015.12.09-17.37.15:125][558]LogAIModule: Creating AISystem for world Town
+[2015.12.09-17.37.15:125][558]LogPlayLevel: PIE: World Init took: (0.002557s)
+[2015.12.09-17.37.15:126][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.574901s)
+[2015.12.09-17.37.15:126][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-17.37.15:448][558]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-17.37.15:496][558]LogInit: FAudioDevice initialized.
+[2015.12.09-17.37.15:637][558]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.09-17.37.15:989][558]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.09-17.37.15:989][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.09-09.37.15
+[2015.12.09-17.37.15:989][558]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-17.37.15:990][558]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-17.37.16:006][558]LogWorld: Bringing up level for play took: 0.355124
+[2015.12.09-17.37.16:034][558]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 2.141
+[2015.12.09-17.37.16:034][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-17.37.16:040][558]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.16:041][558]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.16:042][558]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.16:824][567]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-17.37.18:941][596]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=-1.000 Z=0.000
+[2015.12.09-17.37.18:941][596]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.21:634][632]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.22:841][648]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.23:204][653]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.26:663][697]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.26:735][698]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.27:045][702]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.27:045][702]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.37.27:122][703]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.27:122][703]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.37.27:418][707]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.27:418][707]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.37.27:648][710]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.27:799][712]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.27:872][713]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.27:947][714]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.27:948][714]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.37.28:249][718]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.28:397][720]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.28:479][721]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.28:557][722]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.28:861][726]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.28:936][727]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.29:090][729]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.29:170][730]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.29:242][731]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.29:392][733]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.29:392][733]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.29:544][735]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.29:760][738]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.29:970][741]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.30:320][746]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.30:468][748]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.30:688][751]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.30:842][753]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.30:903][754]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.30:975][755]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.31:124][757]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.31:264][759]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.31:337][760]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.31:555][763]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.31:786][766]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.31:847][767]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.31:922][768]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.31:997][769]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.32:212][772]LogBlueprintUserMessages: [RobotCharacter_C_0] X=1.000 Y=0.001 Z=-0.001
+[2015.12.09-17.37.32:212][772]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.32:530][776]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.32:805][780]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.32:870][781]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.32:944][782]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:021][783]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:093][784]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:166][785]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:234][786]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:309][787]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.33:384][788]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.35:881][822]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.35:952][823]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.36:032][824]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.36:032][824]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.36:383][829]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.39:264][868]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-17.37.39:264][868]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.41:052][892]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=-1.000 Z=0.000
+[2015.12.09-17.37.41:052][892]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.41:708][901]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.42:452][911]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.42:705][914]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.43:279][922]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.43:511][925]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.43:740][928]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.43:815][929]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-17.37.43:815][929]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.44:055][932]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.44:211][934]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.44:358][936]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.44:590][939]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.44:974][944]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-17.37.44:975][944]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.45:210][947]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.45:436][950]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.45:894][956]LogBlueprintUserMessages: [RobotCharacter_C_0] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-17.37.45:894][956]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-17.37.47:313][974]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.47:389][975]LogBlueprintUserMessages: [FindTargets_C_0] Hellwfwfwo
+[2015.12.09-17.37.47:390][975]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.47:470][976]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.47:708][979]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.47:953][982]LogBlueprintUserMessages: [ConeTrace_C_0] SEEN
+[2015.12.09-17.37.48:180][985]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.48:343][987]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.48:576][990]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.49:674][  4]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.37.55:456][ 82]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.55:456][ 82]LogBlueprintUserMessages: [Ai_Character_C_2] iamhurt
+[2015.12.09-17.37.55:575][ 84]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.55:575][ 84]LogBlueprintUserMessages: [Ai_Character_C_2] iamhurt
+[2015.12.09-17.37.55:792][ 87]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.55:862][ 88]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.37.56:433][ 96]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.37.56:433][ 96]LogBlueprintUserMessages: [Ai_Character_C_2] iamhurt
+[2015.12.09-17.37.56:717][100]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.01:438][167]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.01:718][171]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.01:851][173]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.09-17.38.01:928][174]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.01:999][175]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:066][176]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.02:162][177]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:207][178]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:275][179]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:616][184]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:893][188]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.02:959][189]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:098][191]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:098][191]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:184][192]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:245][193]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:316][194]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:317][194]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:386][195]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:460][196]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:530][197]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:594][198]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.03:594][198]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:664][199]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:748][200]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:806][201]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.03:807][201]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:089][205]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:164][206]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:309][208]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:310][208]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:409][209]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:451][210]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:521][211]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:670][213]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:671][213]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:806][215]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:871][216]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.04:942][217]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:021][218]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:021][218]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.05:024][218]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:081][219]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:081][219]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:153][220]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:154][220]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:231][221]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:232][221]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:319][222]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:319][222]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:382][223]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:382][223]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:475][224]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:476][224]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:528][225]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:529][225]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:597][226]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:598][226]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:669][227]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:669][227]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:742][228]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:743][228]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:809][229]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:809][229]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:884][230]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:884][230]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:955][231]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.05:956][231]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:095][233]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:096][233]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:166][234]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:238][235]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:238][235]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:309][236]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:376][237]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:376][237]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:460][238]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:590][240]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.06:802][243]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:157][248]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:368][251]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.09-17.38.07:448][252]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:519][253]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:519][253]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:589][254]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.07:667][255]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:734][256]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.07:806][257]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:021][260]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:323][264]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:466][266]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:681][269]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:681][269]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.08:752][270]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:028][274]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:172][276]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:235][277]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:374][279]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:515][281]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:585][282]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:719][284]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:788][285]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:921][287]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.09:921][287]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:054][289]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:138][290]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:333][293]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:599][297]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:804][300]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.10:882][301]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.11:087][304]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.38.11:087][304]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.38.11:310][307]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.38.11:310][307]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.38.11:586][311]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.38.11:586][311]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.38.11:654][312]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.11:795][314]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.11:862][315]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:010][317]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:150][319]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:295][321]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:434][323]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:575][325]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:711][327]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:845][329]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.12:845][329]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.13:055][332]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.13:124][333]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.13:261][335]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.13:541][339]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.13:748][342]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:013][346]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:252][349]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:378][351]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:379][351]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:646][355]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.14:921][359]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.15:060][361]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.15:197][363]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.15:349][365]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.16:457][381]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.16:587][383]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.16:721][385]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.17:132][391]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.17:420][395]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.17:827][401]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.17:968][403]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.18:392][409]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.18:788][415]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.18:921][417]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:054][419]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:055][419]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:323][423]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:593][427]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:594][427]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.19:859][431]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.20:129][435]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.20:266][437]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.20:807][445]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.21:088][449]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.21:089][449]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.21:504][455]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.21:504][455]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.21:635][457]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.21:771][459]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.22:045][463]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.22:593][471]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.22:997][477]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.23:263][481]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.23:549][485]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.23:802][489]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.23:938][491]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.23:939][491]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.24:339][497]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.24:479][499]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.24:622][501]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.24:891][505]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.25:304][511]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.25:439][513]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.25:580][515]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.25:980][521]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.26:534][529]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.26:661][531]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.26:933][535]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.27:212][539]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.27:213][539]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.27:341][541]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.28:301][555]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.28:436][557]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.28:573][559]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.28:715][561]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:133][567]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:340][570]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.09-17.38.29:415][571]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:416][571]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:558][573]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:559][573]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:707][575]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:708][575]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:854][577]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.29:855][577]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:000][579]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:001][579]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:140][581]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:141][581]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:283][583]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:284][583]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:426][585]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:427][585]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:500][586]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.30:580][587]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:581][587]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:720][589]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:721][589]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:896][591]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.30:896][591]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:006][593]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:007][593]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:147][595]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:147][595]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:289][597]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:290][597]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:430][599]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.31:720][603]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.32:593][615]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.32:739][617]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.33:029][621]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.33:320][625]LogAnimation:Warning: Playing a Montage (Robot2_Swing_03_Montage) for the wrong Skeleton (RobotCharacter01_Skeleton) instead of (Robot2_Skeleton).
+[2015.12.09-17.38.33:320][625]LogBlueprintUserMessages: [Ai_Character_C_0] iamhurt
+[2015.12.09-17.38.33:600][629]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.33:885][633]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.34:104][636]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.34:320][639]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.34:876][647]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.35:167][651]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.35:309][653]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.35:591][657]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.36:017][663]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.36:019][663]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.36:706][673]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.36:985][677]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.37:129][679]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.37:259][681]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.37:389][683]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.38:341][697]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.38:478][699]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.39:162][709]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.39:858][719]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.40:266][725]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.40:398][727]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.40:533][729]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.40:936][735]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:219][739]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:333][741]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:402][742]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:471][743]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:544][744]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.41:754][747]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.41:822][748]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:033][751]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:033][751]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:101][752]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:101][752]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:169][753]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:242][754]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:379][756]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:441][757]LogBlueprintUserMessages:Warning: Time Dilation must be between 0.0001 and 20.  Clamping value to that range.
+[2015.12.09-17.38.42:518][758]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:518][758]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:591][759]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:591][759]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:657][760]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:657][760]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:724][761]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:724][761]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:797][762]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:797][762]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:876][763]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:876][763]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:943][764]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.42:943][764]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:010][765]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:010][765]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:081][766]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:082][766]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:149][767]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:149][767]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:221][768]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:222][768]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:297][769]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:298][769]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:392][770]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:392][770]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:441][771]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:442][771]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:499][772]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:500][772]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:566][773]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:566][773]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:636][774]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:637][774]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:708][775]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:709][775]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:778][776]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:778][776]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.43:779][776]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:848][777]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:849][777]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:921][778]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:921][778]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:988][779]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.43:989][779]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:062][780]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:063][780]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:133][781]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:133][781]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:201][782]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:202][782]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:266][783]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:266][783]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:343][784]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:343][784]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:406][785]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:407][785]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:476][786]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:477][786]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:549][787]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:549][787]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:619][788]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:620][788]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:690][789]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:690][789]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:759][790]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:759][790]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:831][791]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:831][791]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:900][792]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:900][792]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.44:967][793]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:114][795]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:184][796]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.45:185][796]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:256][797]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:322][798]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:323][798]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:393][799]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:393][799]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:459][800]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:460][800]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:526][801]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:526][801]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:593][802]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:594][802]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:676][803]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:676][803]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:735][804]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:736][804]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:804][805]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:804][805]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:874][806]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:875][806]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:943][807]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.45:943][807]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:016][808]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:016][808]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:087][809]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:087][809]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:156][810]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:157][810]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:226][811]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:226][811]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:302][812]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:302][812]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:363][813]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:364][813]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:437][814]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:438][814]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-17.38.46:438][814]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:505][815]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:505][815]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:568][816]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:569][816]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:640][817]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:641][817]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:711][818]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:711][818]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:781][819]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:782][819]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:853][820]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:854][820]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:927][821]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:927][821]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:993][822]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.46:994][822]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:061][823]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:062][823]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:134][824]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:134][824]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:198][825]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:198][825]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:267][826]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:267][826]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:336][827]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:337][827]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:406][828]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:406][828]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:482][829]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:482][829]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:545][830]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:545][830]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:748][833]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:812][834]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.47:886][835]LogBlueprintUserMessages: [WeaponTrace_C_0] Hello
+[2015.12.09-17.38.48:020][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-17.38.48:135][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-17.38.48:215][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F760C07560
+[2015.12.09-17.59.54:503][746]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight7)
+[2015.12.09-18.00.02:493][829]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight9)
+[2015.12.09-18.00.36:118][153]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.12.09-18.00.38:183][153]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 107 classes and 0 folders.
+[2015.12.09-18.01.39:871][721]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Game/ThirdPersonBP/Blueprints/RobotCharacter.SKEL_RobotCharacter_C'
+[2015.12.09-18.02.07:944][645]BlueprintLog: New page: Compile RobotCharacter
+[2015.12.09-18.02.08:847][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.02.08:849][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.12.09-18.02.10:868][645]LogSavePackage: Save=1613.574829ms
+[2015.12.09-18.02.10:868][645]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter721A4344422A378575AE088622494E5E.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.09-18.02.10:885][645]LogSavePackage: Total save time: 1667.556826ms
+[2015.12.09-18.02.10:885][645]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.09-18.02.10:894][645]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Default 
+[2015.12.09-18.02.10:894][645]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2015.12.09-18.02.10:894][645]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.12.09-18.02.10:894][645]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True 
+[2015.12.09-18.02.10:894][645]BlueprintEditorCompileResults: Info [1587.57] Compile of RobotCharacter successful! [in 2,950 ms]
+[2015.12.09-18.02.12:266][693]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.02.12:691][693]LogSavePackage: Save=189.619003ms
+[2015.12.09-18.02.12:691][693]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/WeaponClass0A09AD104B9ACC87C6B731BC9526B105.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Blueprints/Weapons/WeaponClass.uasset'
+[2015.12.09-18.02.12:701][693]LogSavePackage: Total save time: 223.323092ms
+[2015.12.09-18.02.12:701][693]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Blueprints/Weapons/WeaponClass.uasset
+[2015.12.09-18.02.22:210][ 25]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Game/Game/Blueprints/Weapons/WeaponClass.WeaponClass_C'
+[2015.12.09-18.02.30:968][323]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'RobotCharacter', cached variable property's owner is '/Game/Game/Blueprints/Weapons/WeaponClass.WeaponClass_C'
+[2015.12.09-18.02.35:847][496]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.02.37:943][496]LogSavePackage: Save=1884.184814ms
+[2015.12.09-18.02.37:943][496]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/RobotCharacter1B702EE84CA375A7390C49A8DDA431A6.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset'
+[2015.12.09-18.02.37:968][496]LogSavePackage: Total save time: 1922.730677ms
+[2015.12.09-18.02.37:969][496]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/ThirdPersonBP/Blueprints/RobotCharacter.uasset
+[2015.12.09-18.03.27:603][235]BlueprintLog: New page: Compile WeaponClass
+[2015.12.09-18.03.27:711][235]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.03.28:627][235]LogSavePackage: Save=187.960602ms
+[2015.12.09-18.03.28:627][235]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/WeaponClass5C6BFC0F40FEFCD556D6B29A0B83F947.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Blueprints/Weapons/WeaponClass.uasset'
+[2015.12.09-18.03.28:637][235]LogSavePackage: Total save time: 211.968195ms
+[2015.12.09-18.03.28:637][235]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Game/Blueprints/Weapons/WeaponClass.uasset
+[2015.12.09-18.03.28:646][235]BlueprintEditorCompileResults: Info [1665.32] Compile of WeaponClass successful! [in 1,042 ms]
+[2015.12.09-18.03.31:600][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.03.34:693][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-18.03.34:693][448]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.12.09-18.03.34:729][448]LogPlayLevel: [PlayLevel] Compiling RobotCharacter before play...
+[2015.12.09-18.03.35:535][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 841 ms (3 blueprints)
+[2015.12.09-18.03.35:545][448]LogPlayLevel: [PlayLevel] Compiling RobotCharacter01_Skeleton_AnimBlueprint before play...
+[2015.12.09-18.03.36:246][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 1553 ms (3 blueprints)
+[2015.12.09-18.03.36:249][448]LogPlayLevel: [PlayLevel] Compiling PlayerHud before play...
+[2015.12.09-18.03.36:513][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 1819 ms (4 blueprints)
+[2015.12.09-18.03.36:521][448]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2015.12.09-18.03.37:633][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 2938 ms (8 blueprints)
+[2015.12.09-18.03.37:637][448]LogPlayLevel: [PlayLevel] Compiling Ai_Character before play...
+[2015.12.09-18.03.38:081][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 3387 ms (9 blueprints)
+[2015.12.09-18.03.38:086][448]LogPlayLevel: [PlayLevel] Compiling Door_01 before play...
+[2015.12.09-18.03.38:364][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 3670 ms (9 blueprints)
+[2015.12.09-18.03.38:365][448]LogPlayLevel: [PlayLevel] Compiling DealDamageTrace before play...
+[2015.12.09-18.03.38:551][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 3857 ms (9 blueprints)
+[2015.12.09-18.03.38:558][448]LogPlayLevel: [PlayLevel] Compiling MainCharacter_Skeleton_AnimBlueprint before play...
+[2015.12.09-18.03.38:822][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 4128 ms (9 blueprints)
+[2015.12.09-18.03.38:824][448]LogPlayLevel: [PlayLevel] Compiling FindTargets before play...
+[2015.12.09-18.03.39:077][448]LogPlayLevel: PlayLevel: Blueprint regeneration took 4383 ms (9 blueprints)
+[2015.12.09-18.03.39:329][448]PIE: New page: PIE session: Town (Dec 9, 2015, 2:03:39 AM)
+[2015.12.09-18.03.39:329][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Town
+[2015.12.09-18.03.39:755][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.425783s)
+[2015.12.09-18.03.39:759][448]LogAIModule: Creating AISystem for world Town
+[2015.12.09-18.03.39:759][448]LogPlayLevel: PIE: World Init took: (0.004071s)
+[2015.12.09-18.03.39:760][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Town.Town to /Game/Maps/UEDPIE_0_Town.Town (0.430753s)
+[2015.12.09-18.03.39:890][448]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.12.09-18.03.39:920][448]LogInit: FAudioDevice initialized.
+[2015.12.09-18.03.40:019][448]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.12.09-18.03.40:345][448]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.12.09-18.03.40:345][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Town.Town up for play (max tick rate 60) at 2015.12.09-10.03.40
+[2015.12.09-18.03.40:345][448]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-18.03.40:346][448]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Town.Town:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.12.09-18.03.40:361][448]LogWorld: Bringing up level for play took: 0.321007
+[2015.12.09-18.03.40:376][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Town 6.488
+[2015.12.09-18.03.40:395][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-18.03.40:403][448]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.40:408][448]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.40:423][448]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.41:765][461]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.43:244][483]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.43:598][488]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.43:880][492]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.44:313][498]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.44:674][503]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.45:109][509]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.45:475][514]LogBlueprintUserMessages: [Shotgun_C_0] Hello
+[2015.12.09-18.03.46:130][523]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.46:719][531]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.46:719][531]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.48:355][553]LogBlueprintUserMessages: [RobotCharacter_C_30] X=-0.624 Y=0.000 Z=0.781
+[2015.12.09-18.03.48:355][553]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-18.03.51:144][590]LogBlueprintUserMessages: [RobotCharacter_C_30] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-18.03.51:144][590]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-18.03.52:891][614]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.53:622][624]LogBlueprintUserMessages: [RobotCharacter_C_30] X=0.000 Y=1.000 Z=0.000
+[2015.12.09-18.03.53:622][624]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-18.03.54:527][636]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.55:451][649]LogBlueprintUserMessages: [FindTargets_C_0] ImOving
+[2015.12.09-18.03.56:019][657]LogBlueprintUserMessages: [RobotCharacter_C_30] X=0.000 Y=-1.000 Z=0.000
+[2015.12.09-18.03.56:020][657]LogAnimation:Warning: JumpToSectionName Root bEndOfSection: 0 failed for Montage RobotCharacter01_Climb_Montage
+[2015.12.09-18.03.58:568][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-18.03.58:694][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Town.Town:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Town.Town:PersistentLevel.Town' with GeneratedClass '/Game/Maps/Town.Town_C' with ClassGeneratedBy '/Game/Maps/Town.Town:PersistentLevel.Town'
+[2015.12.09-18.03.58:695][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.03.58:697][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.12.09-18.03.58:953][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7040A6980
+[2015.12.09-18.04.00:806][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Town" FILE="../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.12.09-18.04.03:859][707]LogSavePackage: Save=2771.313965ms
+[2015.12.09-18.04.03:859][707]LogSavePackage: Moving '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Saved/TownFCB04F9948DE4A96777EF0839DE5F76D.tmp' to '../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap'
+[2015.12.09-18.04.03:877][707]LogSavePackage: Total save time: 2892.793775ms
+[2015.12.09-18.04.03:878][707]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/Aaron/Documents/Unreal Projects/SwordProject-4.9-master/Content/Maps/Town.umap
+[2015.12.09-18.04.04:122][707]LogFileHelpers: Saving map 'Town' took 3.898
+[2015.12.09-18.48.35:230][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.48.35:230][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.12.09-18.48.39:725][965]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:3643).
+[2015.12.09-18.48.39:858][966]LogStaticMesh: Allocated Allocated 352x64x64 distance field atlas = 2.8Mb
+[2015.12.09-18.48.43:597][983]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:3659).
+[2015.12.09-18.49.07:456][101]LogContentStreaming: Texture pool size now 200 MB
+[2015.12.09-18.49.08:473][107]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:3753).
+[2015.12.09-18.49.10:470][117]LogRenderer: Reallocating scene render targets to support 812x444 (Frame:3761).
+[2015.12.09-18.49.14:502][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-18.49.14:504][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.12.09-18.59.17:009][233]LogHttp:Warning: Timeout processing Http request. 000000F774D78600
+[2015.12.09-19.31.50:241][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.09-19.31.50:243][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.12.09-19.31.51:471][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.12.09-19.31.52:168][237]Cmd: QUIT_EDITOR
+[2015.12.09-19.31.52:954][237]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.12.09-19.31.53:999][237]LogExit: Preparing to exit.
+[2015.12.09-19.31.55:003][237]LogExit: Editor shut down
+[2015.12.09-19.31.55:004][237]LogExit: Transaction tracking system shut down
+[2015.12.09-19.31.55:031][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F755FF60C0
+[2015.12.09-19.31.55:035][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F760C34EA0
+[2015.12.09-19.31.55:035][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F76A2D84A0
+[2015.12.09-19.31.55:035][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7651B2CA0
+[2015.12.09-19.31.55:036][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7651B1620
+[2015.12.09-19.31.55:036][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F760DA6340
+[2015.12.09-19.31.55:041][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F7409E8720
+[2015.12.09-19.31.55:041][237]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F740A9F560
+[2015.12.09-19.31.55:728][237]LogExit: Object subsystem successfully closed.
+[2015.12.09-19.31.55:772][237]LogD3D11RHI: Shutdown
+[2015.12.09-19.31.55:772][237]LogD3D11RHI: CleanupD3DDevice
+[2015.12.09-19.31.55:780][237]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.12.09-19.31.55:898][237]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.12.09-19.31.55:902][237]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.12.09-19.31.55:902][237]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.12.09-19.31.55:906][237]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.12.09-19.31.55:906][237]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.12.09-19.31.55:906][237]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.12.09-19.31.55:907][237]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.12.09-19.31.55:908][237]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.12.09-19.31.56:774][237]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.12.09-19.31.56:775][237]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.12.09-19.31.56:776][237]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.12.09-19.31.56:777][237]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.12.09-19.31.56:778][237]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.12.09-19.31.56:940][237]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.12.09-19.31.56:964][237]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.12.09-19.31.56:965][237]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.12.09-19.31.56:966][237]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.12.09-19.31.56:966][237]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.12.09-19.31.56:970][237]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.12.09-19.31.56:972][237]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.12.09-19.31.57:197][237]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.12.09-19.31.57:199][237]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.12.09-19.31.57:199][237]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.12.09-19.31.57:300][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.12.09-19.31.57:300][237]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.12.09-19.31.57:300][237]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.12.09-19.31.57:308][237]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.12.09-19.31.57:309][237]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.12.09-19.31.57:315][237]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.12.09-19.31.57:332][237]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.12.09-19.31.57:353][237]LogDerivedDataCache: Shutdown
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.12.09-19.31.57:354][237]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.12.09-19.31.57:355][237]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.12.09-19.31.57:360][237]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.12.09-19.31.57:361][237]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.09-19.31.59:384][237]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.09-19.31.59:469][237]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.09-19.31.59:470][237]LogExit: Exiting.
+[2015.12.09-19.31.59:474][237]Log file closed, 12/09/15 11:31:59
